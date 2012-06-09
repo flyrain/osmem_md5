@@ -519,7 +519,7 @@ void findReadOnlyPages(Mem * mem)
         //}
     }
 
-    fclose(kernel_code_sig);    //add on 8/6/12
+    fclose(kernel_code_sig);    //add on 8/6/12, guyufei
 
 
     if (gettimeofday(&later, NULL)) {
