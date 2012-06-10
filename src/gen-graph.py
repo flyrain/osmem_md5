@@ -7,10 +7,10 @@ font=Helvetica
 =arithmean
 # =sortbmarks
 =nogridy
-colors=grey1,grey4,grey6,white
+#colors=grey1,grey4,grey6,white
 =noupperright
-legendx=right
-legendy=center
+legendx=center
+legendy=top
 =nolegoutline
 legendfill=
 yformat=%g%%
@@ -25,3 +25,4 @@ f.close();
 
 import os
 os.system('~/bargraphgen-4.6/bargraph.pl -pdf '+filename+ '> graph.pdf')
+www

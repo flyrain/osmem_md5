@@ -64,11 +64,13 @@ void genMd5WithOffset(void *startAdress, int pageSize, unsigned vaddr,
     printf(" %x %u", vaddr, offset / 4096);
     printf("\n");
 
-    int i;
-    for (i = 0; i < 16; i++)
-        fprintf(kernel_code_sig, "%02x", md5digest[i]);
-    fprintf(kernel_code_sig, " %x %u", vaddr, offset / 4096);
-    fprintf(kernel_code_sig, "\n");
+    /*
+       int i;
+       for (i = 0; i < 16; i++)
+       fprintf(kernel_code_sig, "%02x", md5digest[i]);
+       fprintf(kernel_code_sig, " %x %u", vaddr, offset / 4096);
+       fprintf(kernel_code_sig, "\n");
+     */
 }
 
 //find kernel code page with opcode: sti sysexit
@@ -483,9 +485,9 @@ void findReadOnlyPages(Mem * mem)
         vtop(mem->mem, mem->mem_size, mem->pgd, ranges[max_index].start);
     int pageIndex = pAddr / pageSize;
     char *page = (char *) ((unsigned) mem->mem + pAddr);
-    //commented at 8/6/12
-    //    code_preprocess(mem, page, ranges[max_index].len, 0x1000,
-    //              ranges + max_index, dsmPages + pageIndex);
+    //remove the oprand
+    code_preprocess(mem, page, ranges[max_index].len, 0x1000,
+                    ranges + max_index, dsmPages + pageIndex);
 
     printf("step2: cluster: %d\n", range_index);
 
@@ -493,11 +495,12 @@ void findReadOnlyPages(Mem * mem)
     startVirtualAddr = ranges[max_index].start;
     unsigned disasPageNo = 0;
     unsigned totalPageNo = 0;
-    //add on 8/6/12
 
-    extern char * out_sig;
-    kernel_code_sig = fopen(out_sig, "a+");
-
+    /*
+       //add on 8/6/12
+       extern char *out_sig;
+       kernel_code_sig = fopen(out_sig, "a+");
+     */
 
     for (; startVirtualAddr <= ranges[max_index].end;
          startVirtualAddr += 0x1000) {
@@ -509,17 +512,17 @@ void findReadOnlyPages(Mem * mem)
             continue;
 
         int pageIndex = pAddr / pageSize;
-        //if (dsmPages[pageIndex] == 1) { //commented on 08/06/12
-        unsigned offset = startVirtualAddr - ranges[max_index].start;
-        void *startAdress =
-            (void *) ((unsigned) mem->mem + pageIndex * pageSize);
-        genMd5WithOffset(startAdress, pageSize, startVirtualAddr, offset);
-	printf("pAddr is %x\n ", pAddr);
-        disasPageNo++;
-        //}
+        if (dsmPages[pageIndex] == 1) { //commented on 08/06/12
+            unsigned offset = startVirtualAddr - ranges[max_index].start;
+            void *startAdress =
+                (void *) ((unsigned) mem->mem + pageIndex * pageSize);
+            genMd5WithOffset(startAdress, pageSize, startVirtualAddr,
+                             offset);
+            disasPageNo++;
+        }
     }
 
-    fclose(kernel_code_sig);    //add on 8/6/12, guyufei
+    //fclose(kernel_code_sig);    //add on 8/6/12, guyufei
 
 
     if (gettimeofday(&later, NULL)) {
