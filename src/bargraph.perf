@@ -6,10 +6,10 @@ font=Helvetica
 =arithmean
 # =sortbmarks
 =nogridy
-colors=grey1,grey4,grey6,white
+#colors=grey1,grey4,grey6,white
 =noupperright
-legendx=right
-legendy=center
+legendx=center
+legendy=top
 =nolegoutline
 legendfill=
 yformat=%g%%
@@ -150,7 +150,6 @@ Linux-2.6.36.3	DISASS:	963.6	=>	53.085%
 Linux-2.6.36.4	DISASS:	965.0	=>	52.813%
 Linux-3.0.0	DISASS:	1206.2	=>	54.614%
 Linux-3.0.4	DISASS:	1014.8	=>	50.213%
-
 =multi
 Win-XP	SCAN:	9.0	=>	1.654%
 Win-XP(sp2)	SCAN:	11.0	=>	1.621%
@@ -197,4 +196,3 @@ Linux-2.6.36.3	SCAN:	38.0	=>	2.093%
 Linux-2.6.36.4	SCAN:	38.0	=>	2.080%
 Linux-3.0.0	SCAN:	40.0	=>	1.811%
 Linux-3.0.4	SCAN:	38.2	=>	1.890%
-

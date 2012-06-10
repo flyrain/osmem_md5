@@ -1,5 +1,6 @@
-
-f = open("outTime", "r");
+import sys
+filename = sys.argv[1]
+f = open(filename, "r");
 lines = f.readlines();
 count = len(lines)/5;
 outlines =[]
@@ -71,9 +72,9 @@ for i in range(0, count):
    
     outline = [avg0,percent0,avg1,percent1,avg2,percent2,avg3,percent3,avg_sum,title]
     
-   # print "PGD:\t{:.1f}\t=>\t{:.3%}\tKDI:\t{:.1f}\t=>\t{:.3%}\tDISASS:\t{:.1f}\t=>\t{:.3%}\tSCAN:\t{:.1f}\t=>\t{:.3%}".format(avg0,percent0,avg1,percent1,avg2,percent2,avg3,percent3),
-   # print '\t', 
-    print avg_sum/1000,
+    print "PGD:\t{:.1f}\t=>\t{:.3%}\tKDI:\t{:.1f}\t=>\t{:.3%}\tDISASS:\t{:.1f}\t=>\t{:.3%}\tSCAN:\t{:.1f}\t=>\t{:.3%}".format(avg0,percent0,avg1,percent1,avg2,percent2,avg3,percent3),
+    print '\t', 
+   # print avg_sum/1000,
     print '\t'+title
     
    # print outline
