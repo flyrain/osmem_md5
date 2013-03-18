@@ -55,8 +55,8 @@ Mem *initMem(char *snapshot)
 
     //get pgd
     unsigned pgd = getPgd(mem, mem_size);
-//      pgd =0x0f95a000;
-//      pgd =0x15546000;
+    //    unsigned pgd = 0xf94e000;
+    printf("pgd is 0x%x\n", pgd);
 
     //construct a struct Mem
     Mem *mem1 = (Mem *) malloc(sizeof(Mem));
