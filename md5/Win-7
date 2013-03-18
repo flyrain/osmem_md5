@@ -1,0 +1,893 @@
+mem '/home/cs3612/qemu/mem/mem-win7-b' load success! size is 536870912
+Load mem time cost is 6972 milliseconds
+potential pdg count: 25
+difference is 134 milliseconds
+Real PGD Number is 18, PGD physical address:0x7d33000
+difference is 0 milliseconds
+cr3
+kernel start at 8287a000
+cr3
+kernel start at 828a7000
+cr3
+kernel start at 82b27000
+step1,all pages: 33094, cluster: 2011,kdi time cost is 592 milliseconds
+CR3 cluster: 2
+start:82818000, end:8292ffff: len:117fff kernel
+preprocess 82818000 8292ffff 117fff
+dissam rate is a3d0 0.036565
+step2: cluster: 1
+ce322e40ca841ebbff1915c9f26afc6a 8281b000 3
+48078aea921fa22a367a6fb8aa82aa1f 8281c000 4
+fe51adfe29b9c7d4f61f1dad1f82ec73 8281d000 5
+62b4373ed642bf4f753aa65c20d27c4e 8281e000 6
+0e30c00c774e5a306cfd3a859e168294 8281f000 7
+f93380d7b50b7a16e3699d52726557cd 82820000 8
+f89ce8bed981e532c1947e15144368b0 82821000 9
+9d717ae3b5a12f05484fa821a40a48f5 82822000 10
+e0730ec46ba1fd6847544cc2fd5ed439 82823000 11
+583fe9c3e71e917f96a34828d613b12d 82824000 12
+8c14b56e1ec2bd37aae4463121286372 82825000 13
+968158e4694807ed408d95ef8c74d287 82826000 14
+da648855acd055ff411797a78c6753d6 82827000 15
+a0b180f3ab45afaa57bc02362a7cb5b2 82828000 16
+bddf20802f567d561306608e584ddf4b 82829000 17
+7361103a31b81e4d17fca03d508a8197 8282a000 18
+1a8de80afb050226504e01c877901361 8282b000 19
+a5ac3ca65256c8f75193480085a1d96c 8282c000 20
+792a4fb9ff8d991bca79886f57af42e9 8282d000 21
+962602819f89ab329b0a2e807ea3f048 8282e000 22
+09edb17781c3a046fb307a3259c41b3f 82830000 24
+18c13618ab32f905621a40209560d958 82831000 25
+d79118fabd4df508bc8d210e16750f18 82832000 26
+9a37260776949a71ee9b1b2e6d42c6f7 82833000 27
+e6f4d8ce99ed78b958f2b7ac5dfcb9d0 82834000 28
+e2bbeab0f206cb515618956bfca6f962 82835000 29
+d8e411dea83f0e118c4db66b31d30f8f 82836000 30
+a0e057598ae3f36d811375bca7408ebf 82837000 31
+ae679f395d52eac336a1667f96fef5ae 82838000 32
+37649f7eb15690fb7ca6241ccef9b0c0 82839000 33
+5b4a505602186a04ea69cae8399acf45 8283a000 34
+386187a6319fab68fde55ac341206c29 8283b000 35
+1e48011c2c790c3190bd9addf81d21a1 8283d000 37
+b65e3f1c8e468cfa698e10834d1d7330 8283e000 38
+b6dc70e390859f3fec94d5f7a2844e41 82840000 40
+df3136ed48d897d836162881f0d08300 82841000 41
+51d730a1b18c402c4ef73e96a700d15d 82842000 42
+dc5783e9b169e668b2c90df773e8b9e7 82843000 43
+91eec5e4c848a0efe43d3f59fdf11aef 82844000 44
+a307872950d3cd8da2348bd822a8aca9 82849000 49
+c3577a3a59526ebd6e14a1fab9f6bc7a 8286b000 83
+653e117fa6451b562f047f29caf33212 8286c000 84
+415727a901f27acce0bcf2df8c9ece40 8286d000 85
+9ea37b63cc22bdec587e7b6b78ab64f5 8286e000 86
+4c489024c09df9b337c9ee612aa2c4ef 8286f000 87
+2bd1e74a133f47ad5a54cd9c4cf737be 82870000 88
+f2093f9fed1f0805b671d93475eeb9f0 82871000 89
+2e3d5f659ca6da8668ad7178741b793e 82872000 90
+1dd0ac3f500b140401e7a3aab88f3947 82873000 91
+e250423fe842fff22aa04880545a0e6e 82874000 92
+0aca639be03dcd601e29135d3fb66c83 82878000 96
+20c8103c586fee0da1323874b1639c33 8287b000 99
+4bd7364194fd9679ce1d28c730dbab94 8287c000 100
+f0e677a4a90862b6ad155c4b777125af 8287d000 101
+fc43adcd4f00004b45962ec2fca4e65d 8287f000 103
+e0a8d9199ae7a5df23d9ceeca2dfd6a5 82880000 104
+5060759519c50b8f98f000f5a9e82224 82883000 107
+87fe3e46a44daf770edbea2724cea3d1 82884000 108
+a6f846caf2bf19f2151f24c2c8b27b57 82885000 109
+94f5489863f90af518cd2c9ca0c460ca 82887000 111
+2d49219ae7b75d04f6c8a7f2d0bb8fa2 82888000 112
+726cdf85fa51d2197ce191c54ac4ec4e 8288d000 117
+4602a50838ba6aba0e54766bb5107d58 8288f000 119
+f7879270b42348f853caee25b29fa619 82897000 127
+f5b5e532c4acd947986c65d08dfbf1f0 82898000 128
+7ba8d950fdc17c55712a67f13962481a 8289a000 130
+0593ac359cfd02ef13fa26674fe7f2dc 8289c000 132
+51a2f06df90945e4444cfb5959e0ce92 8289d000 133
+0646f26d537ee15e17f9c03a8500cb3a 8289f000 135
+6b4b3a58824cacfb593be5a0dc471038 828a1000 137
+ac9ea8cc5fa478c1de45d81fb3567903 828a3000 139
+6b0f9abb0ff98b4c50b512226754ce5e 828a4000 140
+e52d2ecb8d61643cccee09f1d80d1923 828a5000 141
+3206e539b301a56d89ca5dbcbe1e141a 828a6000 142
+9439030ea90ca1e582086c220c654301 828a9000 145
+f4241d25b29c172dc167f7d16f53ed2e 828ac000 148
+c6dafb05547a95dc1fdba33ac8b5d52f 828ae000 150
+289b2205fabb7f8f52f6f3e696047604 828af000 151
+4f6f12b1ece9fb7b09ff8d2e1ead2a8d 828b0000 152
+d03be3df71e6876f8bf20b7d032e212d 828b2000 154
+cca92b69b18fb65fc31fc5babe1b1719 828b4000 156
+e1d1ee5df764a8383389cc6cd3098bbb 828b5000 157
+261041819455e28d408c6889ca818d9e 828b6000 158
+5879fa54f723f37168504396a1d7184e 828b7000 159
+75b4514c1a2e58d4d757ee90d62c16e4 828bb000 163
+f9b3f25faf9ef4b86190bb610e044233 828bc000 164
+673a9ee6c1676b799b50e2f8d2a89896 828be000 166
+545a7dbef345d401ddfc6a7e74f80d3e 828bf000 167
+deef51203c2576808767e2ca7f66f16e 828c0000 168
+ced1db00474e2b7136bb1d958237c25e 828c1000 169
+c285480864bc97f13b5a183034d70631 828c3000 171
+41741364deeba157b08b33bf8e6e0bb1 828c4000 172
+1fd960209906a1babae8867e7247e298 828c5000 173
+e2ea7070ccdc49015096c8886557fc81 828c6000 174
+9a25a3dcd213d9ec291fe9bbba2b15b2 828c7000 175
+5dad30d78377beeab416957219c87049 828c9000 177
+932339f2132550d514ecc10ee2fcecac 828ca000 178
+66ed45c5c86a81dd677d205012720a69 828cb000 179
+05ad442fd1fef1f8d7f117ab30a6cfbd 828cd000 181
+81524d1349fcbaae32139a5b70b65c0f 828ce000 182
+dbb1a7ae60549301f10fbfb70bcc2e58 828cf000 183
+e62a7af07f97530b96f055b603e2a6e7 828d0000 184
+317c75c75cc4b5b94979c6ff6016f04e 828d4000 188
+bc12dd6f9bc7be2f83a85aa4dc16941e 828d5000 189
+84641ceb62ad2e7eb361f7410d8ee4ce 828d6000 190
+4ef59a929244252ae22217406f635aae 828d7000 191
+9cf05d958f00f774f4a9a6d7a3a88ac8 828d8000 192
+8c5219b5fc4bc8e90638c557b6e4b43b 828d9000 193
+e0e9ed5aa8b224f578646c90ad770b12 828da000 194
+ef263ab6898a7c259c9b5c8c4b5f4153 828db000 195
+db9f869ca0099fffb7d181b49402cc3e 828dd000 197
+bbbe8d2ac8b77a1baaa3efb61c308f37 828de000 198
+705a4bd653a8bc6b838983e3d7f33c40 828df000 199
+ffa848d4d111095b421876fcfae5f181 828e0000 200
+418642d6d7c26c10fdbfd6a69f619a9e 828e1000 201
+0e2edd6a23b04e771cfcc8205ae672d7 828e2000 202
+e5598640dde003211b93ce6956d598fe 828e3000 203
+8ec05892460d45ed62686d4187cb7e55 828e4000 204
+bbf3a12cb26d4c729894837e779dcc1f 828e5000 205
+b501ca3c27f2fe6a1b69c01ff3692cb9 828e6000 206
+43e8293f07018c37775e6571e8f385bf 828e8000 208
+436586686e0fa851c34370b561bc478e 828e9000 209
+f009d2a01e88773d8734b5a9cf00cfb2 828ea000 210
+ceac7be9c80c34889fdce8531a4e2cc3 828eb000 211
+37f2343f2dede028196a99ebb10a9d01 828ec000 212
+774d72e3bce968a87c116e845089472e 828ee000 214
+5c198d27773ea0b43d362fd37219cfd6 828ef000 215
+d0e938e9b09bb6c3faaa74c1dc83af46 828f0000 216
+edfd98afc0ffbe2535ce542df83c60ba 828f2000 218
+3f20575138747837ca53f2f4f4a1b503 828f3000 219
+71041423cadca868c9577336a8ada6ea 828f5000 221
+e2c0f510d032cabae73b99605bb28e54 828f6000 222
+2201746db16e70171449eed48004d5c2 828f7000 223
+54df713bfc9489d95629978d218d978f 828f8000 224
+77df2a847317d7bd4f1b7c4ef47457dc 828f9000 225
+3dd308491f4b1954f6afb3eda7590f46 828fb000 227
+5d494d7d218d7fec0da963fe1a7e4ffc 828fc000 228
+b6c7ec5336740ac587cc282d72fea757 828fd000 229
+11de4a66287c255208242a30a8127d34 828fe000 230
+54870d7a35d6231ae736ea426e392f51 82900000 232
+bba0b9f142488bd94ec6e91237433651 82901000 233
+e540696ac7a461dc01d8489bfc0a9dba 82902000 234
+96216977c91f3aee52364d4309c25d48 82904000 236
+a326e007d71cb94271c9e115ebf9e0fe 82905000 237
+ab52e20b873e59d46a6363ac907c6dff 82906000 238
+f954603165c2fb530f0ecb0cb96c4c91 82907000 239
+b7ba81c7967621b5ec462ea6b523a3b5 82908000 240
+eb8ee3630403f8ee3e1c20291d5d2cc7 82909000 241
+c8abc1e35eb36e85068fd07406e054bf 8290a000 242
+10e85df5811ffe5932e3ff6183520948 8290b000 243
+bd9bef299153dcec29caaa4bab1c8dbf 8290c000 244
+5e6b9d949fdf7d819c600589cd0b0be9 8290d000 245
+f06621ef19d3d1c47d091f90d27688a4 8290e000 246
+94f7238727c42c7ef39d6e39f4d3948f 82911000 249
+8ada18a51e658bb5e34bb48150339bf2 82912000 250
+972e0ec0948dc44bc2be2ed5cb9bbb4f 82913000 251
+b723fd225608a67f8d1031914086a223 82914000 252
+bd85d5a248a395123a3ebb9f50fc46d3 82915000 253
+638d23f09864e32ca24d725d1ff08558 82916000 254
+09c2c3174a2edc4c9de2cca0a2307eb6 82917000 255
+edf127081e60e132170ada7f343218da 82918000 256
+c5214a1d1c3971eb851a9658def9851f 82919000 257
+8e1bdcafd135e97395eee0a0c086bda7 8291a000 258
+80a6afdecc631d183bb1407f7e1f8818 8291b000 259
+2b2d62d8e070cb74c93cbad86b5d3bdd 8291d000 261
+09974620076b4b850967024401a01e65 8291e000 262
+cb09f713cc118d05596d5fd166bcb51e 8291f000 263
+d530f5cd916a76b9547b394359d0bdc6 82920000 264
+1da14d47fb693d168539a1b1568356f5 82921000 265
+8480417452b79d654efcc94fb62f9f23 82923000 267
+180e3f8852b64c8337a06b8939373568 82924000 268
+9680c6317ba5535c87c3cc0d18733d31 82925000 269
+f384b493b67feb3fa37da160b6e3ca6f 82926000 270
+66e9b040ba0beeee7c8cd8b94383d5cd 82927000 271
+4563369f736d4516f522e72b5d0fec69 82928000 272
+e2f34a36a2412260a27a6719b6c3c31d 82929000 273
+0d25958e4602bcaee29c249407a35077 8292a000 274
+901ee0af4d5206d52723a38c1f371f31 8292c000 276
+step2: time cost is 129 milliseconds
+Success pages: 178/280 disassembled bytes rate: 0.057518, page rate: 0.635714
+--------------------sig match begin--------------------------
+Signature load success! Number is 45
+ce322e40ca841ebbff1915c9f26afc6a  offset 3
+Match Win-7
+Only match is Win-7
+Number of page matching is 1
+48078aea921fa22a367a6fb8aa82aa1f  offset 4
+Match Win-7
+Only match is Win-7
+Number of page matching is 2
+fe51adfe29b9c7d4f61f1dad1f82ec73  offset 5
+Match Win-7
+Only match is Win-7
+Number of page matching is 3
+62b4373ed642bf4f753aa65c20d27c4e  offset 6
+Match Win-7
+Only match is Win-7
+Number of page matching is 4
+0e30c00c774e5a306cfd3a859e168294  offset 7
+Match Win-7
+Only match is Win-7
+Number of page matching is 5
+f93380d7b50b7a16e3699d52726557cd  offset 8
+Match Win-7
+Only match is Win-7
+Number of page matching is 6
+f89ce8bed981e532c1947e15144368b0  offset 9
+Match Win-7
+Only match is Win-7
+Number of page matching is 7
+9d717ae3b5a12f05484fa821a40a48f5  offset 10
+Match Win-7
+Only match is Win-7
+Number of page matching is 8
+e0730ec46ba1fd6847544cc2fd5ed439  offset 11
+Match Win-7
+Only match is Win-7
+Number of page matching is 9
+583fe9c3e71e917f96a34828d613b12d  offset 12
+Match Win-7
+Only match is Win-7
+Number of page matching is 10
+8c14b56e1ec2bd37aae4463121286372  offset 13
+Match Win-7
+Only match is Win-7
+Number of page matching is 11
+968158e4694807ed408d95ef8c74d287  offset 14
+Match Win-7
+Only match is Win-7
+Number of page matching is 12
+da648855acd055ff411797a78c6753d6  offset 15
+Match Win-7
+Only match is Win-7
+Number of page matching is 13
+a0b180f3ab45afaa57bc02362a7cb5b2  offset 16
+Match Win-7
+Only match is Win-7
+Number of page matching is 14
+bddf20802f567d561306608e584ddf4b  offset 17
+Match Win-7
+Only match is Win-7
+Number of page matching is 15
+7361103a31b81e4d17fca03d508a8197  offset 18
+Match Win-7
+Only match is Win-7
+Number of page matching is 16
+1a8de80afb050226504e01c877901361  offset 19
+Match Win-7
+Only match is Win-7
+Number of page matching is 17
+a5ac3ca65256c8f75193480085a1d96c  offset 20
+Match Win-7
+Only match is Win-7
+Number of page matching is 18
+792a4fb9ff8d991bca79886f57af42e9  offset 21
+Match Win-7
+Only match is Win-7
+Number of page matching is 19
+962602819f89ab329b0a2e807ea3f048  offset 22
+Match Win-7
+Only match is Win-7
+Number of page matching is 20
+09edb17781c3a046fb307a3259c41b3f  offset 24
+Match Win-7
+Only match is Win-7
+Number of page matching is 21
+18c13618ab32f905621a40209560d958  offset 25
+Match Win-7
+Only match is Win-7
+Number of page matching is 22
+d79118fabd4df508bc8d210e16750f18  offset 26
+Match Win-7
+Only match is Win-7
+Number of page matching is 23
+9a37260776949a71ee9b1b2e6d42c6f7  offset 27
+Match Win-7
+Only match is Win-7
+Number of page matching is 24
+e6f4d8ce99ed78b958f2b7ac5dfcb9d0  offset 28
+Match Win-7
+Only match is Win-7
+Number of page matching is 25
+e2bbeab0f206cb515618956bfca6f962  offset 29
+Match Win-7
+Only match is Win-7
+Number of page matching is 26
+d8e411dea83f0e118c4db66b31d30f8f  offset 30
+Match Win-7
+Only match is Win-7
+Number of page matching is 27
+a0e057598ae3f36d811375bca7408ebf  offset 31
+Match Win-7
+Only match is Win-7
+Number of page matching is 28
+ae679f395d52eac336a1667f96fef5ae  offset 32
+Match Win-7
+Only match is Win-7
+Number of page matching is 29
+37649f7eb15690fb7ca6241ccef9b0c0  offset 33
+Match Win-7
+Only match is Win-7
+Number of page matching is 30
+5b4a505602186a04ea69cae8399acf45  offset 34
+Match Win-7
+Only match is Win-7
+Number of page matching is 31
+386187a6319fab68fde55ac341206c29  offset 35
+Match Win-7
+Only match is Win-7
+Number of page matching is 32
+1e48011c2c790c3190bd9addf81d21a1  offset 37
+Match Win-7
+Only match is Win-7
+Number of page matching is 33
+b65e3f1c8e468cfa698e10834d1d7330  offset 38
+Match Win-7
+Only match is Win-7
+Number of page matching is 34
+b6dc70e390859f3fec94d5f7a2844e41  offset 40
+Match Win-7
+Only match is Win-7
+Number of page matching is 35
+df3136ed48d897d836162881f0d08300  offset 41
+Match Win-7
+Only match is Win-7
+Number of page matching is 36
+51d730a1b18c402c4ef73e96a700d15d  offset 42
+Match Win-7
+Only match is Win-7
+Number of page matching is 37
+dc5783e9b169e668b2c90df773e8b9e7  offset 43
+Match Win-7
+Only match is Win-7
+Number of page matching is 38
+91eec5e4c848a0efe43d3f59fdf11aef  offset 44
+Match Win-7
+Only match is Win-7
+Number of page matching is 39
+a307872950d3cd8da2348bd822a8aca9  offset 49
+Match Win-7
+Only match is Win-7
+Number of page matching is 40
+c3577a3a59526ebd6e14a1fab9f6bc7a  offset 83
+Match Win-7
+Only match is Win-7
+Number of page matching is 41
+653e117fa6451b562f047f29caf33212  offset 84
+Match Win-7
+Only match is Win-7
+Number of page matching is 42
+415727a901f27acce0bcf2df8c9ece40  offset 85
+Match Win-7
+Only match is Win-7
+Number of page matching is 43
+9ea37b63cc22bdec587e7b6b78ab64f5  offset 86
+Match Win-7
+Only match is Win-7
+Number of page matching is 44
+4c489024c09df9b337c9ee612aa2c4ef  offset 87
+Match Win-7
+Only match is Win-7
+Number of page matching is 45
+2bd1e74a133f47ad5a54cd9c4cf737be  offset 88
+Match Win-7
+Only match is Win-7
+Number of page matching is 46
+f2093f9fed1f0805b671d93475eeb9f0  offset 89
+Match Win-7
+Only match is Win-7
+Number of page matching is 47
+2e3d5f659ca6da8668ad7178741b793e  offset 90
+Match Win-7
+Only match is Win-7
+Number of page matching is 48
+1dd0ac3f500b140401e7a3aab88f3947  offset 91
+Match Win-7
+Only match is Win-7
+Number of page matching is 49
+e250423fe842fff22aa04880545a0e6e  offset 92
+Match Win-7
+Only match is Win-7
+Number of page matching is 50
+0aca639be03dcd601e29135d3fb66c83  offset 96
+Match Win-7
+Only match is Win-7
+Number of page matching is 51
+20c8103c586fee0da1323874b1639c33  offset 99
+Match Win-7
+Only match is Win-7
+Number of page matching is 52
+4bd7364194fd9679ce1d28c730dbab94  offset 100
+Match Win-7
+Only match is Win-7
+Number of page matching is 53
+f0e677a4a90862b6ad155c4b777125af  offset 101
+Match Win-7
+Only match is Win-7
+Number of page matching is 54
+fc43adcd4f00004b45962ec2fca4e65d  offset 103
+Match Win-7
+Only match is Win-7
+Number of page matching is 55
+e0a8d9199ae7a5df23d9ceeca2dfd6a5  offset 104
+Match Win-7
+Only match is Win-7
+Number of page matching is 56
+5060759519c50b8f98f000f5a9e82224  offset 107
+Match Win-7
+Only match is Win-7
+Number of page matching is 57
+87fe3e46a44daf770edbea2724cea3d1  offset 108
+Match Win-7
+Only match is Win-7
+Number of page matching is 58
+a6f846caf2bf19f2151f24c2c8b27b57  offset 109
+Match Win-7
+Only match is Win-7
+Number of page matching is 59
+94f5489863f90af518cd2c9ca0c460ca  offset 111
+Match Win-7
+Only match is Win-7
+Number of page matching is 60
+2d49219ae7b75d04f6c8a7f2d0bb8fa2  offset 112
+Match Win-7
+Only match is Win-7
+Number of page matching is 61
+726cdf85fa51d2197ce191c54ac4ec4e  offset 117
+Match Win-7
+Only match is Win-7
+Number of page matching is 62
+4602a50838ba6aba0e54766bb5107d58  offset 119
+Match Win-7
+Only match is Win-7
+Number of page matching is 63
+f7879270b42348f853caee25b29fa619  offset 127
+Match Win-7
+Only match is Win-7
+Number of page matching is 64
+f5b5e532c4acd947986c65d08dfbf1f0  offset 128
+Match Win-7
+Only match is Win-7
+Number of page matching is 65
+7ba8d950fdc17c55712a67f13962481a  offset 130
+Match Win-7
+Only match is Win-7
+Number of page matching is 66
+0593ac359cfd02ef13fa26674fe7f2dc  offset 132
+Match Win-7
+Only match is Win-7
+Number of page matching is 67
+51a2f06df90945e4444cfb5959e0ce92  offset 133
+Match Win-7
+Only match is Win-7
+Number of page matching is 68
+0646f26d537ee15e17f9c03a8500cb3a  offset 135
+Match Win-7
+Only match is Win-7
+Number of page matching is 69
+6b4b3a58824cacfb593be5a0dc471038  offset 137
+Match Win-7
+Only match is Win-7
+Number of page matching is 70
+ac9ea8cc5fa478c1de45d81fb3567903  offset 139
+Match Win-7
+Only match is Win-7
+Number of page matching is 71
+6b0f9abb0ff98b4c50b512226754ce5e  offset 140
+Match Win-7
+Only match is Win-7
+Number of page matching is 72
+e52d2ecb8d61643cccee09f1d80d1923  offset 141
+Match Win-7
+Only match is Win-7
+Number of page matching is 73
+3206e539b301a56d89ca5dbcbe1e141a  offset 142
+Match Win-7
+Only match is Win-7
+Number of page matching is 74
+9439030ea90ca1e582086c220c654301  offset 145
+Match Win-7
+Only match is Win-7
+Number of page matching is 75
+f4241d25b29c172dc167f7d16f53ed2e  offset 148
+Match Win-7
+Only match is Win-7
+Number of page matching is 76
+c6dafb05547a95dc1fdba33ac8b5d52f  offset 150
+Match Win-7
+Only match is Win-7
+Number of page matching is 77
+289b2205fabb7f8f52f6f3e696047604  offset 151
+Match Win-7
+Only match is Win-7
+Number of page matching is 78
+4f6f12b1ece9fb7b09ff8d2e1ead2a8d  offset 152
+Match Win-7
+Only match is Win-7
+Number of page matching is 79
+d03be3df71e6876f8bf20b7d032e212d  offset 154
+Match Win-7
+Only match is Win-7
+Number of page matching is 80
+cca92b69b18fb65fc31fc5babe1b1719  offset 156
+Match Win-7
+Only match is Win-7
+Number of page matching is 81
+e1d1ee5df764a8383389cc6cd3098bbb  offset 157
+Match Win-7
+Only match is Win-7
+Number of page matching is 82
+261041819455e28d408c6889ca818d9e  offset 158
+Match Win-7
+Only match is Win-7
+Number of page matching is 83
+5879fa54f723f37168504396a1d7184e  offset 159
+Match Win-7
+Only match is Win-7
+Number of page matching is 84
+75b4514c1a2e58d4d757ee90d62c16e4  offset 163
+Match Win-7
+Only match is Win-7
+Number of page matching is 85
+f9b3f25faf9ef4b86190bb610e044233  offset 164
+Match Win-7
+Only match is Win-7
+Number of page matching is 86
+673a9ee6c1676b799b50e2f8d2a89896  offset 166
+Match Win-7
+Only match is Win-7
+Number of page matching is 87
+545a7dbef345d401ddfc6a7e74f80d3e  offset 167
+Match Win-7
+Only match is Win-7
+Number of page matching is 88
+deef51203c2576808767e2ca7f66f16e  offset 168
+Match Win-7
+Only match is Win-7
+Number of page matching is 89
+ced1db00474e2b7136bb1d958237c25e  offset 169
+Match Win-7
+Only match is Win-7
+Number of page matching is 90
+c285480864bc97f13b5a183034d70631  offset 171
+Match Win-7
+Only match is Win-7
+Number of page matching is 91
+41741364deeba157b08b33bf8e6e0bb1  offset 172
+Match Win-7
+Only match is Win-7
+Number of page matching is 92
+1fd960209906a1babae8867e7247e298  offset 173
+Match Win-7
+Only match is Win-7
+Number of page matching is 93
+e2ea7070ccdc49015096c8886557fc81  offset 174
+Match Win-7
+Only match is Win-7
+Number of page matching is 94
+9a25a3dcd213d9ec291fe9bbba2b15b2  offset 175
+Match Win-7
+Only match is Win-7
+Number of page matching is 95
+5dad30d78377beeab416957219c87049  offset 177
+Match Win-7
+Only match is Win-7
+Number of page matching is 96
+932339f2132550d514ecc10ee2fcecac  offset 178
+Match Win-7
+Only match is Win-7
+Number of page matching is 97
+66ed45c5c86a81dd677d205012720a69  offset 179
+Match Win-7
+Only match is Win-7
+Number of page matching is 98
+05ad442fd1fef1f8d7f117ab30a6cfbd  offset 181
+Match Win-7
+Only match is Win-7
+Number of page matching is 99
+81524d1349fcbaae32139a5b70b65c0f  offset 182
+Match Win-7
+Only match is Win-7
+Number of page matching is 100
+dbb1a7ae60549301f10fbfb70bcc2e58  offset 183
+Match Win-7
+Only match is Win-7
+Number of page matching is 101
+e62a7af07f97530b96f055b603e2a6e7  offset 184
+Match Win-7
+Only match is Win-7
+Number of page matching is 102
+317c75c75cc4b5b94979c6ff6016f04e  offset 188
+Match Win-7
+Only match is Win-7
+Number of page matching is 103
+bc12dd6f9bc7be2f83a85aa4dc16941e  offset 189
+Match Win-7
+Only match is Win-7
+Number of page matching is 104
+84641ceb62ad2e7eb361f7410d8ee4ce  offset 190
+Match Win-7
+Only match is Win-7
+Number of page matching is 105
+4ef59a929244252ae22217406f635aae  offset 191
+Match Win-7
+Only match is Win-7
+Number of page matching is 106
+9cf05d958f00f774f4a9a6d7a3a88ac8  offset 192
+Match Win-7
+Only match is Win-7
+Number of page matching is 107
+8c5219b5fc4bc8e90638c557b6e4b43b  offset 193
+Match Win-7
+Only match is Win-7
+Number of page matching is 108
+e0e9ed5aa8b224f578646c90ad770b12  offset 194
+Match Win-7
+Only match is Win-7
+Number of page matching is 109
+ef263ab6898a7c259c9b5c8c4b5f4153  offset 195
+Match Win-7
+Only match is Win-7
+Number of page matching is 110
+db9f869ca0099fffb7d181b49402cc3e  offset 197
+Match Win-7
+Only match is Win-7
+Number of page matching is 111
+bbbe8d2ac8b77a1baaa3efb61c308f37  offset 198
+Match Win-7
+Only match is Win-7
+Number of page matching is 112
+705a4bd653a8bc6b838983e3d7f33c40  offset 199
+Match Win-7
+Only match is Win-7
+Number of page matching is 113
+ffa848d4d111095b421876fcfae5f181  offset 200
+Match Win-7
+Only match is Win-7
+Number of page matching is 114
+418642d6d7c26c10fdbfd6a69f619a9e  offset 201
+Match Win-7
+Only match is Win-7
+Number of page matching is 115
+0e2edd6a23b04e771cfcc8205ae672d7  offset 202
+Match Win-7
+Only match is Win-7
+Number of page matching is 116
+e5598640dde003211b93ce6956d598fe  offset 203
+Match Win-7
+Only match is Win-7
+Number of page matching is 117
+8ec05892460d45ed62686d4187cb7e55  offset 204
+Match Win-7
+Only match is Win-7
+Number of page matching is 118
+bbf3a12cb26d4c729894837e779dcc1f  offset 205
+Match Win-7
+Only match is Win-7
+Number of page matching is 119
+b501ca3c27f2fe6a1b69c01ff3692cb9  offset 206
+Match Win-7
+Only match is Win-7
+Number of page matching is 120
+43e8293f07018c37775e6571e8f385bf  offset 208
+Match Win-7
+Only match is Win-7
+Number of page matching is 121
+436586686e0fa851c34370b561bc478e  offset 209
+Match Win-7
+Only match is Win-7
+Number of page matching is 122
+f009d2a01e88773d8734b5a9cf00cfb2  offset 210
+Match Win-7
+Only match is Win-7
+Number of page matching is 123
+ceac7be9c80c34889fdce8531a4e2cc3  offset 211
+Match Win-7
+Only match is Win-7
+Number of page matching is 124
+37f2343f2dede028196a99ebb10a9d01  offset 212
+Match Win-7
+Only match is Win-7
+Number of page matching is 125
+774d72e3bce968a87c116e845089472e  offset 214
+Match Win-7
+Only match is Win-7
+Number of page matching is 126
+5c198d27773ea0b43d362fd37219cfd6  offset 215
+Match Win-7
+Only match is Win-7
+Number of page matching is 127
+d0e938e9b09bb6c3faaa74c1dc83af46  offset 216
+Match Win-7
+Only match is Win-7
+Number of page matching is 128
+edfd98afc0ffbe2535ce542df83c60ba  offset 218
+Match Win-7
+Only match is Win-7
+Number of page matching is 129
+3f20575138747837ca53f2f4f4a1b503  offset 219
+Match Win-7
+Only match is Win-7
+Number of page matching is 130
+71041423cadca868c9577336a8ada6ea  offset 221
+Match Win-7
+Only match is Win-7
+Number of page matching is 131
+e2c0f510d032cabae73b99605bb28e54  offset 222
+Match Win-7
+Only match is Win-7
+Number of page matching is 132
+2201746db16e70171449eed48004d5c2  offset 223
+Match Win-7
+Only match is Win-7
+Number of page matching is 133
+54df713bfc9489d95629978d218d978f  offset 224
+Match Win-7
+Only match is Win-7
+Number of page matching is 134
+77df2a847317d7bd4f1b7c4ef47457dc  offset 225
+Match Win-7
+Only match is Win-7
+Number of page matching is 135
+3dd308491f4b1954f6afb3eda7590f46  offset 227
+Match Win-7
+Only match is Win-7
+Number of page matching is 136
+5d494d7d218d7fec0da963fe1a7e4ffc  offset 228
+Match Win-7
+Only match is Win-7
+Number of page matching is 137
+b6c7ec5336740ac587cc282d72fea757  offset 229
+Match Win-7
+Only match is Win-7
+Number of page matching is 138
+11de4a66287c255208242a30a8127d34  offset 230
+Match Win-7
+Only match is Win-7
+Number of page matching is 139
+54870d7a35d6231ae736ea426e392f51  offset 232
+Match Win-7
+Only match is Win-7
+Number of page matching is 140
+bba0b9f142488bd94ec6e91237433651  offset 233
+Match Win-7
+Only match is Win-7
+Number of page matching is 141
+e540696ac7a461dc01d8489bfc0a9dba  offset 234
+Match Win-7
+Only match is Win-7
+Number of page matching is 142
+96216977c91f3aee52364d4309c25d48  offset 236
+Match Win-7
+Only match is Win-7
+Number of page matching is 143
+a326e007d71cb94271c9e115ebf9e0fe  offset 237
+Match Win-7
+Only match is Win-7
+Number of page matching is 144
+ab52e20b873e59d46a6363ac907c6dff  offset 238
+Match Win-7
+Only match is Win-7
+Number of page matching is 145
+f954603165c2fb530f0ecb0cb96c4c91  offset 239
+Match Win-7
+Only match is Win-7
+Number of page matching is 146
+b7ba81c7967621b5ec462ea6b523a3b5  offset 240
+Match Win-7
+Only match is Win-7
+Number of page matching is 147
+eb8ee3630403f8ee3e1c20291d5d2cc7  offset 241
+Match Win-7
+Only match is Win-7
+Number of page matching is 148
+c8abc1e35eb36e85068fd07406e054bf  offset 242
+Match Win-7
+Only match is Win-7
+Number of page matching is 149
+10e85df5811ffe5932e3ff6183520948  offset 243
+Match Win-7
+Only match is Win-7
+Number of page matching is 150
+bd9bef299153dcec29caaa4bab1c8dbf  offset 244
+Match Win-7
+Only match is Win-7
+Number of page matching is 151
+5e6b9d949fdf7d819c600589cd0b0be9  offset 245
+Match Win-7
+Only match is Win-7
+Number of page matching is 152
+f06621ef19d3d1c47d091f90d27688a4  offset 246
+Match Win-7
+Only match is Win-7
+Number of page matching is 153
+94f7238727c42c7ef39d6e39f4d3948f  offset 249
+Match Win-7
+Only match is Win-7
+Number of page matching is 154
+8ada18a51e658bb5e34bb48150339bf2  offset 250
+Match Win-7
+Only match is Win-7
+Number of page matching is 155
+972e0ec0948dc44bc2be2ed5cb9bbb4f  offset 251
+Match Win-7
+Only match is Win-7
+Number of page matching is 156
+b723fd225608a67f8d1031914086a223  offset 252
+Match Win-7
+Only match is Win-7
+Number of page matching is 157
+bd85d5a248a395123a3ebb9f50fc46d3  offset 253
+Match Win-7
+Only match is Win-7
+Number of page matching is 158
+638d23f09864e32ca24d725d1ff08558  offset 254
+Match Win-7
+Only match is Win-7
+Number of page matching is 159
+09c2c3174a2edc4c9de2cca0a2307eb6  offset 255
+Match Win-7
+Only match is Win-7
+Number of page matching is 160
+edf127081e60e132170ada7f343218da  offset 256
+Match Win-7
+Only match is Win-7
+Number of page matching is 161
+c5214a1d1c3971eb851a9658def9851f  offset 257
+Match Win-7
+Only match is Win-7
+Number of page matching is 162
+8e1bdcafd135e97395eee0a0c086bda7  offset 258
+Match Win-7
+Only match is Win-7
+Number of page matching is 163
+80a6afdecc631d183bb1407f7e1f8818  offset 259
+Match Win-7
+Only match is Win-7
+Number of page matching is 164
+2b2d62d8e070cb74c93cbad86b5d3bdd  offset 261
+Match Win-7
+Only match is Win-7
+Number of page matching is 165
+09974620076b4b850967024401a01e65  offset 262
+Match Win-7
+Only match is Win-7
+Number of page matching is 166
+cb09f713cc118d05596d5fd166bcb51e  offset 263
+Match Win-7
+Only match is Win-7
+Number of page matching is 167
+d530f5cd916a76b9547b394359d0bdc6  offset 264
+Number of page matching is 167
+1da14d47fb693d168539a1b1568356f5  offset 265
+Number of page matching is 167
+8480417452b79d654efcc94fb62f9f23  offset 267
+Number of page matching is 167
+180e3f8852b64c8337a06b8939373568  offset 268
+Number of page matching is 167
+9680c6317ba5535c87c3cc0d18733d31  offset 269
+Number of page matching is 167
+f384b493b67feb3fa37da160b6e3ca6f  offset 270
+Number of page matching is 167
+66e9b040ba0beeee7c8cd8b94383d5cd  offset 271
+Number of page matching is 167
+4563369f736d4516f522e72b5d0fec69  offset 272
+Number of page matching is 167
+e2f34a36a2412260a27a6719b6c3c31d  offset 273
+Number of page matching is 167
+0d25958e4602bcaee29c249407a35077  offset 274
+Number of page matching is 167
+901ee0af4d5206d52723a38c1f371f31  offset 276
+Number of page matching is 167
+Os is Win-7, match count is 167
+match time cost is 7 milliseconds
+Total time cost is 7997 milliseconds

@@ -1,0 +1,2252 @@
+mem '/home/cs3612/qemu/mem/mem-winvista' load success! size is 536870912
+Load mem time cost is 6425 milliseconds
+potential pdg count: 32
+difference is 47 milliseconds
+Real PGD Number is 24, PGD physical address:0x122000
+difference is 0 milliseconds
+cr3
+kernel start at 81870000
+cr3
+kernel start at 818b1000
+cr3
+kernel start at 81aaf000
+cr3
+kernel start at 81ab6000
+step1,all pages: 21903, cluster: 2310,kdi time cost is 393 milliseconds
+CR3 cluster: 1
+start:81801000, end:81b27dab: len:326dac kernel
+preprocess 81801000 81b27dab 326dac
+dissam rate is 2019c 0.039785
+step2: cluster: 5
+d2dc8d0fc80998e453ad486e931bc8d0 81802000 1
+040e7ed85549750d161d8957e4f83da4 81803000 2
+aedbb1594862b919de36a4cdaaeb8177 81804000 3
+e9d1c5648b574077114c26674390f562 81805000 4
+52c060c9a5bdb106bd7b3d3dc7ff024d 81806000 5
+b86e8854024717b504a8f7a4ba41893b 81807000 6
+58129f65714a3d8bc25bad4ece77224c 81808000 7
+c9c0aa4de153a8a21f9d1985241f2fca 81809000 8
+be88ef6fd36957de3b8d63e4190b5fa7 8180a000 9
+cefb4c91c84ae7a42be1cb74a2bb6af1 8180b000 10
+c44484a40350270721811e715607d822 8180c000 11
+12e7c4ead781b51bb4af448d8b2ac149 8180d000 12
+971fa595d13da4c6c97a1dabc12a5310 8180e000 13
+c8440c76e89c0e472b3bc86f2af94a52 81810000 15
+0381e5304bc35f599d6a648885c1d300 81811000 16
+12aef4fcb1259eca3db53b6a16870af6 81812000 17
+9b14f38faaebf112e0e8fdae733b6ae2 81813000 18
+7fb20ca5e776cfdf2162d48ca2ee2e29 81814000 19
+a4aeffc377decae84c97955804da9246 81815000 20
+ce3b40520395396fe3fb5fd868469000 81816000 21
+bea66308fb7bce9f437dbd95b2ed6d8d 81817000 22
+1809eb4d03ce301a2063275a684b3585 81818000 23
+ada2763592e0151cd0ac4d3bfdbfe17e 81819000 24
+7f8d0ba3145eefd0623be9de7f0b85ac 8181a000 25
+0d4b0866d3dc4575497ac085301fc206 8181b000 26
+8e4f97a2722db766feb4e2444ba78a7b 8181e000 29
+eb8687fac205988e8729308e15014b74 8181f000 30
+dad6934ce39ac85a5f572361f54b7535 81820000 31
+b07dfd69eaaf608178ed11c6af4dc959 81821000 32
+bea832f0575bf27c9a9189965abfad78 81822000 33
+444ff1618797985c37bbd5b02bdcd8f5 81823000 34
+d3a18855dec9d5734a20e20dbfdc7714 81824000 35
+acd09e1ce1ffe39bc2128185fbed6a8c 81825000 36
+2b5f3273cc6fd05c207bddc07d19d525 81826000 37
+76644c7f7d04abcda489bd845d0848e7 8182c000 43
+8fdb8b9ccd54c9d70ff7ed0c7de84ea9 8182d000 44
+a2013f3fac429a734864a17cf8be945f 8182e000 45
+ed08ba1b622412ac7174f3047e072227 8182f000 46
+38fe423ca5a3856c45204a376d9f0661 81830000 47
+37fb8bf6a0b303ec88f7e073ff84786a 81831000 48
+eb31684db0dde02293238cf5cb59f5e8 81832000 49
+00ef5368ff343fcd3f3ed5c7a9b3fd2d 81833000 50
+df4e960660f784c35b68c58e4c576de4 81834000 51
+5778f74e8e7df324be0d693f03ee6ee5 81843000 66
+eebd2ea8cd992b0f6f1b438d9517c487 81855000 84
+8da6e448e0a821e003a620ed438985dd 81863000 98
+6a157ee4cf8d7c62703950e96aeef3de 81866000 101
+0de586421ecf1e507ef1f748c8f97b32 81869000 104
+9e8aebce60d5175290f4465cbc9b2364 8186a000 105
+c1c86ae4e8f5a5516e36e5bb945f6304 8186b000 106
+ae0d6f338cec0dc22b71e10afdf3cf0c 8186c000 107
+33285659adc8810045cbd16a07b59016 8186d000 108
+390d2a7306fe6f5c6fbb8538187296fe 8186e000 109
+16beb61b280ee66432a55f73d7fed15e 81870000 111
+c648be66496ed166b8d014474a778d57 81872000 113
+6c01af1df1b59e826faa07484d714433 81873000 114
+57df040460d033aebaed0fcb24c2c9e4 81874000 115
+877825ea080b0c2fd017c988b539df66 81875000 116
+25337887c0f9f14fceff940244dc0375 81876000 117
+8f0473bc45b38281ecba0b69b1ef5541 8187c000 123
+4b1f506a90a8df980f6c90709a4f3755 8187d000 124
+d1fba6868397861174ae887ccf227313 81880000 127
+d0f9a58ab2fd0c9438a55abb4aed47b2 81881000 128
+7bcec5825733418d26eec58714d32644 81882000 129
+1fa80217a01a2e257d9ba59eac775a23 81883000 130
+07d7ef0a3b0d891397240b946478fc4f 81884000 131
+e2d5c2179c641c685864a6ac4b8a7f6f 81885000 132
+e58ebab125afa7fda20cf81b69802c8a 81886000 133
+3b692f6a872544a7cea6df9820704176 81887000 134
+25f3f8a2b46ebb30b27476b4bed3e900 81888000 135
+c493bd3e3e0ff3ae46d5040ebd857a1c 8188b000 138
+de4d995e8ff42ddaee0717e8a4732021 8188c000 139
+2fea2c1dff8b4bdf1a6416c95a0cccc7 8188d000 140
+99d81f92bd3c08cac8ea505e7ab5541c 8188e000 141
+8547a5c69170d3da38dbce053d2c4a8f 8188f000 142
+0d255563546958896ee0a7869b0bee15 81890000 143
+0c448f550326ef6094f529d9da6b1423 81891000 144
+10e22e0b092857df14f0178c024309ae 81892000 145
+4cac222c845361de77d178f1a4ebcee7 81894000 147
+76d17bbc8c157940c72e05d215e77e0b 81895000 148
+5b951bf6f96ad50bbd02c3d69133f4be 81898000 151
+26aab2afb7a85e23840d2a0c70c23670 81899000 152
+5e06542fa236fa1aa6e03d08a23fdedf 8189a000 153
+003fdefb5508c294a9d141fe232ba3f5 8189b000 154
+8fbc082fca19254f08ee576e459226f5 8189d000 156
+80f2254794d3806cc0861a99d2b15237 8189e000 157
+90590c378b51b4732dd010681edfe541 8189f000 158
+1100990d5da03d0c0d17d624a25b4a98 818a0000 159
+b6b281558735b76d4ed83f7358f5d851 818a1000 160
+4fef0b37af1861dc494faab4a229613e 818a3000 162
+861e884db1260c53c17f7c8a10f4aecb 818a4000 163
+2a6866d3438f4484f62442101758eb8a 818a6000 165
+d10404177bbbe9de156cc2bf3b96a362 818a7000 166
+6b68b3d66156313af8a8176d332af253 818a8000 167
+6928613f2b4ec2371167ef7105321ba1 818a9000 168
+7f7d36144a00c3035b2965cf1e71a72b 818aa000 169
+11eb2e196b7a33e7877b74b3bc785794 818ab000 170
+cf935a1781048040dd25e40f04da3813 818ac000 171
+119b22238dc7f643d4f3dcf501de029d 818ad000 172
+bd6eef5133c44ac9ef8f59ac0d7d62a6 818af000 174
+1bcaf444457e02a048d6bf0662971d5e 818b0000 175
+e78a940a12e1012a51f3980013bb4b87 818b2000 177
+fbb4e092837aae3002d77dea3e45fe06 818b5000 180
+4c0f7016c7da67beb696675704db66f3 818b9000 184
+c49a9abb01be4447dc5f42f9db2f065d 818ba000 185
+c2e85e4907674fa3c283286bf67991cf 818bb000 186
+ec97f898fa5c30b0c41d1b346632e035 818bd000 188
+cafd5a7d1f823ca41edab584a2657b69 818bf000 190
+f8344573bbf4df0d1d0be7377bf47b76 818c0000 191
+5a91bd281e0bb58f775ff6ea02f1b38a 818c2000 193
+6de76cea55fb0d929643fba9f2cb3304 818c3000 194
+2f649cb185ef7d83920991696bcf91a7 818c5000 196
+889dea0fc3c2d02d208106ed5d47fa02 818c6000 197
+4ddaa5f5386d9d314e397556af26d69f 818c7000 198
+edcd8288c1d64cbce6c6b127e0b95773 818c8000 199
+54a170203110cb1930f349a6b99fc5a6 818c9000 200
+342f98262c26f063032538bb6c1aadfc 818ca000 201
+ae13ee588d26ca6ae0c75885425b26c2 818cb000 202
+4fd7dab0237b22be99d63def153a244a 818cc000 203
+916188b718292db627356b704a8c5f83 818cd000 204
+4caefa44efd8e15715d2af73046e446b 818ce000 205
+d21553a6f4c59a7bc51d2c34eb4600f1 818cf000 206
+07294a6f45f1da468998dfa506fd6b23 818d0000 207
+a1bcd3dffab47d7777e6897a5613c97e 818d1000 208
+69c6c84fcd49e1c380c760a4cfaf2aa7 818d3000 210
+d55faa1ec5069640d600aa014473c05c 818d5000 212
+8015e7d7266a4f7edfaa269ec4890d3b 818d6000 213
+94f21d54b66642fba8e48fa4c46e7747 818d7000 214
+a07afc7f792c12dac33cb923ef394053 818d8000 215
+d4a8e748cd176dbb2cd8a8705078df10 818d9000 216
+caca68fbc36f6977f3af319a9a5a5f0f 818da000 217
+66baae217a3a5dd5772cee9522a27ba9 818db000 218
+15bdfd4a364be067e12b75912215cc7c 818dc000 219
+b2452382aa25a62f9afd748dd8e4209c 818dd000 220
+c116f26df769061677fb8691a6f51668 818df000 222
+427b22e7fedfac31ad20a29d593c6513 818e1000 224
+9e3cb4e1a3331a9471bd3522e21f829a 818e2000 225
+3d65e74d62fdce33beb08fc49247bbef 8192d000 300
+3c68d796cddbd85367da71acf805e7a0 8192e000 301
+104c246cce948944ade37fa8f277de80 8192f000 302
+40e0f804223ed0f405320d1ab9027249 81930000 303
+cf31c819c3afdf003125b35132012ace 81931000 304
+61b4d6bac1f8769eba76301a94bb5e33 81932000 305
+475c81236aa55c807c016f57c29355f2 81933000 306
+5c4ee5b69fb3f75d2b785842f7226c2c 81934000 307
+d712a2dc235217fd0105904cf3e091ed 81936000 309
+282cbb5c0bdf8ab1fce1a113564c77c7 81937000 310
+afd8e5342700198460d78f944ea64b86 81938000 311
+5810ad62d1eaf49f55d917faf2764566 81939000 312
+0381132cd746bf9f968ae87f188e91c9 8193a000 313
+eb2166d4bbe833d8ac643eb6b6a17238 8193c000 315
+0fd69aecb14b3e1a1dcd1173f19d27dd 8193e000 317
+b2cba8bff5fec5f8bed375ad06b08031 8193f000 318
+61faed82408f1dc77cf4593adaeaf3b8 81940000 319
+97c6ef9a176fd0916a048ca78a036fa1 81941000 320
+5d0a00818c859be70627efb219d6bc62 81942000 321
+5b3f6289b996491a1bf3ccfb78432147 81943000 322
+9d73c03d6ba4a70fbed271a7e39ad854 81944000 323
+382b2a4ae9e5b107cf4b8d1fb392393f 81945000 324
+0ad7556a85b92b6ffcdc0557af60f699 81946000 325
+1f4e05479376f7eca1665e26941d735e 81948000 327
+edd1dc3637e71a5f6070e00168ed3e6f 81949000 328
+f8bb200d17be3cead20fdc9abad28266 8194a000 329
+8122e421ef8a5e5d0b35ab4905c3dc62 8194b000 330
+8ae1451c70f6dc3a40016a8c225125bd 8194c000 331
+1d40764eabbcde244ae01d30c2a96a6f 8194d000 332
+c3e41fb3baf613946bffee5f221e1fef 8194e000 333
+4367451755e8676689dcf6114d8b575f 8194f000 334
+9c2fc5de9eb3778b3bab2f507755cb78 81950000 335
+066c10581ab5cd02e33cc01a79939912 81951000 336
+aea4172e71132056f78d06414e9e4846 81952000 337
+d60c59e8dc0cf8038bfaa7c4187959cb 81953000 338
+2b041d0471a42986f1d522eb231c23b6 81954000 339
+10832b0a154fc7013e4e7bb8b78de45b 81955000 340
+871898cd3f5b77bb9043972d580ba0e5 81957000 342
+d93fabab7f55cf94fe6176cf4aac036c 81958000 343
+4f425c50a171341babd8a8f58a1477f2 81959000 344
+9a106dc8f9a4dc46b4e3c4b1b3bdc823 8195a000 345
+06caf94bfcb4a64cce719cd85363f47b 8195b000 346
+7477daee83ab0730fda395eedf008c17 8195c000 347
+a20051d240c08040884dbfd2efc645ba 8195d000 348
+aa713913f778feeb6e4fa7aef89fa8be 8195e000 349
+64089d38c0e90204d7880f5220f6e1c5 8195f000 350
+ceab039679629f512e6fac01b97ea464 81960000 351
+9df7cadf11fd38ec262441fc577ef0e8 81961000 352
+efd81dc7243ed2cc73558a88ec20f6d3 81962000 353
+11127876103729d7fd27b673a69085f1 81963000 354
+78e1fdad6cc6187e2b5bb1e932030f8e 81964000 355
+9b133f2609560d29d91daa267d86dec4 81965000 356
+7e5d0d72af238ebbe58ff7a8cde9fcc9 81966000 357
+4465bdb044a301f5fa5d8a1853d537cf 81967000 358
+8844e4e5fbf8f0053c7e6940adad9a64 81968000 359
+50a33d450a9e07120ab1ab9430f32ce4 81969000 360
+72919b3d9b573f58ed62d8139c288508 8196a000 361
+e225a3ebeb2b435af64a66e79de758e4 8196c000 363
+c1aae70e04d2556e59628e2194c10c0e 8196d000 364
+2d0f5056565303f317b8e3fed9a86b6f 8196e000 365
+fc646a9e95811b76ee17db1bd5f6c211 8196f000 366
+a914d331f220d3f4f2b21e434785623b 81970000 367
+2c68f0147e2d9faef8ec58f115305f5f 81971000 368
+5833a4c07c308a39f3cbf3b4a1a5c213 81973000 370
+f9a91a5bcbd2a36fd839974206e6422c 81974000 371
+f0e41f58c381c61437d78ba5c0489436 81975000 372
+14f9dcb86d7f3de56cc8b9a16ef49555 81976000 373
+3a298044a4c6b729c533a09f9997a0a5 81978000 375
+af67eb6333afadb20daca3c7e8b94392 8197b000 378
+1d22c8dcbdf8c233d21b7165b2762d69 8197c000 379
+40513951de563dd535b4278877a64f08 8197d000 380
+872bfebf2dded9d686f81811d3f84520 8197e000 381
+c54638002394561084fb12c2ce43ed7e 8197f000 382
+6af81a282602d6b4c3f2c8118f0f062c 81980000 383
+572d497737251b0842bbfe10dad22388 81981000 384
+498eb9ef41d154cf85bda38be2a1ae2a 81982000 385
+fca3c47d02989e33e3f0f46433f0562b 81983000 386
+c77bee2209adf446eec7e35876a0130c 81984000 387
+fcd9a2315bb3675de51bbc92e83607ba 81985000 388
+f65dc3d3206dced09832b841630f5fe4 81987000 390
+df4ac879f2a700f9b3edaf3761a46c00 81988000 391
+36e1990c659bb1d48d94d38ab076b874 81989000 392
+06709b09f84eb289777056875126bc51 8198a000 393
+eb0c9aa1bfe20f56bb9b6fa836d93541 8198b000 394
+bfd390b767d38adf1191c4f43bd42ae1 8198c000 395
+f92123b53524ab9c49bfbc23327c5c8c 8198d000 396
+4eeee50cff18ef08f87c630af522ae04 8198e000 397
+6dac682bad0dc8088f948812801fc68e 8198f000 398
+a272836c353d81d90ce2b631faba18f4 81991000 400
+2cda76e67a6401d24640d0a04d748556 81993000 402
+a6a098d2b0228a60f8aa9069888a46ea 81994000 403
+643a3ae507fec504f8e1db0bdf460c33 81995000 404
+f834dd09249731c2c34e738796f54ffd 81996000 405
+fac4b031c23be779e50c8cf91de341e3 81998000 407
+f8132fde9b2e666d242b6f378c068f4b 81999000 408
+a390217070eef347b16ada6a3bb45a24 8199b000 410
+36e66be8e34f44ca79c03ecc7abdd812 8199c000 411
+27f26cf684b551d5935075c237b05fa9 8199d000 412
+fef26ae2f377af2dd29d5edcb2b46e15 8199e000 413
+fa6e7b0bf11948c6b6f67bacbe50a772 8199f000 414
+b969018db3fd07daf0b499e26d435177 819a0000 415
+dedbc10571bee8767ba11aa965bcb87d 819a1000 416
+d926933681039bbc739ce2618c19f0bb 819a2000 417
+ac9e4d91c79c184e487c571e91ba4ade 819a3000 418
+f78bb1c544304dfed9caa5b57332e66b 819a4000 419
+0fdceba7ed8dcc7a082d018948a1f935 819a6000 421
+a5ad3743d6f3e0d9c95b2fdb304e17b9 819a7000 422
+775aac02a77ce2f0bca9c4bbdf94be09 819a8000 423
+d24f974e948533456342c0e8cccc81b3 819a9000 424
+2be7cc3d5a97837df5bb24142e6f6bdb 819aa000 425
+6fc81661e3013d52e4e1ca55604780c1 819ab000 426
+2e671c1b6700a2ff7f0306efad83f13f 819ac000 427
+ee0d8d2666005179e66c98ae7d14149d 819ad000 428
+b6570928d8521f2554e44593be86d1f8 819af000 430
+f0ca34a1698e8708e68f526582d9b068 819b3000 434
+b10c6d64cafde7d416a3b93c818ccec2 819b4000 435
+b82e95ada2bf412d1ea2a886fbb0ebd4 819b5000 436
+2b396b9fe22864130e6e8580f785a246 819b6000 437
+b1ffc6dfedcf60b4baa323f57bf3caeb 819b7000 438
+32ce7878a23bf9cc6cf788b59d9aa29c 819b8000 439
+71df44a37a5ce273c9034f66a41173b5 819b9000 440
+9cbe2184ae41be015d87722c47187128 819ba000 441
+7ae45be288f845a2151f3a53de12ce1e 819ca000 457
+a307248e8d65a675f98eefe829a1e8ac 819d4000 467
+919a21b2e6ff665df3a8c8bac12e6d2c 819d5000 468
+e3db755f7c998d1c5daee55fb21ce75c 819d6000 469
+fc903472a4c98301f87c260430e18468 819d9000 472
+92aa6c053baf2e3331b6bdcce3420b9e 819da000 473
+9e6b15443d5e9c54fd0c7ea568b8c827 819db000 474
+6cc8918fa36569aa9358470cc822b678 819dc000 475
+56b7c9ff898b6e37b64135cccaf88e27 819dd000 476
+62e7deccbc4e67f9a4941d9b1888ee4f 819de000 477
+4e9827e4e31a44fa17a8f638d181ec50 819e0000 479
+9d987c738cfd009d9a31b95189851eb5 819e2000 481
+26430665a45619a00617e09d447de703 819e4000 483
+9b3f4b98c73f982807b44339c4e87694 819e5000 484
+e8e428df66d6416868c5938c1999b2fc 819e6000 485
+e18804bcbaaac2719a7f1bcc01440a7a 819e7000 486
+0c2317323c459e46c47d0deb0462aed8 819e8000 487
+fbbb4f4298de89c9b1362388c96b4d37 819e9000 488
+31b70a60732f3d15a31cf2ed8c841de7 819ea000 489
+e96313d64901585695cb53b788b46bb7 819ed000 492
+0424a9a5d626ef013679a80b3b529b25 819ee000 493
+86e695e989d0b141f8f7e519dc1287cc 819f6000 501
+a60de9539ac4775f1d4667d11250f755 819f7000 502
+8a6f9d652dc27900075fb45dfb56f713 819f8000 503
+f1838672973a585aaae6ceff22c6119f 819fc000 507
+cc0661a80f5477fd4e22ac5a7e73c9e8 819fd000 508
+57cac22328965e2ce33dba725adb50f9 819fe000 509
+b9559618a0b4a1edf7ad63d16bddece9 81a01000 512
+817a8b72bec1774e9a122623735e3193 81a0a000 521
+49f39d362a90e33eab7f5e27d54cb3f0 81a0e000 525
+66380dfb7868ebab2fd319e4c9932778 81a10000 527
+f5d53478e710313ef4a550299d23b09d 81a11000 528
+6d87acff49459d193afa999b6ca1a76b 81a13000 530
+078e4c447f492883cf65943286f540d9 81a14000 531
+263a5f816efb34578c39b31715f6634c 81a16000 533
+2390032c05e4381ee1d5fcd46fabe328 81a17000 534
+4282f35f4ed8a885bfd698347bb8215f 81a18000 535
+18a2629e4206d120e32ca662ccc36e32 81a19000 536
+8774408cad903b77206a89c983a07acd 81a1a000 537
+9b954a120e7c1069a0ad723576316258 81a1b000 538
+c892160f01aa48e23c92ac2645b5dbea 81a1c000 539
+88ab904d6ba2b8f1734bd4b5876b69af 81a24000 547
+4bfe2f412af8b5ecf55b92bce77e0890 81a25000 548
+1df93dac71d41ad20939c229d4fef015 81a26000 549
+afccc57c5bde2077e312323fd8190d3c 81a27000 550
+e26c5949fcf4c770fe7b97434208a610 81a2a000 553
+94f4ae7c4396f6e5ee82f3931464ed34 81a2b000 554
+649243babd0f412575eec955804b327c 81a2c000 555
+5e36402e8bf7e81b575f63c43275d4e3 81a2d000 556
+a9e6e9b76eb7a324361eaa6dc2a5d85e 81a2e000 557
+0f13842578f466f3382c87e5581e3a22 81a2f000 558
+b7dcaaa92e7b970e1cc84d25b24c896c 81a30000 559
+23a62eff0562e8dbc00b9cb7442f95a8 81a31000 560
+14b4d089b216c12b0c2d2c9358cb228c 81a33000 562
+07bf7e00731c26f01e852fcaf18e59d7 81a34000 563
+f830cc0e11af359e6a584c300093ab24 81a35000 564
+6b7a0c5fd83d6b6c3ac59faa7efcdc66 81a36000 565
+f9952d1594f6284f9edf6c3db84a2a5c 81a37000 566
+f79d301895a319c6fd67e1c0067d228a 81a38000 567
+af7650e5a7df3d9eea4c66e9220f1dce 81a39000 568
+50036510912fdcfde1c31fd8a97ea5db 81a3a000 569
+7110070fa2994068ea799cb5fe5adf30 81a3b000 570
+f38755eb96b2dbd3182c45c024dd9d46 81a3c000 571
+9adf5b2cd772ea9396c743d8bab832ba 81a3e000 573
+6eb1a23da581bcfd4123baa668ac73ad 81a3f000 574
+d6ade6c6ec8e404646aeb75d8584a8e2 81a40000 575
+2dc8e8dd17f0c49fdcd51de25dc0b983 81a41000 576
+8b251ad4dc5c3f170984f70b002c06be 81a42000 577
+43734fe51f0b4b121b4ad32ca9c6fe7f 81a43000 578
+b803b993d6cd65467f78d155beec87f0 81a44000 579
+a0ed12f9a86428441801475021f547fb 81a45000 580
+2acba7042501ad85d9a37279fbc0fbb7 81a47000 582
+62155d379df05ebf509c0f223014e9bf 81a48000 583
+1316bb4e2ce48f67beef4e7ed7efdd97 81a49000 584
+5cff43665789d2c28cf72e19547dd982 81a4a000 585
+6cc01432304d3bfeb64890114de9cfb6 81a4b000 586
+8bd56853570e3c174444afc70ba1d535 81a4c000 587
+244e54d50dac508c3fefc99a703a3873 81a4d000 588
+6a554522a4e5b7d38ee439fc6f6079df 81a4e000 589
+9c13136ec6da9200a78576824cd0cd46 81a4f000 590
+e607b69fa916b3417f692b4f1c7e26f8 81a50000 591
+0312837fd65d45f767ddd64143d17412 81a51000 592
+217dec70dfcf43d7bbce8dd4f62c0939 81a52000 593
+e99fdbfa14d027b753279c18b2acfd34 81a53000 594
+02dc53cc725141f3d497c0828a1a5b0a 81a54000 595
+9646e1f2fa3fd75e2b5e89d30380897e 81a56000 597
+4325e7ab06432b4ace2dd5c358affe61 81a57000 598
+063fc1aaf2047dd076391924b5875b15 81a59000 600
+84196e073bdac1d9ef2d7dc4b41fd484 81a5a000 601
+b9da32478a8ac75cbcff587e806a6997 81a5b000 602
+7c334d503d723fb46780251bc864d337 81a5d000 604
+509b4dd57929c4374a7e94df9807589a 81a5e000 605
+156b74e64b46466ec18523f6ec2e326b 81a60000 607
+f354d8b86de24bae9b4ae820d649947d 81a61000 608
+0760fa487390c9f339408b1404cc5716 81a63000 610
+32cf6c89eb73e04b6b52763c3bbf9b21 81a64000 611
+278c6d62a7470cf18de27d63c3d339ac 81a66000 613
+83f40782e02009febfbc11015ca7dfec 81a67000 614
+9b334ca488f7617789c838c31a56bf68 81a69000 616
+006b7a936ed90eea8320b519aa80d6de 81a6a000 617
+cd275a5bd609ebd1959fdbd8927a4182 81a6b000 618
+c0ce3c28cef378fa4a302b679fbfda30 81a6c000 619
+82cdc24575b451e0dedee6c74d8a9db0 81a6d000 620
+896073847d74c33ce0a4512242198517 81a6e000 621
+8bdffd763de919b3381cee7182d4bbd8 81a6f000 622
+81a11965ad919b508bf356c4474bbd24 81a70000 623
+b619cb03a28b00553474ed3fc61f7c3d 81a72000 625
+f17606fa4d9a4563f833d7499b912127 81a73000 626
+fa5fce4a88bd2986032295d3649f59b5 81a74000 627
+2f2032d1260998109c18b55ee0afb16c 81a75000 628
+5e660b7e266e21fff6dc98af79e75ab5 81a76000 629
+39d3a87b11910d664833b852c75468d2 81a77000 630
+36148363bdb6c7fff5ff1babe9d78001 81a78000 631
+63f64779408a85935eaf1cdf7a144c1a 81a79000 632
+86e64d3a160ce1770dc11c0d7061759a 81a7b000 634
+7aa127dcfe37ff8cbbcf1758b3f4f7db 81a7d000 636
+2e6b2a80deddb49b240e36cb4213a357 81a7e000 637
+426be78ea2a9bf1b804680b3c667f579 81a81000 640
+4f3b8315acb96ade91a55ca083efcf9c 81a82000 641
+03be120cdb0bee0a140daf91fe22c077 81a83000 642
+4148ffefafbe84422c0ca28f4106919b 81a85000 644
+8d7d59eb7944d9e7c9d5848a0a63da98 81a86000 645
+063c91aa078f0c5ea80f9e42e9b11c65 81a87000 646
+ead616fbb16a43d74ec4a9a62da6dc45 81a88000 647
+a8e40b396e37f63b6c2659192428a6ad 81a89000 648
+2be9703597fe6de20c5d74cfef2131ee 81a8a000 649
+90f55cb8b3e836c9f06fa43b6a2ffd3b 81a8b000 650
+54054e50e6acfc1915a9b08936a15ff3 81a8c000 651
+1c0d2aa109aaf2f63801884261ffc85d 81a8d000 652
+4e38e328d0b8d091de424c146cb5d584 81a8e000 653
+af0ec37ceccbad913a1da2c8abecfb7f 81a8f000 654
+442b6cf2886a3bb395e3dc9261c17dd6 81a90000 655
+bce5d31dcce73fe3ea560d2ef5c27f3f 81a95000 660
+33d951cb49ba12f45e7de361590a6b3f 81a96000 661
+c40b78a103cb9a1071b6753897796f0a 81a98000 663
+b6fa9dc190df2746fd042ab0c1dc40ca 81a99000 664
+9a552e0755854db4310c491182f39f13 81a9a000 665
+7189ba9c0b83a6aa7c03dfa3d10bd6cf 81a9b000 666
+36c13b52c417c48428b4c8eff0f8bbc3 81a9c000 667
+acf55f158b97d86fdaa9b7bb0ec75836 81a9d000 668
+cc9861e210a97bb647c58903a4588287 81a9e000 669
+4b64723973a1de2c5266784b3b943077 81a9f000 670
+29fd69289507920b5dfe5ad4b7400dc0 81aa0000 671
+e1409fa748ba918a9c3f36c09f2d0b87 81aa1000 672
+9bbed6659c6af99f884075c2021d4bd3 81aa2000 673
+9e9b00b5e2ca80f49a805184c2aadcff 81aa3000 674
+8686aed5f646c913a7149b37d97511ee 81aa4000 675
+587fb611db862966f435b0319a23090e 81aa5000 676
+37b9b894e7cc6fce2bcf36936ad817d5 81aa6000 677
+9a65e283a7bf1d8afa1ea2a5f0e1b9d8 81aa7000 678
+018cfaa9ce42629e4ff9efce147fc6a6 81aa8000 679
+1776b86a20d0db7d839ba7ddf12af222 81aa9000 680
+6d1e1e07ee2ab3b3fecdaa5991e6a7cf 81aaa000 681
+de6bcfee6035c8e3d0013a75eec22d37 81aab000 682
+dd582b469eafcdafb95b5fc5b4fdeab3 81aac000 683
+be198aeef4b38c044b146850e3111624 81aad000 684
+55304483ca303dd6877f56750541c25c 81aaf000 686
+490b94db7078075952f310dd32ac3cb2 81ab0000 687
+e1164233477a8b49889aaf730a6dacfa 81ab1000 688
+4f3cbb9e42a395a56ac62ac15be4de58 81ab2000 689
+3131486a9cc3b48ff8908d529a19ccea 81ab5000 692
+559638ea1b14fa74539ec8a9c76bd187 81ab6000 693
+4ee92374b90d9cfa04919b8e0409e494 81ab7000 694
+094f93ae06ed5840c2e7c0d56ab36518 81ab8000 695
+97be8165dea9185069370a4f1382d17b 81ab9000 696
+5b11a4d8105a772b262e82111a340ae1 81aba000 697
+0061f9b5eb0396a6b00f066c5130a0c0 81abb000 698
+abd34519047af5e9c6e1bad84ca38266 81abc000 699
+15159cd8aeae8b755644e7ede6522ca7 81abd000 700
+21d320a1a2d70085e863b0fe64953451 81abe000 701
+c8810c1c62d17c8e12d7b3757e15e695 81abf000 702
+921c94d92b92407c1ffdf5403e46d925 81ac0000 703
+7ffd67c5ed855acc09c35e99b8816483 81ac1000 704
+8dd1ae0fd620e0abd0160d96e146e920 81ac2000 705
+dcf7d4b58fc05c8042a8de57558a4deb 81ac3000 706
+f3691fac793ac15575171f7dd5ec1c4a 81ac4000 707
+3db58d675fbd8007b6349ffbae58349b 81ac5000 708
+be6b230f8e3f4bf1148ccede248c0d17 81ac6000 709
+259f09cbacaa20f30072ea1e4b975aa5 81ac7000 710
+d051e81d2963c398d922f6f4292b7a1f 81ac8000 711
+23f26decfc0490356c321ff801e17d51 81ac9000 712
+38222ba6a3c351aba0c5d44ef9161fa9 81aca000 713
+aa56426b2834863afc53ae55a50d9f30 81acb000 714
+e9d652be80601e9d664dfd4e2bb37ea9 81acc000 715
+462e36a28a4d2654ae63ebd587ca28ac 81acd000 716
+c05ed4f4bc62412de278e218870205cf 81ace000 717
+e3d3c52a944b95089e41c59b6e7a8df9 81acf000 718
+2c31ff8bb50cff1b411004bf5a25652d 81ad0000 719
+39e25aa2076989cdafc59517ce0aec93 81ad1000 720
+de165a9f0622d664e14fa9c9bab192dc 81ad2000 721
+4d2f73d5b8fcc5e1ed644bb89e82c9f8 81ad4000 723
+83d44e3fe6f148046dfe5397ce626773 81ad6000 725
+0240426e0ddaec99bef84281ce9b9e3a 81ad7000 726
+aa743dabba60dd1c1f0282061aadbcf0 81ad9000 728
+step2: time cost is 337 milliseconds
+Success pages: 453/807 disassembled bytes rate: 0.070862, page rate: 0.561338
+--------------------sig match begin--------------------------
+Signature load success! Number is 45
+d2dc8d0fc80998e453ad486e931bc8d0  offset 1
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 1
+040e7ed85549750d161d8957e4f83da4  offset 2
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 2
+aedbb1594862b919de36a4cdaaeb8177  offset 3
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 3
+e9d1c5648b574077114c26674390f562  offset 4
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 4
+52c060c9a5bdb106bd7b3d3dc7ff024d  offset 5
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 5
+b86e8854024717b504a8f7a4ba41893b  offset 6
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 6
+58129f65714a3d8bc25bad4ece77224c  offset 7
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 7
+c9c0aa4de153a8a21f9d1985241f2fca  offset 8
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 8
+be88ef6fd36957de3b8d63e4190b5fa7  offset 9
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 9
+cefb4c91c84ae7a42be1cb74a2bb6af1  offset 10
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 10
+c44484a40350270721811e715607d822  offset 11
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 11
+12e7c4ead781b51bb4af448d8b2ac149  offset 12
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 12
+971fa595d13da4c6c97a1dabc12a5310  offset 13
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 13
+c8440c76e89c0e472b3bc86f2af94a52  offset 15
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 14
+0381e5304bc35f599d6a648885c1d300  offset 16
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 15
+12aef4fcb1259eca3db53b6a16870af6  offset 17
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 16
+9b14f38faaebf112e0e8fdae733b6ae2  offset 18
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 17
+7fb20ca5e776cfdf2162d48ca2ee2e29  offset 19
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 18
+a4aeffc377decae84c97955804da9246  offset 20
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 19
+ce3b40520395396fe3fb5fd868469000  offset 21
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 20
+bea66308fb7bce9f437dbd95b2ed6d8d  offset 22
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 21
+1809eb4d03ce301a2063275a684b3585  offset 23
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 22
+ada2763592e0151cd0ac4d3bfdbfe17e  offset 24
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 23
+7f8d0ba3145eefd0623be9de7f0b85ac  offset 25
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 24
+0d4b0866d3dc4575497ac085301fc206  offset 26
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 25
+8e4f97a2722db766feb4e2444ba78a7b  offset 29
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 26
+eb8687fac205988e8729308e15014b74  offset 30
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 27
+dad6934ce39ac85a5f572361f54b7535  offset 31
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 28
+b07dfd69eaaf608178ed11c6af4dc959  offset 32
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 29
+bea832f0575bf27c9a9189965abfad78  offset 33
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 30
+444ff1618797985c37bbd5b02bdcd8f5  offset 34
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 31
+d3a18855dec9d5734a20e20dbfdc7714  offset 35
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 32
+acd09e1ce1ffe39bc2128185fbed6a8c  offset 36
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 33
+2b5f3273cc6fd05c207bddc07d19d525  offset 37
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 34
+76644c7f7d04abcda489bd845d0848e7  offset 43
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 35
+8fdb8b9ccd54c9d70ff7ed0c7de84ea9  offset 44
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 36
+a2013f3fac429a734864a17cf8be945f  offset 45
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 37
+ed08ba1b622412ac7174f3047e072227  offset 46
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 38
+38fe423ca5a3856c45204a376d9f0661  offset 47
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 39
+37fb8bf6a0b303ec88f7e073ff84786a  offset 48
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 40
+eb31684db0dde02293238cf5cb59f5e8  offset 49
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 41
+00ef5368ff343fcd3f3ed5c7a9b3fd2d  offset 50
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 42
+df4e960660f784c35b68c58e4c576de4  offset 51
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 43
+5778f74e8e7df324be0d693f03ee6ee5  offset 66
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 44
+eebd2ea8cd992b0f6f1b438d9517c487  offset 84
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 45
+8da6e448e0a821e003a620ed438985dd  offset 98
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 46
+6a157ee4cf8d7c62703950e96aeef3de  offset 101
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 47
+0de586421ecf1e507ef1f748c8f97b32  offset 104
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 48
+9e8aebce60d5175290f4465cbc9b2364  offset 105
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 49
+c1c86ae4e8f5a5516e36e5bb945f6304  offset 106
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 50
+ae0d6f338cec0dc22b71e10afdf3cf0c  offset 107
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 51
+33285659adc8810045cbd16a07b59016  offset 108
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 52
+390d2a7306fe6f5c6fbb8538187296fe  offset 109
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 53
+16beb61b280ee66432a55f73d7fed15e  offset 111
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 54
+c648be66496ed166b8d014474a778d57  offset 113
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 55
+6c01af1df1b59e826faa07484d714433  offset 114
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 56
+57df040460d033aebaed0fcb24c2c9e4  offset 115
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 57
+877825ea080b0c2fd017c988b539df66  offset 116
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 58
+25337887c0f9f14fceff940244dc0375  offset 117
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 59
+8f0473bc45b38281ecba0b69b1ef5541  offset 123
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 60
+4b1f506a90a8df980f6c90709a4f3755  offset 124
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 61
+d1fba6868397861174ae887ccf227313  offset 127
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 62
+d0f9a58ab2fd0c9438a55abb4aed47b2  offset 128
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 63
+7bcec5825733418d26eec58714d32644  offset 129
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 64
+1fa80217a01a2e257d9ba59eac775a23  offset 130
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 65
+07d7ef0a3b0d891397240b946478fc4f  offset 131
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 66
+e2d5c2179c641c685864a6ac4b8a7f6f  offset 132
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 67
+e58ebab125afa7fda20cf81b69802c8a  offset 133
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 68
+3b692f6a872544a7cea6df9820704176  offset 134
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 69
+25f3f8a2b46ebb30b27476b4bed3e900  offset 135
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 70
+c493bd3e3e0ff3ae46d5040ebd857a1c  offset 138
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 71
+de4d995e8ff42ddaee0717e8a4732021  offset 139
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 72
+2fea2c1dff8b4bdf1a6416c95a0cccc7  offset 140
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 73
+99d81f92bd3c08cac8ea505e7ab5541c  offset 141
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 74
+8547a5c69170d3da38dbce053d2c4a8f  offset 142
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 75
+0d255563546958896ee0a7869b0bee15  offset 143
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 76
+0c448f550326ef6094f529d9da6b1423  offset 144
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 77
+10e22e0b092857df14f0178c024309ae  offset 145
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 78
+4cac222c845361de77d178f1a4ebcee7  offset 147
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 79
+76d17bbc8c157940c72e05d215e77e0b  offset 148
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 80
+5b951bf6f96ad50bbd02c3d69133f4be  offset 151
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 81
+26aab2afb7a85e23840d2a0c70c23670  offset 152
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 82
+5e06542fa236fa1aa6e03d08a23fdedf  offset 153
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 83
+003fdefb5508c294a9d141fe232ba3f5  offset 154
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 84
+8fbc082fca19254f08ee576e459226f5  offset 156
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 85
+80f2254794d3806cc0861a99d2b15237  offset 157
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 86
+90590c378b51b4732dd010681edfe541  offset 158
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 87
+1100990d5da03d0c0d17d624a25b4a98  offset 159
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 88
+b6b281558735b76d4ed83f7358f5d851  offset 160
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 89
+4fef0b37af1861dc494faab4a229613e  offset 162
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 90
+861e884db1260c53c17f7c8a10f4aecb  offset 163
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 91
+2a6866d3438f4484f62442101758eb8a  offset 165
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 92
+d10404177bbbe9de156cc2bf3b96a362  offset 166
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 93
+6b68b3d66156313af8a8176d332af253  offset 167
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 94
+6928613f2b4ec2371167ef7105321ba1  offset 168
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 95
+7f7d36144a00c3035b2965cf1e71a72b  offset 169
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 96
+11eb2e196b7a33e7877b74b3bc785794  offset 170
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 97
+cf935a1781048040dd25e40f04da3813  offset 171
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 98
+119b22238dc7f643d4f3dcf501de029d  offset 172
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 99
+bd6eef5133c44ac9ef8f59ac0d7d62a6  offset 174
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 100
+1bcaf444457e02a048d6bf0662971d5e  offset 175
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 101
+e78a940a12e1012a51f3980013bb4b87  offset 177
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 102
+fbb4e092837aae3002d77dea3e45fe06  offset 180
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 103
+4c0f7016c7da67beb696675704db66f3  offset 184
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 104
+c49a9abb01be4447dc5f42f9db2f065d  offset 185
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 105
+c2e85e4907674fa3c283286bf67991cf  offset 186
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 106
+ec97f898fa5c30b0c41d1b346632e035  offset 188
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 107
+cafd5a7d1f823ca41edab584a2657b69  offset 190
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 108
+f8344573bbf4df0d1d0be7377bf47b76  offset 191
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 109
+5a91bd281e0bb58f775ff6ea02f1b38a  offset 193
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 110
+6de76cea55fb0d929643fba9f2cb3304  offset 194
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 111
+2f649cb185ef7d83920991696bcf91a7  offset 196
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 112
+889dea0fc3c2d02d208106ed5d47fa02  offset 197
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 113
+4ddaa5f5386d9d314e397556af26d69f  offset 198
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 114
+edcd8288c1d64cbce6c6b127e0b95773  offset 199
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 115
+54a170203110cb1930f349a6b99fc5a6  offset 200
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 116
+342f98262c26f063032538bb6c1aadfc  offset 201
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 117
+ae13ee588d26ca6ae0c75885425b26c2  offset 202
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 118
+4fd7dab0237b22be99d63def153a244a  offset 203
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 119
+916188b718292db627356b704a8c5f83  offset 204
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 120
+4caefa44efd8e15715d2af73046e446b  offset 205
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 121
+d21553a6f4c59a7bc51d2c34eb4600f1  offset 206
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 122
+07294a6f45f1da468998dfa506fd6b23  offset 207
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 123
+a1bcd3dffab47d7777e6897a5613c97e  offset 208
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 124
+69c6c84fcd49e1c380c760a4cfaf2aa7  offset 210
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 125
+d55faa1ec5069640d600aa014473c05c  offset 212
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 126
+8015e7d7266a4f7edfaa269ec4890d3b  offset 213
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 127
+94f21d54b66642fba8e48fa4c46e7747  offset 214
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 128
+a07afc7f792c12dac33cb923ef394053  offset 215
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 129
+d4a8e748cd176dbb2cd8a8705078df10  offset 216
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 130
+caca68fbc36f6977f3af319a9a5a5f0f  offset 217
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 131
+66baae217a3a5dd5772cee9522a27ba9  offset 218
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 132
+15bdfd4a364be067e12b75912215cc7c  offset 219
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 133
+b2452382aa25a62f9afd748dd8e4209c  offset 220
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 134
+c116f26df769061677fb8691a6f51668  offset 222
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 135
+427b22e7fedfac31ad20a29d593c6513  offset 224
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 136
+9e3cb4e1a3331a9471bd3522e21f829a  offset 225
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 137
+3d65e74d62fdce33beb08fc49247bbef  offset 300
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 138
+3c68d796cddbd85367da71acf805e7a0  offset 301
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 139
+104c246cce948944ade37fa8f277de80  offset 302
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 140
+40e0f804223ed0f405320d1ab9027249  offset 303
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 141
+cf31c819c3afdf003125b35132012ace  offset 304
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 142
+61b4d6bac1f8769eba76301a94bb5e33  offset 305
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 143
+475c81236aa55c807c016f57c29355f2  offset 306
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 144
+5c4ee5b69fb3f75d2b785842f7226c2c  offset 307
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 145
+d712a2dc235217fd0105904cf3e091ed  offset 309
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 146
+282cbb5c0bdf8ab1fce1a113564c77c7  offset 310
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 147
+afd8e5342700198460d78f944ea64b86  offset 311
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 148
+5810ad62d1eaf49f55d917faf2764566  offset 312
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 149
+0381132cd746bf9f968ae87f188e91c9  offset 313
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 150
+eb2166d4bbe833d8ac643eb6b6a17238  offset 315
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 151
+0fd69aecb14b3e1a1dcd1173f19d27dd  offset 317
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 152
+b2cba8bff5fec5f8bed375ad06b08031  offset 318
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 153
+61faed82408f1dc77cf4593adaeaf3b8  offset 319
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 154
+97c6ef9a176fd0916a048ca78a036fa1  offset 320
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 155
+5d0a00818c859be70627efb219d6bc62  offset 321
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 156
+5b3f6289b996491a1bf3ccfb78432147  offset 322
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 157
+9d73c03d6ba4a70fbed271a7e39ad854  offset 323
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 158
+382b2a4ae9e5b107cf4b8d1fb392393f  offset 324
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 159
+0ad7556a85b92b6ffcdc0557af60f699  offset 325
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 160
+1f4e05479376f7eca1665e26941d735e  offset 327
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 161
+edd1dc3637e71a5f6070e00168ed3e6f  offset 328
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 162
+f8bb200d17be3cead20fdc9abad28266  offset 329
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 163
+8122e421ef8a5e5d0b35ab4905c3dc62  offset 330
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 164
+8ae1451c70f6dc3a40016a8c225125bd  offset 331
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 165
+1d40764eabbcde244ae01d30c2a96a6f  offset 332
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 166
+c3e41fb3baf613946bffee5f221e1fef  offset 333
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 167
+4367451755e8676689dcf6114d8b575f  offset 334
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 168
+9c2fc5de9eb3778b3bab2f507755cb78  offset 335
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 169
+066c10581ab5cd02e33cc01a79939912  offset 336
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 170
+aea4172e71132056f78d06414e9e4846  offset 337
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 171
+d60c59e8dc0cf8038bfaa7c4187959cb  offset 338
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 172
+2b041d0471a42986f1d522eb231c23b6  offset 339
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 173
+10832b0a154fc7013e4e7bb8b78de45b  offset 340
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 174
+871898cd3f5b77bb9043972d580ba0e5  offset 342
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 175
+d93fabab7f55cf94fe6176cf4aac036c  offset 343
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 176
+4f425c50a171341babd8a8f58a1477f2  offset 344
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 177
+9a106dc8f9a4dc46b4e3c4b1b3bdc823  offset 345
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 178
+06caf94bfcb4a64cce719cd85363f47b  offset 346
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 179
+7477daee83ab0730fda395eedf008c17  offset 347
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 180
+a20051d240c08040884dbfd2efc645ba  offset 348
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 181
+aa713913f778feeb6e4fa7aef89fa8be  offset 349
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 182
+64089d38c0e90204d7880f5220f6e1c5  offset 350
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 183
+ceab039679629f512e6fac01b97ea464  offset 351
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 184
+9df7cadf11fd38ec262441fc577ef0e8  offset 352
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 185
+efd81dc7243ed2cc73558a88ec20f6d3  offset 353
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 186
+11127876103729d7fd27b673a69085f1  offset 354
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 187
+78e1fdad6cc6187e2b5bb1e932030f8e  offset 355
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 188
+9b133f2609560d29d91daa267d86dec4  offset 356
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 189
+7e5d0d72af238ebbe58ff7a8cde9fcc9  offset 357
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 190
+4465bdb044a301f5fa5d8a1853d537cf  offset 358
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 191
+8844e4e5fbf8f0053c7e6940adad9a64  offset 359
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 192
+50a33d450a9e07120ab1ab9430f32ce4  offset 360
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 193
+72919b3d9b573f58ed62d8139c288508  offset 361
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 194
+e225a3ebeb2b435af64a66e79de758e4  offset 363
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 195
+c1aae70e04d2556e59628e2194c10c0e  offset 364
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 196
+2d0f5056565303f317b8e3fed9a86b6f  offset 365
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 197
+fc646a9e95811b76ee17db1bd5f6c211  offset 366
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 198
+a914d331f220d3f4f2b21e434785623b  offset 367
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 199
+2c68f0147e2d9faef8ec58f115305f5f  offset 368
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 200
+5833a4c07c308a39f3cbf3b4a1a5c213  offset 370
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 201
+f9a91a5bcbd2a36fd839974206e6422c  offset 371
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 202
+f0e41f58c381c61437d78ba5c0489436  offset 372
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 203
+14f9dcb86d7f3de56cc8b9a16ef49555  offset 373
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 204
+3a298044a4c6b729c533a09f9997a0a5  offset 375
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 205
+af67eb6333afadb20daca3c7e8b94392  offset 378
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 206
+1d22c8dcbdf8c233d21b7165b2762d69  offset 379
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 207
+40513951de563dd535b4278877a64f08  offset 380
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 208
+872bfebf2dded9d686f81811d3f84520  offset 381
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 209
+c54638002394561084fb12c2ce43ed7e  offset 382
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 210
+6af81a282602d6b4c3f2c8118f0f062c  offset 383
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 211
+572d497737251b0842bbfe10dad22388  offset 384
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 212
+498eb9ef41d154cf85bda38be2a1ae2a  offset 385
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 213
+fca3c47d02989e33e3f0f46433f0562b  offset 386
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 214
+c77bee2209adf446eec7e35876a0130c  offset 387
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 215
+fcd9a2315bb3675de51bbc92e83607ba  offset 388
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 216
+f65dc3d3206dced09832b841630f5fe4  offset 390
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 217
+df4ac879f2a700f9b3edaf3761a46c00  offset 391
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 218
+36e1990c659bb1d48d94d38ab076b874  offset 392
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 219
+06709b09f84eb289777056875126bc51  offset 393
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 220
+eb0c9aa1bfe20f56bb9b6fa836d93541  offset 394
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 221
+bfd390b767d38adf1191c4f43bd42ae1  offset 395
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 222
+f92123b53524ab9c49bfbc23327c5c8c  offset 396
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 223
+4eeee50cff18ef08f87c630af522ae04  offset 397
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 224
+6dac682bad0dc8088f948812801fc68e  offset 398
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 225
+a272836c353d81d90ce2b631faba18f4  offset 400
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 226
+2cda76e67a6401d24640d0a04d748556  offset 402
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 227
+a6a098d2b0228a60f8aa9069888a46ea  offset 403
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 228
+643a3ae507fec504f8e1db0bdf460c33  offset 404
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 229
+f834dd09249731c2c34e738796f54ffd  offset 405
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 230
+fac4b031c23be779e50c8cf91de341e3  offset 407
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 231
+f8132fde9b2e666d242b6f378c068f4b  offset 408
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 232
+a390217070eef347b16ada6a3bb45a24  offset 410
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 233
+36e66be8e34f44ca79c03ecc7abdd812  offset 411
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 234
+27f26cf684b551d5935075c237b05fa9  offset 412
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 235
+fef26ae2f377af2dd29d5edcb2b46e15  offset 413
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 236
+fa6e7b0bf11948c6b6f67bacbe50a772  offset 414
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 237
+b969018db3fd07daf0b499e26d435177  offset 415
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 238
+dedbc10571bee8767ba11aa965bcb87d  offset 416
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 239
+d926933681039bbc739ce2618c19f0bb  offset 417
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 240
+ac9e4d91c79c184e487c571e91ba4ade  offset 418
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 241
+f78bb1c544304dfed9caa5b57332e66b  offset 419
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 242
+0fdceba7ed8dcc7a082d018948a1f935  offset 421
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 243
+a5ad3743d6f3e0d9c95b2fdb304e17b9  offset 422
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 244
+775aac02a77ce2f0bca9c4bbdf94be09  offset 423
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 245
+d24f974e948533456342c0e8cccc81b3  offset 424
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 246
+2be7cc3d5a97837df5bb24142e6f6bdb  offset 425
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 247
+6fc81661e3013d52e4e1ca55604780c1  offset 426
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 248
+2e671c1b6700a2ff7f0306efad83f13f  offset 427
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 249
+ee0d8d2666005179e66c98ae7d14149d  offset 428
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 250
+b6570928d8521f2554e44593be86d1f8  offset 430
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 251
+f0ca34a1698e8708e68f526582d9b068  offset 434
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 252
+b10c6d64cafde7d416a3b93c818ccec2  offset 435
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 253
+b82e95ada2bf412d1ea2a886fbb0ebd4  offset 436
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 254
+2b396b9fe22864130e6e8580f785a246  offset 437
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 255
+b1ffc6dfedcf60b4baa323f57bf3caeb  offset 438
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 256
+32ce7878a23bf9cc6cf788b59d9aa29c  offset 439
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 257
+71df44a37a5ce273c9034f66a41173b5  offset 440
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 258
+9cbe2184ae41be015d87722c47187128  offset 441
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 259
+7ae45be288f845a2151f3a53de12ce1e  offset 457
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 260
+a307248e8d65a675f98eefe829a1e8ac  offset 467
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 261
+919a21b2e6ff665df3a8c8bac12e6d2c  offset 468
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 262
+e3db755f7c998d1c5daee55fb21ce75c  offset 469
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 263
+fc903472a4c98301f87c260430e18468  offset 472
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 264
+92aa6c053baf2e3331b6bdcce3420b9e  offset 473
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 265
+9e6b15443d5e9c54fd0c7ea568b8c827  offset 474
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 266
+6cc8918fa36569aa9358470cc822b678  offset 475
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 267
+56b7c9ff898b6e37b64135cccaf88e27  offset 476
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 268
+62e7deccbc4e67f9a4941d9b1888ee4f  offset 477
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 269
+4e9827e4e31a44fa17a8f638d181ec50  offset 479
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 270
+9d987c738cfd009d9a31b95189851eb5  offset 481
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 271
+26430665a45619a00617e09d447de703  offset 483
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 272
+9b3f4b98c73f982807b44339c4e87694  offset 484
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 273
+e8e428df66d6416868c5938c1999b2fc  offset 485
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 274
+e18804bcbaaac2719a7f1bcc01440a7a  offset 486
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 275
+0c2317323c459e46c47d0deb0462aed8  offset 487
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 276
+fbbb4f4298de89c9b1362388c96b4d37  offset 488
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 277
+31b70a60732f3d15a31cf2ed8c841de7  offset 489
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 278
+e96313d64901585695cb53b788b46bb7  offset 492
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 279
+0424a9a5d626ef013679a80b3b529b25  offset 493
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 280
+86e695e989d0b141f8f7e519dc1287cc  offset 501
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 281
+a60de9539ac4775f1d4667d11250f755  offset 502
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 282
+8a6f9d652dc27900075fb45dfb56f713  offset 503
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 283
+f1838672973a585aaae6ceff22c6119f  offset 507
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 284
+cc0661a80f5477fd4e22ac5a7e73c9e8  offset 508
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 285
+57cac22328965e2ce33dba725adb50f9  offset 509
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 286
+b9559618a0b4a1edf7ad63d16bddece9  offset 512
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 287
+817a8b72bec1774e9a122623735e3193  offset 521
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 288
+49f39d362a90e33eab7f5e27d54cb3f0  offset 525
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 289
+66380dfb7868ebab2fd319e4c9932778  offset 527
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 290
+f5d53478e710313ef4a550299d23b09d  offset 528
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 291
+6d87acff49459d193afa999b6ca1a76b  offset 530
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 292
+078e4c447f492883cf65943286f540d9  offset 531
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 293
+263a5f816efb34578c39b31715f6634c  offset 533
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 294
+2390032c05e4381ee1d5fcd46fabe328  offset 534
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 295
+4282f35f4ed8a885bfd698347bb8215f  offset 535
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 296
+18a2629e4206d120e32ca662ccc36e32  offset 536
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 297
+8774408cad903b77206a89c983a07acd  offset 537
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 298
+9b954a120e7c1069a0ad723576316258  offset 538
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 299
+c892160f01aa48e23c92ac2645b5dbea  offset 539
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 300
+88ab904d6ba2b8f1734bd4b5876b69af  offset 547
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 301
+4bfe2f412af8b5ecf55b92bce77e0890  offset 548
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 302
+1df93dac71d41ad20939c229d4fef015  offset 549
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 303
+afccc57c5bde2077e312323fd8190d3c  offset 550
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 304
+e26c5949fcf4c770fe7b97434208a610  offset 553
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 305
+94f4ae7c4396f6e5ee82f3931464ed34  offset 554
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 306
+649243babd0f412575eec955804b327c  offset 555
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 307
+5e36402e8bf7e81b575f63c43275d4e3  offset 556
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 308
+a9e6e9b76eb7a324361eaa6dc2a5d85e  offset 557
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 309
+0f13842578f466f3382c87e5581e3a22  offset 558
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 310
+b7dcaaa92e7b970e1cc84d25b24c896c  offset 559
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 311
+23a62eff0562e8dbc00b9cb7442f95a8  offset 560
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 312
+14b4d089b216c12b0c2d2c9358cb228c  offset 562
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 313
+07bf7e00731c26f01e852fcaf18e59d7  offset 563
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 314
+f830cc0e11af359e6a584c300093ab24  offset 564
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 315
+6b7a0c5fd83d6b6c3ac59faa7efcdc66  offset 565
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 316
+f9952d1594f6284f9edf6c3db84a2a5c  offset 566
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 317
+f79d301895a319c6fd67e1c0067d228a  offset 567
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 318
+af7650e5a7df3d9eea4c66e9220f1dce  offset 568
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 319
+50036510912fdcfde1c31fd8a97ea5db  offset 569
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 320
+7110070fa2994068ea799cb5fe5adf30  offset 570
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 321
+f38755eb96b2dbd3182c45c024dd9d46  offset 571
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 322
+9adf5b2cd772ea9396c743d8bab832ba  offset 573
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 323
+6eb1a23da581bcfd4123baa668ac73ad  offset 574
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 324
+d6ade6c6ec8e404646aeb75d8584a8e2  offset 575
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 325
+2dc8e8dd17f0c49fdcd51de25dc0b983  offset 576
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 326
+8b251ad4dc5c3f170984f70b002c06be  offset 577
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 327
+43734fe51f0b4b121b4ad32ca9c6fe7f  offset 578
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 328
+b803b993d6cd65467f78d155beec87f0  offset 579
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 329
+a0ed12f9a86428441801475021f547fb  offset 580
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 330
+2acba7042501ad85d9a37279fbc0fbb7  offset 582
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 331
+62155d379df05ebf509c0f223014e9bf  offset 583
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 332
+1316bb4e2ce48f67beef4e7ed7efdd97  offset 584
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 333
+5cff43665789d2c28cf72e19547dd982  offset 585
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 334
+6cc01432304d3bfeb64890114de9cfb6  offset 586
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 335
+8bd56853570e3c174444afc70ba1d535  offset 587
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 336
+244e54d50dac508c3fefc99a703a3873  offset 588
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 337
+6a554522a4e5b7d38ee439fc6f6079df  offset 589
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 338
+9c13136ec6da9200a78576824cd0cd46  offset 590
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 339
+e607b69fa916b3417f692b4f1c7e26f8  offset 591
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 340
+0312837fd65d45f767ddd64143d17412  offset 592
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 341
+217dec70dfcf43d7bbce8dd4f62c0939  offset 593
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 342
+e99fdbfa14d027b753279c18b2acfd34  offset 594
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 343
+02dc53cc725141f3d497c0828a1a5b0a  offset 595
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 344
+9646e1f2fa3fd75e2b5e89d30380897e  offset 597
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 345
+4325e7ab06432b4ace2dd5c358affe61  offset 598
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 346
+063fc1aaf2047dd076391924b5875b15  offset 600
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 347
+84196e073bdac1d9ef2d7dc4b41fd484  offset 601
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 348
+b9da32478a8ac75cbcff587e806a6997  offset 602
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 349
+7c334d503d723fb46780251bc864d337  offset 604
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 350
+509b4dd57929c4374a7e94df9807589a  offset 605
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 351
+156b74e64b46466ec18523f6ec2e326b  offset 607
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 352
+f354d8b86de24bae9b4ae820d649947d  offset 608
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 353
+0760fa487390c9f339408b1404cc5716  offset 610
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 354
+32cf6c89eb73e04b6b52763c3bbf9b21  offset 611
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 355
+278c6d62a7470cf18de27d63c3d339ac  offset 613
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 356
+83f40782e02009febfbc11015ca7dfec  offset 614
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 357
+9b334ca488f7617789c838c31a56bf68  offset 616
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 358
+006b7a936ed90eea8320b519aa80d6de  offset 617
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 359
+cd275a5bd609ebd1959fdbd8927a4182  offset 618
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 360
+c0ce3c28cef378fa4a302b679fbfda30  offset 619
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 361
+82cdc24575b451e0dedee6c74d8a9db0  offset 620
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 362
+896073847d74c33ce0a4512242198517  offset 621
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 363
+8bdffd763de919b3381cee7182d4bbd8  offset 622
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 364
+81a11965ad919b508bf356c4474bbd24  offset 623
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 365
+b619cb03a28b00553474ed3fc61f7c3d  offset 625
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 366
+f17606fa4d9a4563f833d7499b912127  offset 626
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 367
+fa5fce4a88bd2986032295d3649f59b5  offset 627
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 368
+2f2032d1260998109c18b55ee0afb16c  offset 628
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 369
+5e660b7e266e21fff6dc98af79e75ab5  offset 629
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 370
+39d3a87b11910d664833b852c75468d2  offset 630
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 371
+36148363bdb6c7fff5ff1babe9d78001  offset 631
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 372
+63f64779408a85935eaf1cdf7a144c1a  offset 632
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 373
+86e64d3a160ce1770dc11c0d7061759a  offset 634
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 374
+7aa127dcfe37ff8cbbcf1758b3f4f7db  offset 636
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 375
+2e6b2a80deddb49b240e36cb4213a357  offset 637
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 376
+426be78ea2a9bf1b804680b3c667f579  offset 640
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 377
+4f3b8315acb96ade91a55ca083efcf9c  offset 641
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 378
+03be120cdb0bee0a140daf91fe22c077  offset 642
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 379
+4148ffefafbe84422c0ca28f4106919b  offset 644
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 380
+8d7d59eb7944d9e7c9d5848a0a63da98  offset 645
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 381
+063c91aa078f0c5ea80f9e42e9b11c65  offset 646
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 382
+ead616fbb16a43d74ec4a9a62da6dc45  offset 647
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 383
+a8e40b396e37f63b6c2659192428a6ad  offset 648
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 384
+2be9703597fe6de20c5d74cfef2131ee  offset 649
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 385
+90f55cb8b3e836c9f06fa43b6a2ffd3b  offset 650
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 386
+54054e50e6acfc1915a9b08936a15ff3  offset 651
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 387
+1c0d2aa109aaf2f63801884261ffc85d  offset 652
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 388
+4e38e328d0b8d091de424c146cb5d584  offset 653
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 389
+af0ec37ceccbad913a1da2c8abecfb7f  offset 654
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 390
+442b6cf2886a3bb395e3dc9261c17dd6  offset 655
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 391
+bce5d31dcce73fe3ea560d2ef5c27f3f  offset 660
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 392
+33d951cb49ba12f45e7de361590a6b3f  offset 661
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 393
+c40b78a103cb9a1071b6753897796f0a  offset 663
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 394
+b6fa9dc190df2746fd042ab0c1dc40ca  offset 664
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 395
+9a552e0755854db4310c491182f39f13  offset 665
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 396
+7189ba9c0b83a6aa7c03dfa3d10bd6cf  offset 666
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 397
+36c13b52c417c48428b4c8eff0f8bbc3  offset 667
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 398
+acf55f158b97d86fdaa9b7bb0ec75836  offset 668
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 399
+cc9861e210a97bb647c58903a4588287  offset 669
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 400
+4b64723973a1de2c5266784b3b943077  offset 670
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 401
+29fd69289507920b5dfe5ad4b7400dc0  offset 671
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 402
+e1409fa748ba918a9c3f36c09f2d0b87  offset 672
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 403
+9bbed6659c6af99f884075c2021d4bd3  offset 673
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 404
+9e9b00b5e2ca80f49a805184c2aadcff  offset 674
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 405
+8686aed5f646c913a7149b37d97511ee  offset 675
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 406
+587fb611db862966f435b0319a23090e  offset 676
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 407
+37b9b894e7cc6fce2bcf36936ad817d5  offset 677
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 408
+9a65e283a7bf1d8afa1ea2a5f0e1b9d8  offset 678
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 409
+018cfaa9ce42629e4ff9efce147fc6a6  offset 679
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 410
+1776b86a20d0db7d839ba7ddf12af222  offset 680
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 411
+6d1e1e07ee2ab3b3fecdaa5991e6a7cf  offset 681
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 412
+de6bcfee6035c8e3d0013a75eec22d37  offset 682
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 413
+dd582b469eafcdafb95b5fc5b4fdeab3  offset 683
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 414
+be198aeef4b38c044b146850e3111624  offset 684
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 415
+55304483ca303dd6877f56750541c25c  offset 686
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 416
+490b94db7078075952f310dd32ac3cb2  offset 687
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 417
+e1164233477a8b49889aaf730a6dacfa  offset 688
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 418
+4f3cbb9e42a395a56ac62ac15be4de58  offset 689
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 419
+3131486a9cc3b48ff8908d529a19ccea  offset 692
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 420
+559638ea1b14fa74539ec8a9c76bd187  offset 693
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 421
+4ee92374b90d9cfa04919b8e0409e494  offset 694
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 422
+094f93ae06ed5840c2e7c0d56ab36518  offset 695
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 423
+97be8165dea9185069370a4f1382d17b  offset 696
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 424
+5b11a4d8105a772b262e82111a340ae1  offset 697
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 425
+0061f9b5eb0396a6b00f066c5130a0c0  offset 698
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 426
+abd34519047af5e9c6e1bad84ca38266  offset 699
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 427
+15159cd8aeae8b755644e7ede6522ca7  offset 700
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 428
+21d320a1a2d70085e863b0fe64953451  offset 701
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 429
+c8810c1c62d17c8e12d7b3757e15e695  offset 702
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 430
+921c94d92b92407c1ffdf5403e46d925  offset 703
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 431
+7ffd67c5ed855acc09c35e99b8816483  offset 704
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 432
+8dd1ae0fd620e0abd0160d96e146e920  offset 705
+Match Win-Vista
+Only match is Win-Vista
+Number of page matching is 433
+dcf7d4b58fc05c8042a8de57558a4deb  offset 706
+Number of page matching is 433
+f3691fac793ac15575171f7dd5ec1c4a  offset 707
+Number of page matching is 433
+3db58d675fbd8007b6349ffbae58349b  offset 708
+Number of page matching is 433
+be6b230f8e3f4bf1148ccede248c0d17  offset 709
+Number of page matching is 433
+259f09cbacaa20f30072ea1e4b975aa5  offset 710
+Number of page matching is 433
+d051e81d2963c398d922f6f4292b7a1f  offset 711
+Number of page matching is 433
+23f26decfc0490356c321ff801e17d51  offset 712
+Number of page matching is 433
+38222ba6a3c351aba0c5d44ef9161fa9  offset 713
+Number of page matching is 433
+aa56426b2834863afc53ae55a50d9f30  offset 714
+Number of page matching is 433
+e9d652be80601e9d664dfd4e2bb37ea9  offset 715
+Number of page matching is 433
+462e36a28a4d2654ae63ebd587ca28ac  offset 716
+Number of page matching is 433
+c05ed4f4bc62412de278e218870205cf  offset 717
+Number of page matching is 433
+e3d3c52a944b95089e41c59b6e7a8df9  offset 718
+Number of page matching is 433
+2c31ff8bb50cff1b411004bf5a25652d  offset 719
+Number of page matching is 433
+39e25aa2076989cdafc59517ce0aec93  offset 720
+Number of page matching is 433
+de165a9f0622d664e14fa9c9bab192dc  offset 721
+Number of page matching is 433
+4d2f73d5b8fcc5e1ed644bb89e82c9f8  offset 723
+Number of page matching is 433
+83d44e3fe6f148046dfe5397ce626773  offset 725
+Number of page matching is 433
+0240426e0ddaec99bef84281ce9b9e3a  offset 726
+Number of page matching is 433
+aa743dabba60dd1c1f0282061aadbcf0  offset 728
+Number of page matching is 433
+Os is Win-Vista, match count is 433
+match time cost is 19 milliseconds
+Total time cost is 7387 milliseconds

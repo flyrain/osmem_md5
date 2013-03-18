@@ -1,0 +1,1055 @@
+mem '/home/cs3612/qemu/mem/mem-winxp' load success! size is 536870912
+Load mem time cost is 5363 milliseconds
+potential pdg count: 15
+difference is 238 milliseconds
+Real PGD Number is 12, PGD physical address:0x7be4000
+difference is 0 milliseconds
+cr3
+kernel start at 8062f000
+cr3
+kernel start at 80632000
+cr3
+kernel start at f86c7000
+step1,all pages: 14477, cluster: 883,kdi time cost is 264 milliseconds
+CR3 cluster: 2
+start:804d0000, end:8064f2b9: len:17f2ba kernel
+preprocess 804d0000 8064f2b9 17f2ba
+dissam rate is 1ba19 0.072112
+step2: cluster: 16
+891ba8b9ea8fa4f2f7c0b0fd25838e93 804d1000 1
+4671a169a38c52888339248652470015 804d2000 2
+534b1b3e6c9cd791ea84baaf2fca06ab 804d3000 3
+145f5447763257ea5be07d79bc393e1b 804d4000 4
+d5f577a0f6edcd7adfa1900d8612b000 804d8000 8
+7e1e21b51053a91b06272cfc409b50ad 804d9000 9
+d16ff4f66a150ed855255c2e875e4c29 804da000 10
+a9f0aa644b3ea2f62f6d03d84a1f13d6 804dc000 12
+3d8129a0ffbea2c72d5fd25e2f380aa6 804dd000 13
+ff1e891cebe7c071ebf027ba8d87669a 804de000 14
+b0b4bf81c9dbbf9f553a6e1c94442ca3 804df000 15
+5020bd8192400c93404a7c02963dba84 804e0000 16
+1929a188001d2edef2f7fd98d3a0c184 804e1000 17
+d8d850394734aad96b99c165e7f34789 804e2000 18
+2044f8e909f9aa0850bf09664f5d7f1d 804e3000 19
+bd113964062771fbc64193d4b8a2065b 804e4000 20
+9ab4c315a6bdb6e65e0aed131afff671 804e5000 21
+e39b7a0b68d75172ec8beaaa7996fb03 804e6000 22
+1275ae19010067045672092fdfa8adf7 804e7000 23
+ffc2a802a9d61db238daf506928a046c 804e8000 24
+dc89be113c40ed5e53ac1a040d52f48f 804e9000 25
+112859ae43cf57f54b9125e99196f183 804ea000 26
+9235aa64d4726e15ce3ee61fd85098b5 804eb000 27
+e7366207405b21173010059c79977710 804ec000 28
+9bb0c0eafb028c27e97f9da986816719 804ed000 29
+0a000a4ad751768c531db51d9f9ddc75 804ee000 30
+4bad27639feb85bbe64a5cf9fe9dc6ff 804ef000 31
+16a3dd1f26b091ca4c63c14e1fee7db6 804f0000 32
+bea619706fb3f236a1e825fa49c1bdcf 804f1000 33
+08b6c73e2aeca2854b46c7664d7e3359 804f2000 34
+41aba53f16eda085e737ccf6a6ced92e 804f3000 35
+4d4fdaecc7b4a10d6badc67235e3e0fb 804f4000 36
+5176756b5e75102eb43a4dabcc4cb8e1 804f5000 37
+16e038c568307ebba0b01996cf0362d2 804f6000 38
+174b3360d528507ab193949789ee0cfc 804f7000 39
+cbd7ea0423b1e9c4a382465e8b367973 804f8000 40
+483f880ce58534a12b7e1be42a535f96 804fc000 44
+45a6bc4e9de1d4befea497e53776060d 804fe000 46
+028f719c455a84c130cef7b87e1300fd 804ff000 47
+1a49fcd4375d4fec5ec205bb78a1cf3a 80500000 48
+6648219c0344aa867ac3e7c88c74dace 80501000 49
+598a1a807c6639ec330afde5f973492d 80502000 50
+f2e4f4fd9cede6a17e071e6e6d7eb53a 80503000 51
+d354e5178878e2113c182476ce1897e0 80504000 52
+536cc856e5f53449b0fa2610b42931d1 80505000 53
+d44bf6639808e0e31ba80b4a25b81aaf 80506000 54
+6c0b5a32a2b84605611ebf2558423f24 80507000 55
+088e3ebe2af6c4cae2f225166930f4c3 8050a000 58
+c7de8d45a80bcb42a73e6684fde9f9a0 8050d000 61
+6a2699c5570af6062bf83bbf40f9a5af 8050e000 62
+647098f8c6941accb981ac5d09462d0d 8050f000 63
+7656b01edf25823f298dcb0f0ca9929c 80510000 64
+238e80ae8cbb88353a3134f4e1a03121 8051e000 78
+0d2dbc87507fe7296c5c64099c27c8b9 8051f000 79
+9a73a5678be10e991c45baf99f4f952d 80520000 80
+1250d32c1446daed02dcfc69771083ec 80521000 81
+0e275f99ac582f6093ceaae715844022 80522000 82
+f093f289888016523cf5aba471d4111f 80523000 83
+ddee977d5627019bb447ee5db9cec72d 80526000 86
+6b46cf02dcbe6cf7a43b9cc84c905b98 80527000 87
+4e8444adc615c675a3fd70d356b05462 80529000 89
+bf2acafbbaeeda08786d27118310b066 8052a000 90
+9ca58e8479c60b0263ccdc488c537b49 8052c000 92
+e612b5a3893e51bbb189619e6ea06d73 8052e000 94
+e3685b63a2d26379c0cc79078e8c8509 8052f000 95
+95038cfb7f88bdbd461603ba0ad00b29 80530000 96
+3ae660a30baddf3a32ca591510ffa45d 80535000 101
+f668b3ef80a60e8c655d1a2edaba2e3c 80536000 102
+c0c61345911f7b1c9cbd0e60b805b4e7 8054a000 122
+4888a21b560182ce9f6ee9b998e777ab 8054b000 123
+07d326a97a416c2d6877feebc54d7797 8054c000 124
+7f524f9a845d336adb2062a33e6d2918 8054d000 125
+538e852c9d8b222220988fa1221aa7f2 8054e000 126
+06cfe80b7c0d912ecc08e29c7504c0c6 8054f000 127
+da917084294bde520244a2bb4236f7cd 80550000 128
+76b52a2619c327f3913ba41c52300711 80551000 129
+623b93a2992baea34034241639cd4f30 80552000 130
+c4f0bc5674b2767a75d99201cc5c1252 80553000 131
+71f95eb233102c3188bae95416ae7ccf 80554000 132
+e4445c26ffed2406b50ded6cf1cf80d5 80555000 133
+524974a4225730560fd957a4136a211c 80556000 134
+acfce2570caacbef5ff7b2c8b2141f9a 80557000 135
+609d058bbb3d7c244afda5bb92ae8cdf 80558000 136
+044ce7ac55e681c14e1422163fe43327 80559000 137
+a80cae27dcd25cfac3b5734fcfd1d87e 8055a000 138
+f0aebbb4e472da71b91f7c024bd7b40b 8055b000 139
+7c5582210a526594a173f3d74b2c6a2e 8055c000 140
+7ff3a5823db4de66ccadbb139f37df1d 8055d000 141
+7222d62f3f7fbd0955ef6a0fb32bb6a2 8055e000 142
+f09218855915bb44aa10c0aeab8451ce 80560000 144
+cea74b4e22a3c3ef7164742efb98fb43 80561000 145
+c9c9dd8d43df2b6f24798d01a1a5f28b 80562000 146
+6ea87572e46b41f003667f084d661f5f 80563000 147
+01b54afecc55c83d89c980c96408a177 80564000 148
+7b35e7aeaeacac69522ca91da7c44e36 80565000 149
+8c6e0804684125baa6c0a70bdfc5abb3 80566000 150
+3fe9a67b11d5f65aafb2898760b05bf1 80567000 151
+1285948f2d7bd5e13ba8566152808e6e 80568000 152
+2b3cd06345adee5dc3a0f2e0df4c887a 80569000 153
+63c39fb965be27c5b8b09519b2aec5a3 8056a000 154
+815f3cfa3a34ab0a02f84cb1b5807278 8056b000 155
+294aa39dcc220ea8142c4a508d4f40f1 8056c000 156
+27a4baef95c3a14427600f9883755b90 8056d000 157
+44b12ecd52c7e72c2a1d8fc164a8e8ec 8056e000 158
+19b7e66ec3daf18eb10bcf00d2225a91 8056f000 159
+6243043546f4b57c5412b2ceee017a2b 80570000 160
+6e433f26c1c66e396af737b32eb3ab0f 80571000 161
+ca1950e4f4b78b1f8049c8b61816d5d0 80572000 162
+7ec62149043660c39758aaf39d535eff 80573000 163
+b80d0d8f6d0ca93a5837cc7a808832ee 80574000 164
+ce69d15fa5514463d118e42fb29e92d7 80575000 165
+ab3726e1296f5ab59f2037cd2c4123d1 80576000 166
+e3f7034c90aa71c93bad23ba9a1ab712 80577000 167
+a54cdb19301b9fb0f6a556158ce0be8d 80578000 168
+9a9a3120e8a524b4fc022abd2ae0df62 8057a000 170
+69ffcd70d52167b735dc52ee6c475b15 8057b000 171
+014916bc4be46e7b8706f06664f49e97 8057c000 172
+af235903f2245e07a26c71dba395ef4f 8057d000 173
+e6f00c81358cc111d59d5554bbaafee1 8057e000 174
+d086952f025b649901594f0a7cfe012e 8057f000 175
+82f0555d04ab08b8be5d9e9b172a7387 80580000 176
+dcce3b5c0eb21647b1cd055ab09f1980 80581000 177
+ab990233703282614a435d52c9ebafca 80582000 178
+913d8040b7f1ff881254524840ea4539 80583000 179
+fc4b2cffc352552c8fc5879cc62203b0 80584000 180
+3aa439404205aabd0040151f1474b3ac 80585000 181
+24562acebe672ba8abf2c1f278b963c0 80586000 182
+8f7a112c2c65a770b85485b4e3bb7794 8058a000 186
+c015ad03d930912211514a869de38bee 8058b000 187
+c0af0e8f3abbf90b595a62a0e6e4dbb0 8058c000 188
+fc633bfc97865363c7633b16067d31b7 8058e000 190
+5717c5970a990548c2c1c2a7fe6cb2fd 8058f000 191
+5116fb4e14b933a383ee6db1b332656e 80590000 192
+9019a7af6b307f6493b86bc763ac1918 80591000 193
+fa4b9ff6c54791019310967039e5ba17 80592000 194
+d416742ea5d29ccfbbb826599f683abb 80593000 195
+b52d0be173f4d69bd6da887a141ef70a 80594000 196
+d0966ff7baae209adc9374c1704467ae 80595000 197
+b6b2e9f5c69adf8c412490cdc024ec3c 80596000 198
+c7ce6836d197f5a2a16812d33b49e8cf 80597000 199
+863b1b32482260b130189d652648d2ce 80598000 200
+4d6a2afb4059f08f90979d0ff5526863 80599000 201
+523bbbb4a15b48d98d9180328fdff2fe 8059a000 202
+85f22da0812f827528c5faa2039b2ce6 8059b000 203
+3dba511ed81c70741e35f8fae286eff1 8059c000 204
+2fab7a26a738f65928317071a08f9c0a 8059d000 205
+e01eefeb9c3545c88a6b1168805762d6 8059e000 206
+fd6177d182b999a18dbcbe4d072c67c2 8059f000 207
+c9e5a279b0cefa14208bd61228e139d7 805a0000 208
+c71bfb83615ed995909551db25969640 805a1000 209
+a54c6b77e9c4d754798e4db32502ec59 805a2000 210
+76529c51eaa2c88faaa62d981e2c3c72 805a3000 211
+3817ff264faef726e4bf50c171e26211 805a4000 212
+37db380341b9a5ef8ccc4ed833acd8b6 805a5000 213
+439f518dc66b6d415c3b42d4e8dd6152 805a6000 214
+199a8f1fa0e8d2123dd7ffb561f742ff 805a7000 215
+7cbec67e803e605f91678eb73387e2d5 805a8000 216
+2ec9365ef64b0e8a1fa3321ce0020406 805a9000 217
+fd018795db09e2fcb5e190e2c2acade0 805aa000 218
+d0653db26968277207c491d51297c1e1 805ab000 219
+61879d35f680e9e4439dfbe3454d7408 805ac000 220
+a1629a6498c1183f5eaf052684e9c8e2 805ad000 221
+2f9863a4aa834aaa5ca48872d93c85cb 805ae000 222
+cbe34f762c0ce277c3965995164fde87 805af000 223
+8fd279ab04631318c3d11342caebb094 805b1000 225
+a02c677c03b96df7ce29eda4e273bbf3 805b2000 226
+6a6dd9707122e735734fa846a25248ae 805b3000 227
+8dd65d7f070393f79534342bdf28ec60 805b4000 228
+29beb9f79877dc6726452b33180d93b2 805b5000 229
+99b03f3894bbb7f67590e83344c06454 805b6000 230
+03c2e6e67bb01c0aa6ddcc33e478e6bc 805b7000 231
+5ada478b2ebc2975550cf31f624cd7b9 805bd000 237
+c31972fbd55f577eaae37b9cd074be61 805be000 238
+4fd611894c769cf842a8d8ade6e0d581 805bf000 239
+2bc583a62dd53d023df623ec0f5d9544 805c1000 241
+ddccaf2688cc6841577fd6696a48c5c3 805f2000 290
+791c6e5159c0ad71c5ef6c5ac55cd811 805f3000 291
+b3dc2c44e68ee4e1b2e1979fa479bd1d 805f4000 292
+1d46a670cbb7d19d5e26e38d48191467 805f6000 294
+8c76426ad23c1d6d3835a9091c15f8ee 805f8000 296
+c8c5249adae012b813336bb1ddd66c07 805f9000 297
+7a59233fe68b70520215d770c7a57360 805fa000 298
+49b2e27a676c3e809945ff1ca3d73df3 805fb000 299
+26d02d7f19d0407b527a2dc060f7c42d 805fc000 300
+6988f348b8fbcfa0dac3edccd8426ec9 805fd000 301
+9a1a86bf2be13f81d390a36e09c6126e 805ff000 303
+b00035b8ed44ee5bdfb1f1b4195ba635 80603000 307
+e9f76945a8f537ae11c9bfad2d1f7888 80604000 308
+1c2498179f021729ad6cad75130fa70b 80605000 309
+a0c39fc2a4e939a2b98dbc13283ac063 80606000 310
+ab293cab48e795abb4cd395829ed7049 80607000 311
+b977b631e48a2fe2d97cf746aca2cd1a 80609000 313
+aa3f9446c1b2f6361180d7959ae4334c 8060a000 314
+fbc9b4081fe85870e3e634440e1f5fe5 8060b000 315
+f043e09c301951a9920830f7ffdc1074 8060c000 316
+0ff2310a35383b7218c4a9ad47e9cc95 8060d000 317
+74ee5ecaa83dd7540bb24c5985b09d6e 8060f000 319
+53b875cbb65722f6f6d07dfab8fac02d 80610000 320
+e7ef1cee1aae071f2c6847f303cb7156 80611000 321
+3f2383a8c369d04679c786362662e00a 80612000 322
+75eab025029907df50a322a8ad60f1b7 80614000 324
+f4e44a242a2fdeecda152a9f87138e0e 80615000 325
+1b7428e94516052b741d86a3f8e97eba 80616000 326
+344f53ea4dc8e4d3b168223ddb68b66e 80617000 327
+69f572afae74beb107f63d18fb65f207 80618000 328
+f89ede96be3a9c43107607a7730164e9 80619000 329
+956c4b44aa11315a66ace4cb62356ac4 8061b000 331
+e0586219c52fe71a5a12ca5df67759da 8061d000 333
+d5ffe5a767b27fb44fd61c22d334972c 8061e000 334
+a247f6e65e9a0a446afda28b8aac18d9 8061f000 335
+58d2e2f356e692855e5181141badc3f9 80621000 337
+607048a2a6c6ae8ad08a0ede0d60a18b 80622000 338
+8e9425eb367d31dae452aec1b8367a01 80623000 339
+525d9d72c4528c8d0fa621a5898d927c 80624000 340
+66d7585f9e108d76dcee8394f223601f 80626000 342
+8d76e448074f3a08cb11ba2dabbd152b 80627000 343
+11f9e6cca0efdf4a978a788227fae283 80628000 344
+e88ffd21ecf9020aa82e134dfbfa1187 80629000 345
+392be12e4a69f481519df69d56e43cf5 8062a000 346
+373677a6ed50394522428d53b9218dd0 8062b000 347
+d3eb53a36d776ded5e799c7ed6151ee7 8062f000 351
+739e0560a051f5a6742814434a6d3aa7 80632000 354
+1dafba97d20ce60a03d61f1d4e69af33 80633000 355
+57efe7de7bf7989d929b377913a7f1b8 80636000 358
+a3e449a2e3a1603382c9de42b7e5c732 80637000 359
+1341b04afb44cac088d3b67b0686d2a0 80639000 361
+ebd3213e60b358f9a48c85ddb8b38182 8063b000 363
+cd70643198d857513bea963f90e9d1e1 8063c000 364
+806db4296456ef3baeacff552b0ad692 8064b000 379
+44635678e0274ccba454136802be0a80 8064c000 380
+710615d600efa2529a34c5b394f333f2 8064d000 381
+ee288cd7852dce40a9df77ef6926f5af 8064e000 382
+step2: time cost is 185 milliseconds
+Success pages: 232/384 disassembled bytes rate: 0.119100, page rate: 0.604167
+--------------------sig match begin--------------------------
+Signature load success! Number is 45
+891ba8b9ea8fa4f2f7c0b0fd25838e93  offset 1
+Match Winxp
+Only match is Winxp
+Number of page matching is 1
+4671a169a38c52888339248652470015  offset 2
+Match Winxp
+Only match is Winxp
+Number of page matching is 2
+534b1b3e6c9cd791ea84baaf2fca06ab  offset 3
+Match Winxp
+Only match is Winxp
+Number of page matching is 3
+145f5447763257ea5be07d79bc393e1b  offset 4
+Match Winxp
+Only match is Winxp
+Number of page matching is 4
+d5f577a0f6edcd7adfa1900d8612b000  offset 8
+Match Winxp
+Only match is Winxp
+Number of page matching is 5
+7e1e21b51053a91b06272cfc409b50ad  offset 9
+Match Winxp
+Only match is Winxp
+Number of page matching is 6
+d16ff4f66a150ed855255c2e875e4c29  offset 10
+Match Winxp
+Only match is Winxp
+Number of page matching is 7
+a9f0aa644b3ea2f62f6d03d84a1f13d6  offset 12
+Match Winxp
+Only match is Winxp
+Number of page matching is 8
+3d8129a0ffbea2c72d5fd25e2f380aa6  offset 13
+Match Winxp
+Only match is Winxp
+Number of page matching is 9
+ff1e891cebe7c071ebf027ba8d87669a  offset 14
+Match Winxp
+Only match is Winxp
+Number of page matching is 10
+b0b4bf81c9dbbf9f553a6e1c94442ca3  offset 15
+Match Winxp
+Only match is Winxp
+Number of page matching is 11
+5020bd8192400c93404a7c02963dba84  offset 16
+Match Winxp
+Only match is Winxp
+Number of page matching is 12
+1929a188001d2edef2f7fd98d3a0c184  offset 17
+Match Winxp
+Only match is Winxp
+Number of page matching is 13
+d8d850394734aad96b99c165e7f34789  offset 18
+Match Winxp
+Only match is Winxp
+Number of page matching is 14
+2044f8e909f9aa0850bf09664f5d7f1d  offset 19
+Match Winxp
+Only match is Winxp
+Number of page matching is 15
+bd113964062771fbc64193d4b8a2065b  offset 20
+Match Winxp
+Only match is Winxp
+Number of page matching is 16
+9ab4c315a6bdb6e65e0aed131afff671  offset 21
+Match Winxp
+Only match is Winxp
+Number of page matching is 17
+e39b7a0b68d75172ec8beaaa7996fb03  offset 22
+Match Winxp
+Only match is Winxp
+Number of page matching is 18
+1275ae19010067045672092fdfa8adf7  offset 23
+Match Winxp
+Only match is Winxp
+Number of page matching is 19
+ffc2a802a9d61db238daf506928a046c  offset 24
+Match Winxp
+Only match is Winxp
+Number of page matching is 20
+dc89be113c40ed5e53ac1a040d52f48f  offset 25
+Match Winxp
+Only match is Winxp
+Number of page matching is 21
+112859ae43cf57f54b9125e99196f183  offset 26
+Match Winxp
+Only match is Winxp
+Number of page matching is 22
+9235aa64d4726e15ce3ee61fd85098b5  offset 27
+Match Winxp
+Only match is Winxp
+Number of page matching is 23
+e7366207405b21173010059c79977710  offset 28
+Match Winxp
+Only match is Winxp
+Number of page matching is 24
+9bb0c0eafb028c27e97f9da986816719  offset 29
+Match Winxp
+Only match is Winxp
+Number of page matching is 25
+0a000a4ad751768c531db51d9f9ddc75  offset 30
+Match Winxp
+Only match is Winxp
+Number of page matching is 26
+4bad27639feb85bbe64a5cf9fe9dc6ff  offset 31
+Match Winxp
+Only match is Winxp
+Number of page matching is 27
+16a3dd1f26b091ca4c63c14e1fee7db6  offset 32
+Match Winxp
+Only match is Winxp
+Number of page matching is 28
+bea619706fb3f236a1e825fa49c1bdcf  offset 33
+Match Winxp
+Only match is Winxp
+Number of page matching is 29
+08b6c73e2aeca2854b46c7664d7e3359  offset 34
+Match Winxp
+Only match is Winxp
+Number of page matching is 30
+41aba53f16eda085e737ccf6a6ced92e  offset 35
+Match Winxp
+Only match is Winxp
+Number of page matching is 31
+4d4fdaecc7b4a10d6badc67235e3e0fb  offset 36
+Match Winxp
+Only match is Winxp
+Number of page matching is 32
+5176756b5e75102eb43a4dabcc4cb8e1  offset 37
+Match Winxp
+Only match is Winxp
+Number of page matching is 33
+16e038c568307ebba0b01996cf0362d2  offset 38
+Match Winxp
+Only match is Winxp
+Number of page matching is 34
+174b3360d528507ab193949789ee0cfc  offset 39
+Match Winxp
+Only match is Winxp
+Number of page matching is 35
+cbd7ea0423b1e9c4a382465e8b367973  offset 40
+Match Winxp
+Only match is Winxp
+Number of page matching is 36
+483f880ce58534a12b7e1be42a535f96  offset 44
+Match Winxp
+Only match is Winxp
+Number of page matching is 37
+45a6bc4e9de1d4befea497e53776060d  offset 46
+Match Winxp
+Only match is Winxp
+Number of page matching is 38
+028f719c455a84c130cef7b87e1300fd  offset 47
+Match Winxp
+Only match is Winxp
+Number of page matching is 39
+1a49fcd4375d4fec5ec205bb78a1cf3a  offset 48
+Match Winxp
+Only match is Winxp
+Number of page matching is 40
+6648219c0344aa867ac3e7c88c74dace  offset 49
+Match Winxp
+Only match is Winxp
+Number of page matching is 41
+598a1a807c6639ec330afde5f973492d  offset 50
+Match Winxp
+Only match is Winxp
+Number of page matching is 42
+f2e4f4fd9cede6a17e071e6e6d7eb53a  offset 51
+Match Winxp
+Only match is Winxp
+Number of page matching is 43
+d354e5178878e2113c182476ce1897e0  offset 52
+Match Winxp
+Only match is Winxp
+Number of page matching is 44
+536cc856e5f53449b0fa2610b42931d1  offset 53
+Match Winxp
+Only match is Winxp
+Number of page matching is 45
+d44bf6639808e0e31ba80b4a25b81aaf  offset 54
+Match Winxp
+Only match is Winxp
+Number of page matching is 46
+6c0b5a32a2b84605611ebf2558423f24  offset 55
+Match Winxp
+Only match is Winxp
+Number of page matching is 47
+088e3ebe2af6c4cae2f225166930f4c3  offset 58
+Match Winxp
+Only match is Winxp
+Number of page matching is 48
+c7de8d45a80bcb42a73e6684fde9f9a0  offset 61
+Match Winxp
+Only match is Winxp
+Number of page matching is 49
+6a2699c5570af6062bf83bbf40f9a5af  offset 62
+Match Winxp
+Only match is Winxp
+Number of page matching is 50
+647098f8c6941accb981ac5d09462d0d  offset 63
+Match Winxp
+Only match is Winxp
+Number of page matching is 51
+7656b01edf25823f298dcb0f0ca9929c  offset 64
+Match Winxp
+Only match is Winxp
+Number of page matching is 52
+238e80ae8cbb88353a3134f4e1a03121  offset 78
+Match Winxp
+Only match is Winxp
+Number of page matching is 53
+0d2dbc87507fe7296c5c64099c27c8b9  offset 79
+Match Winxp
+Only match is Winxp
+Number of page matching is 54
+9a73a5678be10e991c45baf99f4f952d  offset 80
+Match Winxp
+Only match is Winxp
+Number of page matching is 55
+1250d32c1446daed02dcfc69771083ec  offset 81
+Match Winxp
+Only match is Winxp
+Number of page matching is 56
+0e275f99ac582f6093ceaae715844022  offset 82
+Match Winxp
+Only match is Winxp
+Number of page matching is 57
+f093f289888016523cf5aba471d4111f  offset 83
+Match Winxp
+Only match is Winxp
+Number of page matching is 58
+ddee977d5627019bb447ee5db9cec72d  offset 86
+Match Winxp
+Only match is Winxp
+Number of page matching is 59
+6b46cf02dcbe6cf7a43b9cc84c905b98  offset 87
+Match Winxp
+Only match is Winxp
+Number of page matching is 60
+4e8444adc615c675a3fd70d356b05462  offset 89
+Match Winxp
+Only match is Winxp
+Number of page matching is 61
+bf2acafbbaeeda08786d27118310b066  offset 90
+Match Winxp
+Only match is Winxp
+Number of page matching is 62
+9ca58e8479c60b0263ccdc488c537b49  offset 92
+Match Winxp
+Only match is Winxp
+Number of page matching is 63
+e612b5a3893e51bbb189619e6ea06d73  offset 94
+Match Winxp
+Only match is Winxp
+Number of page matching is 64
+e3685b63a2d26379c0cc79078e8c8509  offset 95
+Match Winxp
+Only match is Winxp
+Number of page matching is 65
+95038cfb7f88bdbd461603ba0ad00b29  offset 96
+Match Winxp
+Only match is Winxp
+Number of page matching is 66
+3ae660a30baddf3a32ca591510ffa45d  offset 101
+Match Winxp
+Only match is Winxp
+Number of page matching is 67
+f668b3ef80a60e8c655d1a2edaba2e3c  offset 102
+Match Winxp
+Only match is Winxp
+Number of page matching is 68
+c0c61345911f7b1c9cbd0e60b805b4e7  offset 122
+Match Winxp
+Only match is Winxp
+Number of page matching is 69
+4888a21b560182ce9f6ee9b998e777ab  offset 123
+Match Winxp
+Only match is Winxp
+Number of page matching is 70
+07d326a97a416c2d6877feebc54d7797  offset 124
+Match Winxp
+Only match is Winxp
+Number of page matching is 71
+7f524f9a845d336adb2062a33e6d2918  offset 125
+Match Winxp
+Only match is Winxp
+Number of page matching is 72
+538e852c9d8b222220988fa1221aa7f2  offset 126
+Match Winxp
+Only match is Winxp
+Number of page matching is 73
+06cfe80b7c0d912ecc08e29c7504c0c6  offset 127
+Match Winxp
+Only match is Winxp
+Number of page matching is 74
+da917084294bde520244a2bb4236f7cd  offset 128
+Match Winxp
+Only match is Winxp
+Number of page matching is 75
+76b52a2619c327f3913ba41c52300711  offset 129
+Match Winxp
+Only match is Winxp
+Number of page matching is 76
+623b93a2992baea34034241639cd4f30  offset 130
+Match Winxp
+Only match is Winxp
+Number of page matching is 77
+c4f0bc5674b2767a75d99201cc5c1252  offset 131
+Match Winxp
+Only match is Winxp
+Number of page matching is 78
+71f95eb233102c3188bae95416ae7ccf  offset 132
+Match Winxp
+Only match is Winxp
+Number of page matching is 79
+e4445c26ffed2406b50ded6cf1cf80d5  offset 133
+Match Winxp
+Only match is Winxp
+Number of page matching is 80
+524974a4225730560fd957a4136a211c  offset 134
+Match Winxp
+Only match is Winxp
+Number of page matching is 81
+acfce2570caacbef5ff7b2c8b2141f9a  offset 135
+Match Winxp
+Only match is Winxp
+Number of page matching is 82
+609d058bbb3d7c244afda5bb92ae8cdf  offset 136
+Match Winxp
+Only match is Winxp
+Number of page matching is 83
+044ce7ac55e681c14e1422163fe43327  offset 137
+Match Winxp
+Only match is Winxp
+Number of page matching is 84
+a80cae27dcd25cfac3b5734fcfd1d87e  offset 138
+Match Winxp
+Only match is Winxp
+Number of page matching is 85
+f0aebbb4e472da71b91f7c024bd7b40b  offset 139
+Match Winxp
+Only match is Winxp
+Number of page matching is 86
+7c5582210a526594a173f3d74b2c6a2e  offset 140
+Match Winxp
+Only match is Winxp
+Number of page matching is 87
+7ff3a5823db4de66ccadbb139f37df1d  offset 141
+Match Winxp
+Only match is Winxp
+Number of page matching is 88
+7222d62f3f7fbd0955ef6a0fb32bb6a2  offset 142
+Match Winxp
+Only match is Winxp
+Number of page matching is 89
+f09218855915bb44aa10c0aeab8451ce  offset 144
+Match Winxp
+Only match is Winxp
+Number of page matching is 90
+cea74b4e22a3c3ef7164742efb98fb43  offset 145
+Match Winxp
+Only match is Winxp
+Number of page matching is 91
+c9c9dd8d43df2b6f24798d01a1a5f28b  offset 146
+Match Winxp
+Only match is Winxp
+Number of page matching is 92
+6ea87572e46b41f003667f084d661f5f  offset 147
+Match Winxp
+Only match is Winxp
+Number of page matching is 93
+01b54afecc55c83d89c980c96408a177  offset 148
+Match Winxp
+Only match is Winxp
+Number of page matching is 94
+7b35e7aeaeacac69522ca91da7c44e36  offset 149
+Match Winxp
+Only match is Winxp
+Number of page matching is 95
+8c6e0804684125baa6c0a70bdfc5abb3  offset 150
+Match Winxp
+Only match is Winxp
+Number of page matching is 96
+3fe9a67b11d5f65aafb2898760b05bf1  offset 151
+Match Winxp
+Only match is Winxp
+Number of page matching is 97
+1285948f2d7bd5e13ba8566152808e6e  offset 152
+Match Winxp
+Only match is Winxp
+Number of page matching is 98
+2b3cd06345adee5dc3a0f2e0df4c887a  offset 153
+Match Winxp
+Only match is Winxp
+Number of page matching is 99
+63c39fb965be27c5b8b09519b2aec5a3  offset 154
+Match Winxp
+Only match is Winxp
+Number of page matching is 100
+815f3cfa3a34ab0a02f84cb1b5807278  offset 155
+Match Winxp
+Only match is Winxp
+Number of page matching is 101
+294aa39dcc220ea8142c4a508d4f40f1  offset 156
+Match Winxp
+Only match is Winxp
+Number of page matching is 102
+27a4baef95c3a14427600f9883755b90  offset 157
+Match Winxp
+Only match is Winxp
+Number of page matching is 103
+44b12ecd52c7e72c2a1d8fc164a8e8ec  offset 158
+Match Winxp
+Only match is Winxp
+Number of page matching is 104
+19b7e66ec3daf18eb10bcf00d2225a91  offset 159
+Match Winxp
+Only match is Winxp
+Number of page matching is 105
+6243043546f4b57c5412b2ceee017a2b  offset 160
+Match Winxp
+Only match is Winxp
+Number of page matching is 106
+6e433f26c1c66e396af737b32eb3ab0f  offset 161
+Match Winxp
+Only match is Winxp
+Number of page matching is 107
+ca1950e4f4b78b1f8049c8b61816d5d0  offset 162
+Match Winxp
+Only match is Winxp
+Number of page matching is 108
+7ec62149043660c39758aaf39d535eff  offset 163
+Match Winxp
+Only match is Winxp
+Number of page matching is 109
+b80d0d8f6d0ca93a5837cc7a808832ee  offset 164
+Match Winxp
+Only match is Winxp
+Number of page matching is 110
+ce69d15fa5514463d118e42fb29e92d7  offset 165
+Match Winxp
+Only match is Winxp
+Number of page matching is 111
+ab3726e1296f5ab59f2037cd2c4123d1  offset 166
+Match Winxp
+Only match is Winxp
+Number of page matching is 112
+e3f7034c90aa71c93bad23ba9a1ab712  offset 167
+Match Winxp
+Only match is Winxp
+Number of page matching is 113
+a54cdb19301b9fb0f6a556158ce0be8d  offset 168
+Match Winxp
+Only match is Winxp
+Number of page matching is 114
+9a9a3120e8a524b4fc022abd2ae0df62  offset 170
+Match Winxp
+Only match is Winxp
+Number of page matching is 115
+69ffcd70d52167b735dc52ee6c475b15  offset 171
+Match Winxp
+Only match is Winxp
+Number of page matching is 116
+014916bc4be46e7b8706f06664f49e97  offset 172
+Match Winxp
+Only match is Winxp
+Number of page matching is 117
+af235903f2245e07a26c71dba395ef4f  offset 173
+Match Winxp
+Only match is Winxp
+Number of page matching is 118
+e6f00c81358cc111d59d5554bbaafee1  offset 174
+Match Winxp
+Only match is Winxp
+Number of page matching is 119
+d086952f025b649901594f0a7cfe012e  offset 175
+Match Winxp
+Only match is Winxp
+Number of page matching is 120
+82f0555d04ab08b8be5d9e9b172a7387  offset 176
+Match Winxp
+Only match is Winxp
+Number of page matching is 121
+dcce3b5c0eb21647b1cd055ab09f1980  offset 177
+Match Winxp
+Only match is Winxp
+Number of page matching is 122
+ab990233703282614a435d52c9ebafca  offset 178
+Match Winxp
+Only match is Winxp
+Number of page matching is 123
+913d8040b7f1ff881254524840ea4539  offset 179
+Match Winxp
+Only match is Winxp
+Number of page matching is 124
+fc4b2cffc352552c8fc5879cc62203b0  offset 180
+Match Winxp
+Only match is Winxp
+Number of page matching is 125
+3aa439404205aabd0040151f1474b3ac  offset 181
+Match Winxp
+Only match is Winxp
+Number of page matching is 126
+24562acebe672ba8abf2c1f278b963c0  offset 182
+Match Winxp
+Only match is Winxp
+Number of page matching is 127
+8f7a112c2c65a770b85485b4e3bb7794  offset 186
+Match Winxp
+Only match is Winxp
+Number of page matching is 128
+c015ad03d930912211514a869de38bee  offset 187
+Match Winxp
+Only match is Winxp
+Number of page matching is 129
+c0af0e8f3abbf90b595a62a0e6e4dbb0  offset 188
+Match Winxp
+Only match is Winxp
+Number of page matching is 130
+fc633bfc97865363c7633b16067d31b7  offset 190
+Match Winxp
+Only match is Winxp
+Number of page matching is 131
+5717c5970a990548c2c1c2a7fe6cb2fd  offset 191
+Match Winxp
+Only match is Winxp
+Number of page matching is 132
+5116fb4e14b933a383ee6db1b332656e  offset 192
+Match Winxp
+Only match is Winxp
+Number of page matching is 133
+9019a7af6b307f6493b86bc763ac1918  offset 193
+Match Winxp
+Only match is Winxp
+Number of page matching is 134
+fa4b9ff6c54791019310967039e5ba17  offset 194
+Match Winxp
+Only match is Winxp
+Number of page matching is 135
+d416742ea5d29ccfbbb826599f683abb  offset 195
+Match Winxp
+Only match is Winxp
+Number of page matching is 136
+b52d0be173f4d69bd6da887a141ef70a  offset 196
+Match Winxp
+Only match is Winxp
+Number of page matching is 137
+d0966ff7baae209adc9374c1704467ae  offset 197
+Match Winxp
+Only match is Winxp
+Number of page matching is 138
+b6b2e9f5c69adf8c412490cdc024ec3c  offset 198
+Match Winxp
+Only match is Winxp
+Number of page matching is 139
+c7ce6836d197f5a2a16812d33b49e8cf  offset 199
+Match Winxp
+Only match is Winxp
+Number of page matching is 140
+863b1b32482260b130189d652648d2ce  offset 200
+Match Winxp
+Only match is Winxp
+Number of page matching is 141
+4d6a2afb4059f08f90979d0ff5526863  offset 201
+Match Winxp
+Only match is Winxp
+Number of page matching is 142
+523bbbb4a15b48d98d9180328fdff2fe  offset 202
+Match Winxp
+Only match is Winxp
+Number of page matching is 143
+85f22da0812f827528c5faa2039b2ce6  offset 203
+Match Winxp
+Only match is Winxp
+Number of page matching is 144
+3dba511ed81c70741e35f8fae286eff1  offset 204
+Match Winxp
+Only match is Winxp
+Number of page matching is 145
+2fab7a26a738f65928317071a08f9c0a  offset 205
+Match Winxp
+Only match is Winxp
+Number of page matching is 146
+e01eefeb9c3545c88a6b1168805762d6  offset 206
+Match Winxp
+Only match is Winxp
+Number of page matching is 147
+fd6177d182b999a18dbcbe4d072c67c2  offset 207
+Match Winxp
+Only match is Winxp
+Number of page matching is 148
+c9e5a279b0cefa14208bd61228e139d7  offset 208
+Match Winxp
+Only match is Winxp
+Number of page matching is 149
+c71bfb83615ed995909551db25969640  offset 209
+Match Winxp
+Only match is Winxp
+Number of page matching is 150
+a54c6b77e9c4d754798e4db32502ec59  offset 210
+Match Winxp
+Only match is Winxp
+Number of page matching is 151
+76529c51eaa2c88faaa62d981e2c3c72  offset 211
+Match Winxp
+Only match is Winxp
+Number of page matching is 152
+3817ff264faef726e4bf50c171e26211  offset 212
+Match Winxp
+Only match is Winxp
+Number of page matching is 153
+37db380341b9a5ef8ccc4ed833acd8b6  offset 213
+Match Winxp
+Only match is Winxp
+Number of page matching is 154
+439f518dc66b6d415c3b42d4e8dd6152  offset 214
+Match Winxp
+Only match is Winxp
+Number of page matching is 155
+199a8f1fa0e8d2123dd7ffb561f742ff  offset 215
+Match Winxp
+Only match is Winxp
+Number of page matching is 156
+7cbec67e803e605f91678eb73387e2d5  offset 216
+Match Winxp
+Only match is Winxp
+Number of page matching is 157
+2ec9365ef64b0e8a1fa3321ce0020406  offset 217
+Match Winxp
+Only match is Winxp
+Number of page matching is 158
+fd018795db09e2fcb5e190e2c2acade0  offset 218
+Match Winxp
+Only match is Winxp
+Number of page matching is 159
+d0653db26968277207c491d51297c1e1  offset 219
+Match Winxp
+Only match is Winxp
+Number of page matching is 160
+61879d35f680e9e4439dfbe3454d7408  offset 220
+Match Winxp
+Only match is Winxp
+Number of page matching is 161
+a1629a6498c1183f5eaf052684e9c8e2  offset 221
+Match Winxp
+Only match is Winxp
+Number of page matching is 162
+2f9863a4aa834aaa5ca48872d93c85cb  offset 222
+Match Winxp
+Only match is Winxp
+Number of page matching is 163
+cbe34f762c0ce277c3965995164fde87  offset 223
+Match Winxp
+Only match is Winxp
+Number of page matching is 164
+8fd279ab04631318c3d11342caebb094  offset 225
+Match Winxp
+Only match is Winxp
+Number of page matching is 165
+a02c677c03b96df7ce29eda4e273bbf3  offset 226
+Match Winxp
+Only match is Winxp
+Number of page matching is 166
+6a6dd9707122e735734fa846a25248ae  offset 227
+Match Winxp
+Only match is Winxp
+Number of page matching is 167
+8dd65d7f070393f79534342bdf28ec60  offset 228
+Number of page matching is 167
+29beb9f79877dc6726452b33180d93b2  offset 229
+Number of page matching is 167
+99b03f3894bbb7f67590e83344c06454  offset 230
+Number of page matching is 167
+03c2e6e67bb01c0aa6ddcc33e478e6bc  offset 231
+Number of page matching is 167
+5ada478b2ebc2975550cf31f624cd7b9  offset 237
+Number of page matching is 167
+c31972fbd55f577eaae37b9cd074be61  offset 238
+Number of page matching is 167
+4fd611894c769cf842a8d8ade6e0d581  offset 239
+Number of page matching is 167
+2bc583a62dd53d023df623ec0f5d9544  offset 241
+Number of page matching is 167
+ddccaf2688cc6841577fd6696a48c5c3  offset 290
+Number of page matching is 167
+791c6e5159c0ad71c5ef6c5ac55cd811  offset 291
+Number of page matching is 167
+b3dc2c44e68ee4e1b2e1979fa479bd1d  offset 292
+Number of page matching is 167
+1d46a670cbb7d19d5e26e38d48191467  offset 294
+Number of page matching is 167
+8c76426ad23c1d6d3835a9091c15f8ee  offset 296
+Number of page matching is 167
+c8c5249adae012b813336bb1ddd66c07  offset 297
+Number of page matching is 167
+7a59233fe68b70520215d770c7a57360  offset 298
+Number of page matching is 167
+49b2e27a676c3e809945ff1ca3d73df3  offset 299
+Number of page matching is 167
+26d02d7f19d0407b527a2dc060f7c42d  offset 300
+Number of page matching is 167
+6988f348b8fbcfa0dac3edccd8426ec9  offset 301
+Number of page matching is 167
+9a1a86bf2be13f81d390a36e09c6126e  offset 303
+Number of page matching is 167
+b00035b8ed44ee5bdfb1f1b4195ba635  offset 307
+Number of page matching is 167
+e9f76945a8f537ae11c9bfad2d1f7888  offset 308
+Number of page matching is 167
+1c2498179f021729ad6cad75130fa70b  offset 309
+Number of page matching is 167
+a0c39fc2a4e939a2b98dbc13283ac063  offset 310
+Number of page matching is 167
+ab293cab48e795abb4cd395829ed7049  offset 311
+Number of page matching is 167
+b977b631e48a2fe2d97cf746aca2cd1a  offset 313
+Number of page matching is 167
+aa3f9446c1b2f6361180d7959ae4334c  offset 314
+Number of page matching is 167
+fbc9b4081fe85870e3e634440e1f5fe5  offset 315
+Number of page matching is 167
+f043e09c301951a9920830f7ffdc1074  offset 316
+Number of page matching is 167
+0ff2310a35383b7218c4a9ad47e9cc95  offset 317
+Number of page matching is 167
+74ee5ecaa83dd7540bb24c5985b09d6e  offset 319
+Number of page matching is 167
+53b875cbb65722f6f6d07dfab8fac02d  offset 320
+Number of page matching is 167
+e7ef1cee1aae071f2c6847f303cb7156  offset 321
+Number of page matching is 167
+3f2383a8c369d04679c786362662e00a  offset 322
+Number of page matching is 167
+75eab025029907df50a322a8ad60f1b7  offset 324
+Number of page matching is 167
+f4e44a242a2fdeecda152a9f87138e0e  offset 325
+Number of page matching is 167
+1b7428e94516052b741d86a3f8e97eba  offset 326
+Number of page matching is 167
+344f53ea4dc8e4d3b168223ddb68b66e  offset 327
+Number of page matching is 167
+69f572afae74beb107f63d18fb65f207  offset 328
+Number of page matching is 167
+f89ede96be3a9c43107607a7730164e9  offset 329
+Number of page matching is 167
+956c4b44aa11315a66ace4cb62356ac4  offset 331
+Number of page matching is 167
+e0586219c52fe71a5a12ca5df67759da  offset 333
+Number of page matching is 167
+d5ffe5a767b27fb44fd61c22d334972c  offset 334
+Number of page matching is 167
+a247f6e65e9a0a446afda28b8aac18d9  offset 335
+Number of page matching is 167
+58d2e2f356e692855e5181141badc3f9  offset 337
+Number of page matching is 167
+607048a2a6c6ae8ad08a0ede0d60a18b  offset 338
+Number of page matching is 167
+8e9425eb367d31dae452aec1b8367a01  offset 339
+Number of page matching is 167
+525d9d72c4528c8d0fa621a5898d927c  offset 340
+Number of page matching is 167
+66d7585f9e108d76dcee8394f223601f  offset 342
+Number of page matching is 167
+8d76e448074f3a08cb11ba2dabbd152b  offset 343
+Number of page matching is 167
+11f9e6cca0efdf4a978a788227fae283  offset 344
+Number of page matching is 167
+e88ffd21ecf9020aa82e134dfbfa1187  offset 345
+Number of page matching is 167
+392be12e4a69f481519df69d56e43cf5  offset 346
+Number of page matching is 167
+373677a6ed50394522428d53b9218dd0  offset 347
+Number of page matching is 167
+d3eb53a36d776ded5e799c7ed6151ee7  offset 351
+Number of page matching is 167
+739e0560a051f5a6742814434a6d3aa7  offset 354
+Number of page matching is 167
+1dafba97d20ce60a03d61f1d4e69af33  offset 355
+Number of page matching is 167
+57efe7de7bf7989d929b377913a7f1b8  offset 358
+Number of page matching is 167
+a3e449a2e3a1603382c9de42b7e5c732  offset 359
+Number of page matching is 167
+1341b04afb44cac088d3b67b0686d2a0  offset 361
+Number of page matching is 167
+ebd3213e60b358f9a48c85ddb8b38182  offset 363
+Number of page matching is 167
+cd70643198d857513bea963f90e9d1e1  offset 364
+Number of page matching is 167
+806db4296456ef3baeacff552b0ad692  offset 379
+Number of page matching is 167
+44635678e0274ccba454136802be0a80  offset 380
+Number of page matching is 167
+710615d600efa2529a34c5b394f333f2  offset 381
+Number of page matching is 167
+ee288cd7852dce40a9df77ef6926f5af  offset 382
+Number of page matching is 167
+Os is Winxp, match count is 167
+match time cost is 9 milliseconds
+Total time cost is 6221 milliseconds
