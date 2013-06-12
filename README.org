@@ -1,10 +1,4 @@
-osmem_md5
-=========
-
-os signature with memory
-
-md5 is computed page by page
-
+#+TITLE:     osmem_md5
 * Qemu Tool For UFO And IDT Approaches
 ** compilation
 ./configure --target-list=i386-softmmu --disable-strip --disable-werror --enable-sdl --prefix=`pwd`
