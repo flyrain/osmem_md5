@@ -1,0 +1,73 @@
+mem '/home/cs3612/qemu/mem-minix3.2.0' load success! size is 268435456
+Load mem time cost is 124 milliseconds
+potential pdg count: 122
+difference is 67 milliseconds
+Real PGD Number is 109, PGD physical address:0x166d000
+difference is 0 milliseconds
+pgd is 0x166d000
+cr3
+kernel start at 200000
+cr3
+kernel start at 20b000
+step1,all pages: 7168, cluster: 6,kdi time cost is 144 milliseconds
+CR3 cluster: 1
+start:200000, end:200fff: len:0 kernel
+start:201000, end:2189f0: len:179f1 kernel
+preprocess 201000 2189f0 179f1
+dissam rate is 1dca 0.078819
+step2: cluster: 106
+cae09d2b3e3a88ab22a865510d8184b1 00201000 0
+58f07e8230fd0a308593d80fc8255c9d 00202000 1
+0dc96dd033b3610a49d3722ee5e7f948 00203000 2
+fa9c60e9f6bda59187eba71d2b4e1ac5 00204000 3
+168e08a8827941829af04db2da253d47 00205000 4
+e801464ff5453161620c5d145ec8e027 00207000 6
+5c691a7c05d02833a091c8bc3a956581 00208000 7
+9947e549dbb318ba244ea18a0d416bf1 0020a000 9
+4c0a881db161dc958ba6a46a5137e1ee 0020b000 10
+369d6883ace61e5b95d3eafa968c856e 0020c000 11
+113ad33dc3ac39d65846b65a384efe47 0020e000 13
+469ddcf6e4b03fed540cd13052b70dda 0020f000 14
+490064e5ea1b96ad75c7074b6f2b6f4f 00210000 15
+10137b21807b71cadb417002f7dfeb07 00211000 16
+5fe15cfc1ebace11d27a12a142cc9887 00216000 21
+6967b44b57dfad4960487245a069cf03 00217000 22
+step2: time cost is 808 milliseconds
+Success pages: 16/24 disassembled bytes rate: 0.116364, page rate: 0.666667
+--------------------sig match begin--------------------------
+Signature load success! Number is 52
+cae09d2b3e3a88ab22a865510d8184b1  offset 0
+Number of page matching is 0
+58f07e8230fd0a308593d80fc8255c9d  offset 1
+Number of page matching is 0
+0dc96dd033b3610a49d3722ee5e7f948  offset 2
+Number of page matching is 0
+fa9c60e9f6bda59187eba71d2b4e1ac5  offset 3
+Number of page matching is 0
+168e08a8827941829af04db2da253d47  offset 4
+Number of page matching is 0
+e801464ff5453161620c5d145ec8e027  offset 6
+Number of page matching is 0
+5c691a7c05d02833a091c8bc3a956581  offset 7
+Number of page matching is 0
+9947e549dbb318ba244ea18a0d416bf1  offset 9
+Number of page matching is 0
+4c0a881db161dc958ba6a46a5137e1ee  offset 10
+Number of page matching is 0
+369d6883ace61e5b95d3eafa968c856e  offset 11
+Number of page matching is 0
+113ad33dc3ac39d65846b65a384efe47  offset 13
+Number of page matching is 0
+469ddcf6e4b03fed540cd13052b70dda  offset 14
+Number of page matching is 0
+490064e5ea1b96ad75c7074b6f2b6f4f  offset 15
+Number of page matching is 0
+10137b21807b71cadb417002f7dfeb07  offset 16
+Number of page matching is 0
+5fe15cfc1ebace11d27a12a142cc9887  offset 21
+Number of page matching is 0
+6967b44b57dfad4960487245a069cf03  offset 22
+Number of page matching is 0
+Unknown OS!
+match time cost is 0 milliseconds
+Total time cost is 1225 milliseconds

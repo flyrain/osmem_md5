@@ -5,21 +5,19 @@ os signature with memory
 
 md5 is computed page by page
 
-
-qemu comand
----------
+* Qemu Tool For UFO And IDT Approaches
+** compilation
+./configure --target-list=i386-softmmu --disable-strip --disable-werror --enable-sdl --prefix=`pwd`
+make -j8
+** usage
+- qemu start
 ./qemu ~/qemu/minix3.2.0.qcow2 -m 256 --monitor stdio
-
-UFO Approach
+- UFO Approach
 sign_guest_ufo 
-
-IDT Approach
+- IDT Approach
 sign_guest
-
-UFO Approach
------------
-
-minix3.1.5
+* UFO Approach
+** minix3.1.5
    CPU:     rip 0x000000000000a6df  rflags 0x0000000000001246
             cr0 0x0000000080010011     cr2 0x0000000019012000
             cr3 0x000000000f94e000     cr4 0x0000000000000090
@@ -39,7 +37,27 @@ minix3.1.5
     sysenter cs 0x00000000  eip 0x0000000000000000  esp 0x0000000000000000
            efer 0x0000000000000000
 
-minix3.1.8
+** minix3.1.7
+  CPU:     rip 0x000000000000c386  rflags 0x0000000000000286
+            cr0 0x000000008001003b     cr2 0x0000000019007000
+            cr3 0x000000000ff26000     cr4 0x0000000000000690
+            dr0 0x0000000000000000     dr1 0x0000000000000000
+            dr2 0x0000000000000000     dr3 0x0000000000000000
+            dr6 0x00000000ffff0ff0     dr7 0x0000000000000400
+             cs 0x00000030 (0x0000000000001000 + 0x00013623)
+             ds 0x00000018 (0x0000000000015000 + 0x18feafff)
+             es 0x00000018 (0x0000000000015000 + 0x18feafff)
+             fs 0x00000000 (0x0000000000000000 + 0x00000000)
+             gs 0x00000000 (0x0000000000000000 + 0x00000000)
+             ss 0x00000018 (0x0000000000015000 + 0x18feafff)
+             tr 0x00000040 (0x000000000007086c + 0x00000067)
+           ldtr 0x00000130 (0x0000000000026fe8 + 0x00000027)
+           itdr            (0x000000000001ee64 + 0x000007ff)
+           gdtr            (0x000000000001f8d0 + 0x00000867)
+    sysenter cs 0x00000000  eip 0x0000000000000000  esp 0x0000000000000000
+           efer 0x0000000000000000
+
+** minix3.1.8
    CPU:     rip 0x000000000000c8be  rflags 0x0000000000000286
             cr0 0x000000008001003b     cr2 0x0000000019015000
             cr3 0x000000000ff7b000     cr4 0x0000000000000690
@@ -59,28 +77,7 @@ minix3.1.8
     sysenter cs 0x00000000  eip 0x0000000000000000  esp 0x0000000000000000
            efer 0x0000000000000000
 
-minix3.2.1
-   CPU:     rip 0x00000000f041c042  rflags 0x0000000000000282
-            cr0 0x000000008001003b     cr2 0x00000000080e6ff8
-            cr3 0x000000000056d000     cr4 0x0000000000000690
-            dr0 0x0000000000000000     dr1 0x0000000000000000
-            dr2 0x0000000000000000     dr3 0x0000000000000000
-            dr6 0x00000000ffff0ff0     dr7 0x0000000000000400
-             cs 0x00000008 (0x0000000000000000 + 0xffffffff)
-             ds 0x00000023 (0x0000000000000000 + 0xffffffff)
-             es 0x00000023 (0x0000000000000000 + 0xffffffff)
-             fs 0x00000023 (0x0000000000000000 + 0xffffffff)
-             gs 0x00000023 (0x0000000000000000 + 0xffffffff)
-             ss 0x00000010 (0x0000000000000000 + 0xffffffff)
-             tr 0x00000030 (0x00000000f045c0b0 + 0x00000067)
-           ldtr 0x00000028 (0x0000000000000000 + 0xffffffff)
-           itdr            (0x00000000f045c118 + 0x000007ff)
-           gdtr            (0x00000000f045c078 + 0x00000037)
-    sysenter cs 0x00000008  eip 0x00000000f0419b00  esp 0x00000000f043bff8
-           efer 0x0000000000000000
-
-
-minix3.2.0
+** minix3.2.0
    CPU:     rip 0x000000000020bc52  rflags 0x0000000000000206
             cr0 0x000000008001003b     cr2 0x00000000210daff8
             cr3 0x000000000fee1000     cr4 0x0000000000000690
@@ -100,17 +97,53 @@ minix3.2.0
     sysenter cs 0x00000000  eip 0x0000000000000000  esp 0x0000000000000000
            efer 0x0000000000000000
 
+** minix3.2.1
+   CPU:     rip 0x00000000f041c042  rflags 0x0000000000000282
+            cr0 0x000000008001003b     cr2 0x00000000080e6ff8
+            cr3 0x000000000056d000     cr4 0x0000000000000690
+            dr0 0x0000000000000000     dr1 0x0000000000000000
+            dr2 0x0000000000000000     dr3 0x0000000000000000
+            dr6 0x00000000ffff0ff0     dr7 0x0000000000000400
+             cs 0x00000008 (0x0000000000000000 + 0xffffffff)
+             ds 0x00000023 (0x0000000000000000 + 0xffffffff)
+             es 0x00000023 (0x0000000000000000 + 0xffffffff)
+             fs 0x00000023 (0x0000000000000000 + 0xffffffff)
+             gs 0x00000023 (0x0000000000000000 + 0xffffffff)
+             ss 0x00000010 (0x0000000000000000 + 0xffffffff)
+             tr 0x00000030 (0x00000000f045c0b0 + 0x00000067)
+           ldtr 0x00000028 (0x0000000000000000 + 0xffffffff)
+           itdr            (0x00000000f045c118 + 0x000007ff)
+           gdtr            (0x00000000f045c078 + 0x00000037)
+    sysenter cs 0x00000008  eip 0x00000000f0419b00  esp 0x00000000f043bff8
+           efer 0x0000000000000000
 
-IDT Approach
--------------
-* minix3.2.1
+* IDT Approach
+** minix3.2.1
 IDT base = 0xf045c118 and IDT Limit = 7ff
 Time taken = 0.010000
 Total Valid entries found = 39
 Signature = 82716921702dcf094b0aa7afc8a49e7506089759b777f0733da7124a3d52d5aafef5089a763a42f47138aa7009bf6eecae8a680001ee7f030b4ca07cbb9a62eb
 
-* minix3.2.0
+** minix3.2.0
 IDT base = 0x00228690 and IDT Limit = 7ff
 Time taken = 0.000000
 Total Valid entries found = 37
 Signature = 9141595ed7583024cc6fb5b4bc2fa0ee42a3f28aa4f72d50fd0da94379f38543ecafc822abc2cd0c1822df3ffeb2c988af28ed1e20840365bf8b7506bc007d09
+
+** minix3.1.8
+IDT base = 0x00124e30 and IDT Limit = 7ff
+Time taken = 0.000000
+Total Valid entries found = 37
+Signature = 5fe9879e377b72524fb6598d8b37f4ea442f6fd07830ec01540c7fe130b99ba0a48e3b3682b99c4108451d12c63a122f3f6ce13a481c8407344412a7a870fce5
+
+** minix3.1.7
+IDT base = 0x0001ee64 and IDT Limit = 7ff
+Time taken = 0.000000
+Total Valid entries found = 37
+Signature = abdac064f1c07a73722cf4ada07cb821c8178635f0cbb24b99342b4f15f97a6863b74ffe4e54c73fe1bfb8ec3c9ec092d4feb16f16b3799c475992b1b3d254e1
+
+** minix3.1.5
+IDT base = 0x00017570 and IDT Limit = 3bf
+Time taken = 0.000000
+Total Valid entries found = 80
+Signature = 1a9da036b568a3edd5e799e10ddfba2cd00b2eb4e1b4c2ab41e9bc1476b3a9d7ac66e7255d4e2b8462e902052cd7f008d60601c9756f4a99c88a225a929b614e
