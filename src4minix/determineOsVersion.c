@@ -18,7 +18,6 @@
 #include "memory.h"
 #include "mddriver.c"
 
-//#define FINGERPRINT_NO 50
 
 fingerprint fingerprints[FINGERPRINT_NO];
 extern unsigned out_pc;
@@ -41,6 +40,12 @@ void initMd5Array(char *md5input, unsigned char md5[16])
 
 }
 
+void insertToHashtable(char *md5input, char *version)
+{
+    unsigned char md5[16];
+    initMd5Array(md5input, md5);
+    install(md5, version);
+}
 
 void loadSignature(char *filename, fingerprint * fingerprint)
 {
@@ -110,10 +115,6 @@ int isMd5ArrayEmpty(unsigned char md5[])
 int initDb()
 {
     int fp_index = 0;
-
-//       char buf[MAXPATHLEN] = { 0 };
-//       walker( "../md5", "2.6.36.1" );
-
     DIR *d;
     struct dirent *dir;
     char *path = "../md5/";
@@ -126,28 +127,58 @@ int initDb()
             char filename[4096];
             strcpy(filename, path);
             strcat(filename, dir->d_name);
-//                      printf("filename is %s\n", filename);
+            //            printf("filename is %s\n", filename);
             loadSignature(filename, &fingerprints[fp_index++]);
         }
 
         closedir(d);
     }
-//        if( walker( "lame", buf ) == 0 ) {
-//          printf( "Found: %s\n", buf );
-//        } else {
-//          puts( "Not found" );
-//        }
-    //read file
-//      char * filename = "../md5/win7-b"; //signature file name
-//      loadSignature(filename, &fingerprints[fp_index++]);
-//
-//      filename = "../md5/2.6.29"; //signature file name
-//      loadSignature(filename, &fingerprints[fp_index++]);
 
     printf("Signature load success! Number is %d\n", fp_index);
     return fp_index;
 }
 
+//abandon
+void initHashTable()
+{
+    inithashtab();
+
+    char *filename = "signatureMd5";    //signature file name
+    struct stat fstat;
+    if (stat(filename, &fstat) != 0) {
+        printf("No signature file : %s\n", filename);
+        exit(1);
+    }
+
+    FILE *file = fopen(filename, "r");
+
+    if (file != NULL) {
+        char line[100];
+        char version[100];
+        while (fgets(line, sizeof line, file) != NULL) {        /* read a line */
+            char md5[100];
+            md5[0] = 0;         //let length of md5 is 0
+
+            //get rid of empty line
+            if ((int) line[0] == 10)
+                continue;
+
+            if (line[0] == 'v')
+                strcpy(version, line + 1);
+            else {
+                strcpy(md5, line);
+            }
+            if (strlen(version) > 0 && strlen(md5) > 0) {
+                insertToHashtable(md5, version);
+                //printf("%s %s", md5, version);
+            }
+        }
+        fclose(file);
+    } else {
+        perror(filename);       /* why didn't the file open? */
+        return;
+    }
+}
 
 //is match success,
 //only one match, return 1
@@ -172,6 +203,12 @@ int matchByIndex(int osNumber, unsigned char md5digest[16], int offset,
         if (availableOs[i] == 0)
             continue;
 
+        /*
+        printf("os index %d: ", i);
+        MDPrint(fingerprints[i].md5[offset]);
+        puts("");
+        */
+        
         //gap in md5, vaddr is not continuous
         if (isMd5ArrayEmpty(fingerprints[i].md5[offset]) == 0) {
 //                      printf("%d is gap\n", i);
@@ -287,7 +324,7 @@ void determineOsVersion(Mem * mem)
     }
 
     //start address
-    unsigned startVirtualAddr = 0x80000000;
+    unsigned startVirtualAddr = KERNEL_START_ADDRESS;
 
     //with dissemble or not
     int withDissemble = 1;
@@ -314,7 +351,7 @@ void determineOsVersion(Mem * mem)
     newstart = 1;
 
     unsigned vAddr = startVirtualAddr;
-    for (; vAddr > 0x80000000 - 1; vAddr += 0x1000) {
+    for (; vAddr > KERNEL_START_ADDRESS - 1; vAddr += 0x1000) {
         //printf("startvirtual %x:\n",startVirtualAddr);
 
         int rw = 0;             //read or write
@@ -461,7 +498,6 @@ void determineOsVersion(Mem * mem)
     }
 
     //4.print md5 of pages that can be disassembled
-
     int availableOs[FINGERPRINT_NO], matchCounts[FINGERPRINT_NO];
     for (i = 0; i < FINGERPRINT_NO; i++) {
         availableOs[i] = 1;
@@ -550,7 +586,7 @@ void determineOsVersion2(Mem * mem)
     }
 
     //start address
-    unsigned start_vaddr = 0x80000000;
+    unsigned start_vaddr = KERNEL_START_ADDRESS;
     unsigned vaddr = start_vaddr;
     int matchCount = 0;
     int matchPageIndex = 0;
