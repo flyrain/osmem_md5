@@ -28,6 +28,7 @@ void usage(char *prog)
 
 Mem *initMem(char *snapshot)
 {
+   //load memory file
     struct timeval earlier;
     struct timeval later;
     if (gettimeofday(&earlier, NULL)) {
@@ -55,7 +56,6 @@ Mem *initMem(char *snapshot)
 
     //get pgd
     unsigned pgd = getPgd(mem, mem_size);
-    //    unsigned pgd = 0xf94e000;
     printf("pgd is 0x%x\n", pgd);
 
     //construct a struct Mem
@@ -110,10 +110,11 @@ int main(int argc, char *argv[])
     //load memory
     char *argument = argv[1];
     snapshot = argv[2];
-    out_sig = argv[3];
-    sscanf(argv[3], "%x", &out_pc);
 
-    out_code = fopen(argv[3], "w");
+    //  out_sig = argv[3];
+    char * out_code_file = argv[3];
+    sscanf(out_code_file, "%x", &out_pc);
+    out_code = fopen(out_code_file, "w");
 
     int isScan = 0;
     int isGenerator = 0;

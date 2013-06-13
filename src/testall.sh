@@ -1,3 +1,5 @@
+# Time-stamp: <2013-06-13 11:15:54 cs3612>
+
 #rm outData
 #rm outTime
 ##rm PTEDATA
@@ -53,12 +55,15 @@ echo "./signa -g ~/qemu/mem/mem-2.6.31 0 > ../md5/Linux-2.6.31"
 ./signa -g ~/qemu/mem/mem-2.6.32.27 0 > ../md5/Linux-2.6.32.27
 ./signa -g ~/qemu/mem/mem-2.6.33 0 > ../md5/Linux-2.6.33
 ./signa -g ~/qemu/mem/mem-2.6.34 0 > ../md5/Linux-2.6.34
-./signa -g ~/qemu/mem/mem-2.6.35 0 > ../md5/Linux-2.6.35
+#./signa -g ~/qemu/mem/mem-2.6.35 0 > ../md5/Linux-2.6.35
+#echo './signa -g ~/qemu/mem/mem-2.6.35 0 > ../md5/Linux-2.6.35'
 ./signa -g ~/qemu/mem/mem-2.6.36 0 > ../md5/Linux-2.6.36
+echo './signa -g ~/qemu/mem/mem-2.6.36 0 > ../md5/Linux-2.6.36'
 ./signa -g ~/qemu/mem/mem-2.6.36.1 0 > ../md5/Linux-2.6.36.1
 ./signa -g ~/qemu/mem/mem-2.6.36.2 0 > ../md5/Linux-2.6.36.2
 ./signa -g ~/qemu/mem/mem-2.6.36.3 0 > ../md5/Linux-2.6.36.3
 ./signa -g ~/qemu/mem/mem-2.6.36.4 0 > ../md5/Linux-2.6.36.4
+echo './signa -g ~/qemu/mem/mem-2.6.36.4 0 > ../md5/Linux-2.6.36.4'
 #./signa -g ~/qemu/mem/mem-2.6.37 0 > ../md5/Linux-2.6.37
 #./signa -g ~/qemu/mem/mem-2.6.37.1 0 > ../md5/Linux-2.6.37.1
 #./signa -g ~/qemu/mem/mem-2.6.37.2 0 > ../md5/Linux-2.6.37.2
@@ -73,7 +78,8 @@ echo "./signa -g ~/qemu/mem/mem-2.6.31 0 > ../md5/Linux-2.6.31"
 #./signa -g ~/qemu/mem/mem-2.6.38.7 0 > ../md5/Linux-2.6.38.7
 #./signa -g ~/qemu/mem/mem-2.6.38.8 0 > ../md5/Linux-2.6.38.8
 ./signa -g ~/qemu/mem/mem-3.0.0 0 > ../md5/Linux-3.0.0
+echo './signa -g ~/qemu/mem/mem-3.0.0 0 > ../md5/Linux-3.0.0'
 ./signa -g ~/qemu/mem/mem-3.0.4 0 > ../md5/Linux-3.0.4
 echo "./signa -g ~/qemu/mem/mem-3.0.4 0 > ../md5/Linux-3.0.4"
-./signa -g ~/qemu/mem/mem-solaris10-10 0 > ../md5/Solaris-10
-echo "./signa -g ~/qemu/mem/mem-solaris10-10 0 > ../md5/Solaris-10"
+#./signa -g ~/qemu/mem/mem-solaris10-10 0 > ../md5/Solaris-10
+#echo "./signa -g ~/qemu/mem/mem-solaris10-10 0 > ../md5/Solaris-10"

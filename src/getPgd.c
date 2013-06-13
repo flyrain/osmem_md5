@@ -89,18 +89,18 @@ void printAllRealPgd(int pgdcount, int countedpages[pgdcount],
                      int maxIndex, int potengtialPdgArray[pgdcount],
                      int pageSize)
 {
-//      int i;
-//      //printf all real pgds
-//      for (i = 0; i < pgdcount; i++) {
-//              if (countedpages[i] == maxIndex) {
-//                      printf("pgd physical address:0x%x\n",
-//                                      potengtialPdgArray[i] * pageSize);
-//              }
-//      }
+      int i;
+      //printf all real pgds
+      for (i = 0; i < pgdcount; i++) {
+              if (countedpages[i] == maxIndex) {
+                      printf("pgd physical address:0x%x\n",
+                                      potengtialPdgArray[i] * pageSize);
+              }
+      }
 }
 
 //get real pgd from potential pgds
-unsigned getPgdReal(int pgdcount, int potengtialPdgArray[pgdcount],
+unsigned getPgdReal(int pgdcount, int potential_PDGs[pgdcount],
                     int pageSize, char *mem)
 {
     //get real pgd page by compare all field of 3*1024 to 4*1024
@@ -137,10 +137,10 @@ unsigned getPgdReal(int pgdcount, int potengtialPdgArray[pgdcount],
             int startIndex = 2;
 
             unsigned paddr1 =
-                potengtialPdgArray[i] * pageSize + startIndex * 1024;
+                potential_PDGs[i] * pageSize + startIndex * 1024;
 
             unsigned paddr2 =
-                potengtialPdgArray[j] * pageSize + startIndex * 1024;
+                potential_PDGs[j] * pageSize + startIndex * 1024;
 
             int ret =
                 isEqual(mem, paddr1, paddr2, (4 - startIndex) * 1024);
@@ -162,11 +162,11 @@ unsigned getPgdReal(int pgdcount, int potengtialPdgArray[pgdcount],
         }
     }
 
-    pgdPhyAddr = potengtialPdgArray[maxIndex] * pageSize;
+    pgdPhyAddr = potential_PDGs[maxIndex] * pageSize;
 
     //printf all real pgds
-    printAllRealPgd(pgdcount, countedpages, maxIndex, potengtialPdgArray,
-                    pageSize);
+    //    printAllRealPgd(pgdcount, countedpages, maxIndex, potential_PDGs,
+    //                    pageSize);
 
     real_pgd = maxMatch + 1;
     printf("Real PGD Number is %d, PGD physical address:0x%x\n",
@@ -178,12 +178,13 @@ unsigned getPgdReal(int pgdcount, int potengtialPdgArray[pgdcount],
 int isPteValid(unsigned pteStart, char *mem, int mem_size)
 {
     int isValid = 1;
-    //                              printf("pdeItem:%x, pte Start: %x\n", pdeItem, pteStart);
+    //    printf("pte Start: %x\n",  pteStart);
     int k = 0;
     int matchCount = 0;
     for (; k < 4 * 1024; k += 4) {
         unsigned pte = *(unsigned *) ((unsigned) mem + pteStart + k);
-        //                                      printf("pte:%x\n",pte);
+
+        //if (pte != 0)  printf("pte:%x\n",pte);
         if ((pte & 0x1) == 0x1 && (pte & ~0xfff) > mem_size) {
             continue;
         }
@@ -192,9 +193,6 @@ int isPteValid(unsigned pteStart, char *mem, int mem_size)
 
         int us = pte & (1 << 2);
         int g = pte & (1 << 8);
-        //if find one match, then get this page break;
-//              if ((pte & 0x1) == 0x1 && (pte & 0x20) == 0x20 && (pte & 0x618) == 0) {
-//              if ((pte & 0x1) == 0x1 && (pte & 0x618) == 0) {
         if ((pte & 0x1) == 0x1 && us == 0 && g == 256) {
             matchCount++;
         } else {
@@ -202,6 +200,7 @@ int isPteValid(unsigned pteStart, char *mem, int mem_size)
             break;
         }
     }
+
     if (matchCount == 0)
         isValid = 0;
 
@@ -241,9 +240,11 @@ int getPotentialPgd(int totalPageNumber, int pageSize, char *mem,
             if (pdeItem == 0 || (pdeItem & ~0xfff) > mem_size)
                 continue;
 
-            if ((pdeItem & 0x418) != 0) {
-                break;
-            }
+            //       if ((pdeItem & 0x418) != 0) {
+            //    break;
+            // }
+
+
 #ifdef OLD_PGD_MATCH
             //present,first bit;readonly, second bit, accessed, sixth bit; global, ninth bit.
             //linux 1e3, winxp 163, win7 63, freebsd 63,so get their common part: 63
@@ -260,18 +261,23 @@ int getPotentialPgd(int totalPageNumber, int pageSize, char *mem,
                 }
             }
 #endif
-            if ((pdeItem & 0x3) == 0x3 && (pdeItem & 0x20) == 0x20
-                && (pdeItem & 0x418) == 0) {
+            // if ((pdeItem & 0x3) == 0x3 && (pdeItem & 0x20) == 0x20
+            //   && (pdeItem & 0x418) == 0) {
+
+            // pde signature  | x | 0 | 0 | x | x | x | x | 0 | 0 | x | x | 1 |
+            if ((pdeItem & 0x1) == 0x1 && (pdeItem & 0x418) == 0) {
                 //check pte
                 int isValid = isPteValid(pdeItem & ~0xfff, mem, mem_size);
                 if (isValid == 1)
                     matchCount++;
             } else {
-                //too strong
-//                              isPgd = 0;
-//                              break;
+                //too strong, some special case, like 003 in FreeBSD,
+                //and 1e1 in Linux
+              isPgd = 0;
+              break;
             }
         }
+
         //detemine whether this page is a pgd
         if (isPgd == 1 && matchCount >= 1) {
             pageIndex[i] = 1;
@@ -285,78 +291,6 @@ int getPotentialPgd(int totalPageNumber, int pageSize, char *mem,
     return pgdcount;
 }
 
-//abundant
-int getMorePotentialPgd(int totalPageNumber, int pageSize, char *mem,
-                        int pageIndex[], int pageIndex2[], int mem_size)
-{
-    int pgdcount = 0;
-    int i;
-    for (i = 0; i < totalPageNumber; i++) {
-        if (pageIndex[i] != 1)
-            continue;
-        int startAddr = i * pageSize;
-        int j;
-        j = 2 * 1024;
-
-        int proCount = 0;
-        for (; j < 4 * 1024; j = j + 4) {
-            unsigned pgdCandidate =
-                *(unsigned *) ((unsigned) mem + startAddr + j);
-            if ((pgdCandidate & ~0xfff) > mem_size)
-                continue;
-            int pdeStart = pgdCandidate & ~0xfff;
-            int k = 0;
-            int isRealPde = 1;
-            for (; k < 4 * 1024; k += 4) {
-                unsigned pde =
-                    *(unsigned *) ((unsigned) mem + pdeStart + k);
-                if ((pde & 0x1) == 0x1 && (pde & ~0xfff) > mem_size) {
-                    isRealPde = 0;
-                    break;
-                }
-//                              if ((pde & 0x3) == 0x3 && (pde & ~0xfff) < mem_size) {
-//                                      //check pte
-//                                      int index = 0;
-//                                      unsigned pteStart = (pde & ~0xfff);
-//                                      for (; index < 4 * 1024; index += 4) {
-//                                              unsigned pte = *(unsigned *) ((unsigned) mem + pteStart
-//                                                              + index);
-//                                              if ((pte & 0x1) == 0x1) {
-//                                                      if (!((pte & 0x100) == 0x100
-//                                                                      && (pte & ~0xfff) < mem_size)) {
-//                                                              isRealPde = 0;
-//                                                              break;
-//                                                      }
-//                                              }
-//                                      }
-//                                      if (isRealPde == 0)
-//                                              break;
-//                              }
-            }
-            if (isRealPde == 0)
-                continue;
-
-            //present,first bit;readonly, second bit, accessed, sixth bit; global, ninth bit.
-            //linux 1e3, winxp 163, win7 63, freebsd 63,so get their common part: 63
-            //but, solaris 27
-            //              if ((pgdCandidate & 0xf) == 0x3 && (pgdCandidate & 0x60) == 0x60) {
-            if ((pgdCandidate & 0x3) == 0x3 && (pgdCandidate & 0x20) == 0x20 && (pgdCandidate & 0x618) == 0) {  //for solaris
-                proCount++;
-                //if at least 30 value is match,then put it in potential pgd
-                if (proCount > 30) {
-                    //this page is potential pgd
-                    pageIndex2[i] = 1;
-                    pgdcount++;
-                    break;
-                }
-            }
-
-        }
-    }
-
-    printf("potential pdg count2: %d\n", pgdcount);
-    return pgdcount;
-}
 
 long long timeval_diff(struct timeval *difference,
                        struct timeval *end_time,
@@ -382,7 +316,7 @@ long long timeval_diff(struct timeval *difference,
 //      printf("tv_sec %ld,tv_usec %ld\n",difference->tv_sec,difference->tv_usec);
     return 1000000LL * difference->tv_sec + difference->tv_usec;
 
-}                               /* timeval_diff() */
+}
 
 unsigned getPgd(char *mem, int mem_size)
 {
