@@ -1,4 +1,8 @@
+# Time-stamp: <2013-06-13 18:19:51 cs3612>
 #+TITLE:     osmem_md5
+* Minix 
+Minix is different from the others, so we have different code for
+Minix. And the details of Minix is in file Minix.org
 * Qemu Tool For UFO And IDT Approaches
 ** compilation
 ./configure --target-list=i386-softmmu --disable-strip --disable-werror --enable-sdl --prefix=`pwd`
