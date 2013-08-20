@@ -1,4 +1,4 @@
-# Time-stamp: <2013-08-20 15:13:09 cs3612>
+# Time-stamp: <2013-08-20 15:15:37 cs3612>
 #+TITLE:     osmem_md5
 * OSMEM_MD5
 Memory based OS fingerprinting
@@ -20,7 +20,7 @@ sign_guest_ufo
 sign_guest
 * UFO Approach
 ** minix3.1.5
-#+BEGIN_QUOTE
+#+BEGIN_SRC
    CPU:     rip 0x000000000000a6df  rflags 0x0000000000001246
             cr0 0x0000000080010011     cr2 0x0000000019012000
             cr3 0x000000000f94e000     cr4 0x0000000000000090
@@ -39,8 +39,9 @@ sign_guest
            gdtr            (0x0000000000017c00 + 0x00000397)
     sysenter cs 0x00000000  eip 0x0000000000000000  esp 0x0000000000000000
            efer 0x0000000000000000
-#+END_QUOTE
+#+END_SRC
 ** minix3.1.7
+#+BEGIN_SRC
   CPU:     rip 0x000000000000c386  rflags 0x0000000000000286
             cr0 0x000000008001003b     cr2 0x0000000019007000
             cr3 0x000000000ff26000     cr4 0x0000000000000690
@@ -59,7 +60,7 @@ sign_guest
            gdtr            (0x000000000001f8d0 + 0x00000867)
     sysenter cs 0x00000000  eip 0x0000000000000000  esp 0x0000000000000000
            efer 0x0000000000000000
-
+#+END_SRC
 ** minix3.1.8
    CPU:     rip 0x000000000000c8be  rflags 0x0000000000000286
             cr0 0x000000008001003b     cr2 0x0000000019015000
