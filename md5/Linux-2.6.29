@@ -1,14 +1,15 @@
 mem '/home/cs3612/qemu/mem/mem-2.6.29' load success! size is 536870912
-Load mem time cost is 5310 milliseconds
-potential pdg count: 94
-difference is 73 milliseconds
+Load mem time cost is 5222 milliseconds
+potential pdg count: 99
+difference is 72 milliseconds
 Real PGD Number is 79, PGD physical address:0x599000
 difference is 0 milliseconds
+pgd is 0x599000
 cr3
 kernel start at c0101000
 cr3
 kernel start at c02ec000
-step1,all pages: 131678, cluster: 106,kdi time cost is 2354 milliseconds
+step1,all pages: 131678, cluster: 106,kdi time cost is 2351 milliseconds
 CR3 cluster: 1
 start:c0101000, end:c048bfff: len:38afff kernel
 preprocess c0101000 c048bfff 38afff
@@ -611,10 +612,10 @@ a930a9dc5f8716eb21302930a298b7da c038b000 650
 58aae3587552a3545c9e6f7d322c49a3 c038c000 651
 4f88dac0787ad533087358c792ecb530 c038d000 652
 21a04867175a0a648ca7884cb4f2076d c038e000 653
-step2: time cost is 501 milliseconds
+step2: time cost is 494 milliseconds
 Success pages: 597/907 disassembled bytes rate: 0.097640, page rate: 0.658214
 --------------------sig match begin--------------------------
-Signature load success! Number is 45
+Signature load success! Number is 52
 810fde1154f2a843a6360e19f7abc9dd  offset 0
 Match Linux-2.6.29
 Only match is Linux-2.6.29
@@ -2712,153 +2713,151 @@ Match Linux-2.6.29
 Only match is Linux-2.6.29
 Number of page matching is 524
 4939b6c3f615366cf65b5301030c5588  offset 573
-Match Linux-2.6.29
-Only match is Linux-2.6.29
-Number of page matching is 525
+Number of page matching is 524
 0badb062384682ad354be8aa6c490797  offset 574
-Number of page matching is 525
+Number of page matching is 524
 93d09d3842dc35782506a8357a3a778a  offset 576
-Number of page matching is 525
+Number of page matching is 524
 deb862ac4364a17ef994deb8361ac5de  offset 577
-Number of page matching is 525
+Number of page matching is 524
 35bebf045b55e62625ad89668f3219e3  offset 578
-Number of page matching is 525
+Number of page matching is 524
 e53b616f6d73d0bddeca456908d0716a  offset 579
-Number of page matching is 525
+Number of page matching is 524
 c127be2928d46233c68f365117c77cc6  offset 581
-Number of page matching is 525
+Number of page matching is 524
 db457a6e4f3759a7d417cf1c73478af0  offset 582
-Number of page matching is 525
+Number of page matching is 524
 ce0f66b3b7e5c88e1a8b3f21f23bf6e2  offset 583
-Number of page matching is 525
+Number of page matching is 524
 9eb7357e339585046ef7900b637e0333  offset 585
-Number of page matching is 525
+Number of page matching is 524
 8e3ea815dc4394bf7ea3cbf90e5d0b5e  offset 586
-Number of page matching is 525
+Number of page matching is 524
 87e9ae6409c5072c53820536891b47bb  offset 587
-Number of page matching is 525
+Number of page matching is 524
 68bd1e0160ae78374e0661667598605e  offset 588
-Number of page matching is 525
+Number of page matching is 524
 01dbd601f8e58118e92e4fd92a9a3aea  offset 589
-Number of page matching is 525
+Number of page matching is 524
 90657b12893294301235340d87065337  offset 590
-Number of page matching is 525
+Number of page matching is 524
 d7a151a694229444c377c8782c28a12a  offset 591
-Number of page matching is 525
+Number of page matching is 524
 629efaef22bb141e9e5bfd58e47de916  offset 593
-Number of page matching is 525
+Number of page matching is 524
 50da4f20e147546a7c0147a05728930e  offset 595
-Number of page matching is 525
+Number of page matching is 524
 49a56b03ebd71be4e1bdf355fcd66513  offset 596
-Number of page matching is 525
+Number of page matching is 524
 77c59a2735ab2eba560b8f9480e7cad2  offset 597
-Number of page matching is 525
+Number of page matching is 524
 f1635a28eec3ca6de583b79519d88c32  offset 598
-Number of page matching is 525
+Number of page matching is 524
 f69135e6dd4c960fe8a2a88c34f5ed15  offset 599
-Number of page matching is 525
+Number of page matching is 524
 90e9f86d6a8f0996ed4739b0dd3107e0  offset 600
-Number of page matching is 525
+Number of page matching is 524
 578390240a437edd2352caa36ae4cc4d  offset 602
-Number of page matching is 525
+Number of page matching is 524
 acbe245a2c2df6c634ba4e29628b55a5  offset 603
-Number of page matching is 525
+Number of page matching is 524
 20d883d20b9fe69d6f428c388f445d4a  offset 604
-Number of page matching is 525
+Number of page matching is 524
 f11e6f441804cca0cecff811c799ce44  offset 605
-Number of page matching is 525
+Number of page matching is 524
 95f0b051e9e34b9689f2d099d9730885  offset 606
-Number of page matching is 525
+Number of page matching is 524
 057c0cde0745fc9b0d9ea5eaac8caf97  offset 607
-Number of page matching is 525
+Number of page matching is 524
 95bd58c90e3ea6d55d6100a14959cf3f  offset 608
-Number of page matching is 525
+Number of page matching is 524
 04a23e18ecf2381cc577cf178ca02dc2  offset 609
-Number of page matching is 525
+Number of page matching is 524
 5619bca748fef8823eb918e4c674e064  offset 610
-Number of page matching is 525
+Number of page matching is 524
 2c9a023495af5c02013ecc6dd3a097ff  offset 611
-Number of page matching is 525
+Number of page matching is 524
 7fc481c2e35b76fb834689719fd7c0db  offset 612
-Number of page matching is 525
+Number of page matching is 524
 617a305d6e15e0634385e1874dcd583b  offset 613
-Number of page matching is 525
+Number of page matching is 524
 976a2ab00f8c0cb5221f9500f03d95f2  offset 614
-Number of page matching is 525
+Number of page matching is 524
 fbb96075939f2bd30eaa498043dbfe1c  offset 616
-Number of page matching is 525
+Number of page matching is 524
 147c816bc9563ff1afa75629b0535dc5  offset 617
-Number of page matching is 525
+Number of page matching is 524
 1fe347a3c1d3eb2c8324213503c298b7  offset 618
-Number of page matching is 525
+Number of page matching is 524
 97e345c7b0fc8a3d26958a5f8beab779  offset 619
-Number of page matching is 525
+Number of page matching is 524
 ae92c46f708eae9671eeb1fb52563320  offset 620
-Number of page matching is 525
+Number of page matching is 524
 567b9f66cf887d89b94b0c2a3e956930  offset 621
-Number of page matching is 525
+Number of page matching is 524
 3106daef6f5249d1db7b3fd1c37bb69c  offset 622
-Number of page matching is 525
+Number of page matching is 524
 5f231a898f252df9497820fec8ad052c  offset 623
-Number of page matching is 525
+Number of page matching is 524
 05f05a996e3fc98f6c544bb95e3438c5  offset 624
-Number of page matching is 525
+Number of page matching is 524
 623be45e5825f8de7de4dbde57c9af55  offset 625
-Number of page matching is 525
+Number of page matching is 524
 d7add789dde87b8f9f879591aa988912  offset 626
-Number of page matching is 525
+Number of page matching is 524
 da67272bd621bb510044e0e05fea5d2a  offset 627
-Number of page matching is 525
+Number of page matching is 524
 1d05fa81f0a1bbd27ea4df674ad38570  offset 628
-Number of page matching is 525
+Number of page matching is 524
 12c70f08281b54fe91eb64b836de21a6  offset 629
-Number of page matching is 525
+Number of page matching is 524
 4d374282b458ad09e998e39ae2fa505b  offset 630
-Number of page matching is 525
+Number of page matching is 524
 c8888b17400c6e56ecaea4e7aa2ff34a  offset 631
-Number of page matching is 525
+Number of page matching is 524
 d71125a64c66694ad5c162ce6b6918d2  offset 632
-Number of page matching is 525
+Number of page matching is 524
 8223e9d5ad014783c92d824f257a894d  offset 633
-Number of page matching is 525
+Number of page matching is 524
 cd204eaffc6a35659e147b42a893425a  offset 634
-Number of page matching is 525
+Number of page matching is 524
 fa934392db07ee2e7e6977e3d0eec8b9  offset 635
-Number of page matching is 525
+Number of page matching is 524
 77bbfc647c71db2a118d3a092333abf3  offset 636
-Number of page matching is 525
+Number of page matching is 524
 fc748d92043d74cc8556868f7ada7d83  offset 638
-Number of page matching is 525
+Number of page matching is 524
 2e6ffca51d099d2ae8a4f614d838caaf  offset 639
-Number of page matching is 525
+Number of page matching is 524
 ee15513231aabcff80bd161dcf83d8c8  offset 640
-Number of page matching is 525
+Number of page matching is 524
 5f404f1050a76e27c08cfea8fd7fd4f5  offset 641
-Number of page matching is 525
+Number of page matching is 524
 14829d22bdb0500cb95a76dd5729a567  offset 642
-Number of page matching is 525
+Number of page matching is 524
 b9840ffb94219eb03da2526b4cbb1aee  offset 643
-Number of page matching is 525
+Number of page matching is 524
 668623531de2dc013e88ae5d4a8435f0  offset 644
-Number of page matching is 525
+Number of page matching is 524
 52d1280bc8b66c6c139d5e9944abad1d  offset 645
-Number of page matching is 525
+Number of page matching is 524
 e9a278f7b9cf377dcb2d2f2791d34c21  offset 646
-Number of page matching is 525
+Number of page matching is 524
 33912b30d9192198a6344ef8eff5a774  offset 647
-Number of page matching is 525
+Number of page matching is 524
 e9643d05f2e024a24f65905896f9d036  offset 648
-Number of page matching is 525
+Number of page matching is 524
 7afc4936e9fc6b7e79cb4f4a1236bc77  offset 649
-Number of page matching is 525
+Number of page matching is 524
 a930a9dc5f8716eb21302930a298b7da  offset 650
-Number of page matching is 525
+Number of page matching is 524
 58aae3587552a3545c9e6f7d322c49a3  offset 651
-Number of page matching is 525
+Number of page matching is 524
 4f88dac0787ad533087358c792ecb530  offset 652
-Number of page matching is 525
+Number of page matching is 524
 21a04867175a0a648ca7884cb4f2076d  offset 653
-Number of page matching is 525
-Os is Linux-2.6.29, match count is 525
-match time cost is 25 milliseconds
-Total time cost is 8441 milliseconds
+Number of page matching is 524
+Os is Linux-2.6.29, match count is 524
+match time cost is 24 milliseconds
+Total time cost is 8294 milliseconds

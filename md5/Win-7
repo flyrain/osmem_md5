@@ -1,16 +1,17 @@
 mem '/home/cs3612/qemu/mem/mem-win7-b' load success! size is 536870912
-Load mem time cost is 6972 milliseconds
+Load mem time cost is 9531 milliseconds
 potential pdg count: 25
-difference is 134 milliseconds
+difference is 138 milliseconds
 Real PGD Number is 18, PGD physical address:0x7d33000
 difference is 0 milliseconds
+pgd is 0x7d33000
 cr3
 kernel start at 8287a000
 cr3
 kernel start at 828a7000
 cr3
 kernel start at 82b27000
-step1,all pages: 33094, cluster: 2011,kdi time cost is 592 milliseconds
+step1,all pages: 33094, cluster: 2011,kdi time cost is 619 milliseconds
 CR3 cluster: 2
 start:82818000, end:8292ffff: len:117fff kernel
 preprocess 82818000 8292ffff 117fff
@@ -194,10 +195,10 @@ f384b493b67feb3fa37da160b6e3ca6f 82926000 270
 e2f34a36a2412260a27a6719b6c3c31d 82929000 273
 0d25958e4602bcaee29c249407a35077 8292a000 274
 901ee0af4d5206d52723a38c1f371f31 8292c000 276
-step2: time cost is 129 milliseconds
+step2: time cost is 136 milliseconds
 Success pages: 178/280 disassembled bytes rate: 0.057518, page rate: 0.635714
 --------------------sig match begin--------------------------
-Signature load success! Number is 45
+Signature load success! Number is 52
 ce322e40ca841ebbff1915c9f26afc6a  offset 3
 Match Win-7
 Only match is Win-7
@@ -287,607 +288,603 @@ Match Win-7
 Only match is Win-7
 Number of page matching is 22
 d79118fabd4df508bc8d210e16750f18  offset 26
-Match Win-7
-Only match is Win-7
-Number of page matching is 23
+Number of page matching is 22
 9a37260776949a71ee9b1b2e6d42c6f7  offset 27
 Match Win-7
 Only match is Win-7
-Number of page matching is 24
+Number of page matching is 23
 e6f4d8ce99ed78b958f2b7ac5dfcb9d0  offset 28
 Match Win-7
 Only match is Win-7
-Number of page matching is 25
+Number of page matching is 24
 e2bbeab0f206cb515618956bfca6f962  offset 29
 Match Win-7
 Only match is Win-7
-Number of page matching is 26
+Number of page matching is 25
 d8e411dea83f0e118c4db66b31d30f8f  offset 30
 Match Win-7
 Only match is Win-7
-Number of page matching is 27
+Number of page matching is 26
 a0e057598ae3f36d811375bca7408ebf  offset 31
 Match Win-7
 Only match is Win-7
-Number of page matching is 28
+Number of page matching is 27
 ae679f395d52eac336a1667f96fef5ae  offset 32
 Match Win-7
 Only match is Win-7
-Number of page matching is 29
+Number of page matching is 28
 37649f7eb15690fb7ca6241ccef9b0c0  offset 33
 Match Win-7
 Only match is Win-7
-Number of page matching is 30
+Number of page matching is 29
 5b4a505602186a04ea69cae8399acf45  offset 34
 Match Win-7
 Only match is Win-7
-Number of page matching is 31
+Number of page matching is 30
 386187a6319fab68fde55ac341206c29  offset 35
 Match Win-7
 Only match is Win-7
-Number of page matching is 32
+Number of page matching is 31
 1e48011c2c790c3190bd9addf81d21a1  offset 37
 Match Win-7
 Only match is Win-7
-Number of page matching is 33
+Number of page matching is 32
 b65e3f1c8e468cfa698e10834d1d7330  offset 38
 Match Win-7
 Only match is Win-7
-Number of page matching is 34
+Number of page matching is 33
 b6dc70e390859f3fec94d5f7a2844e41  offset 40
 Match Win-7
 Only match is Win-7
-Number of page matching is 35
+Number of page matching is 34
 df3136ed48d897d836162881f0d08300  offset 41
 Match Win-7
 Only match is Win-7
-Number of page matching is 36
+Number of page matching is 35
 51d730a1b18c402c4ef73e96a700d15d  offset 42
 Match Win-7
 Only match is Win-7
-Number of page matching is 37
+Number of page matching is 36
 dc5783e9b169e668b2c90df773e8b9e7  offset 43
 Match Win-7
 Only match is Win-7
-Number of page matching is 38
+Number of page matching is 37
 91eec5e4c848a0efe43d3f59fdf11aef  offset 44
 Match Win-7
 Only match is Win-7
-Number of page matching is 39
+Number of page matching is 38
 a307872950d3cd8da2348bd822a8aca9  offset 49
 Match Win-7
 Only match is Win-7
-Number of page matching is 40
+Number of page matching is 39
 c3577a3a59526ebd6e14a1fab9f6bc7a  offset 83
 Match Win-7
 Only match is Win-7
-Number of page matching is 41
+Number of page matching is 40
 653e117fa6451b562f047f29caf33212  offset 84
 Match Win-7
 Only match is Win-7
-Number of page matching is 42
+Number of page matching is 41
 415727a901f27acce0bcf2df8c9ece40  offset 85
 Match Win-7
 Only match is Win-7
-Number of page matching is 43
+Number of page matching is 42
 9ea37b63cc22bdec587e7b6b78ab64f5  offset 86
 Match Win-7
 Only match is Win-7
-Number of page matching is 44
+Number of page matching is 43
 4c489024c09df9b337c9ee612aa2c4ef  offset 87
 Match Win-7
 Only match is Win-7
-Number of page matching is 45
+Number of page matching is 44
 2bd1e74a133f47ad5a54cd9c4cf737be  offset 88
 Match Win-7
 Only match is Win-7
-Number of page matching is 46
+Number of page matching is 45
 f2093f9fed1f0805b671d93475eeb9f0  offset 89
 Match Win-7
 Only match is Win-7
-Number of page matching is 47
+Number of page matching is 46
 2e3d5f659ca6da8668ad7178741b793e  offset 90
 Match Win-7
 Only match is Win-7
-Number of page matching is 48
+Number of page matching is 47
 1dd0ac3f500b140401e7a3aab88f3947  offset 91
 Match Win-7
 Only match is Win-7
-Number of page matching is 49
+Number of page matching is 48
 e250423fe842fff22aa04880545a0e6e  offset 92
 Match Win-7
 Only match is Win-7
-Number of page matching is 50
+Number of page matching is 49
 0aca639be03dcd601e29135d3fb66c83  offset 96
 Match Win-7
 Only match is Win-7
-Number of page matching is 51
+Number of page matching is 50
 20c8103c586fee0da1323874b1639c33  offset 99
 Match Win-7
 Only match is Win-7
-Number of page matching is 52
+Number of page matching is 51
 4bd7364194fd9679ce1d28c730dbab94  offset 100
 Match Win-7
 Only match is Win-7
-Number of page matching is 53
+Number of page matching is 52
 f0e677a4a90862b6ad155c4b777125af  offset 101
 Match Win-7
 Only match is Win-7
-Number of page matching is 54
+Number of page matching is 53
 fc43adcd4f00004b45962ec2fca4e65d  offset 103
 Match Win-7
 Only match is Win-7
-Number of page matching is 55
+Number of page matching is 54
 e0a8d9199ae7a5df23d9ceeca2dfd6a5  offset 104
 Match Win-7
 Only match is Win-7
-Number of page matching is 56
+Number of page matching is 55
 5060759519c50b8f98f000f5a9e82224  offset 107
 Match Win-7
 Only match is Win-7
-Number of page matching is 57
+Number of page matching is 56
 87fe3e46a44daf770edbea2724cea3d1  offset 108
 Match Win-7
 Only match is Win-7
-Number of page matching is 58
+Number of page matching is 57
 a6f846caf2bf19f2151f24c2c8b27b57  offset 109
 Match Win-7
 Only match is Win-7
-Number of page matching is 59
+Number of page matching is 58
 94f5489863f90af518cd2c9ca0c460ca  offset 111
 Match Win-7
 Only match is Win-7
-Number of page matching is 60
+Number of page matching is 59
 2d49219ae7b75d04f6c8a7f2d0bb8fa2  offset 112
 Match Win-7
 Only match is Win-7
-Number of page matching is 61
+Number of page matching is 60
 726cdf85fa51d2197ce191c54ac4ec4e  offset 117
 Match Win-7
 Only match is Win-7
-Number of page matching is 62
+Number of page matching is 61
 4602a50838ba6aba0e54766bb5107d58  offset 119
 Match Win-7
 Only match is Win-7
-Number of page matching is 63
+Number of page matching is 62
 f7879270b42348f853caee25b29fa619  offset 127
 Match Win-7
 Only match is Win-7
-Number of page matching is 64
+Number of page matching is 63
 f5b5e532c4acd947986c65d08dfbf1f0  offset 128
 Match Win-7
 Only match is Win-7
-Number of page matching is 65
+Number of page matching is 64
 7ba8d950fdc17c55712a67f13962481a  offset 130
 Match Win-7
 Only match is Win-7
-Number of page matching is 66
+Number of page matching is 65
 0593ac359cfd02ef13fa26674fe7f2dc  offset 132
 Match Win-7
 Only match is Win-7
-Number of page matching is 67
+Number of page matching is 66
 51a2f06df90945e4444cfb5959e0ce92  offset 133
 Match Win-7
 Only match is Win-7
-Number of page matching is 68
+Number of page matching is 67
 0646f26d537ee15e17f9c03a8500cb3a  offset 135
 Match Win-7
 Only match is Win-7
-Number of page matching is 69
+Number of page matching is 68
 6b4b3a58824cacfb593be5a0dc471038  offset 137
 Match Win-7
 Only match is Win-7
-Number of page matching is 70
+Number of page matching is 69
 ac9ea8cc5fa478c1de45d81fb3567903  offset 139
 Match Win-7
 Only match is Win-7
-Number of page matching is 71
+Number of page matching is 70
 6b0f9abb0ff98b4c50b512226754ce5e  offset 140
 Match Win-7
 Only match is Win-7
-Number of page matching is 72
+Number of page matching is 71
 e52d2ecb8d61643cccee09f1d80d1923  offset 141
 Match Win-7
 Only match is Win-7
-Number of page matching is 73
+Number of page matching is 72
 3206e539b301a56d89ca5dbcbe1e141a  offset 142
 Match Win-7
 Only match is Win-7
-Number of page matching is 74
+Number of page matching is 73
 9439030ea90ca1e582086c220c654301  offset 145
 Match Win-7
 Only match is Win-7
-Number of page matching is 75
+Number of page matching is 74
 f4241d25b29c172dc167f7d16f53ed2e  offset 148
 Match Win-7
 Only match is Win-7
-Number of page matching is 76
+Number of page matching is 75
 c6dafb05547a95dc1fdba33ac8b5d52f  offset 150
 Match Win-7
 Only match is Win-7
-Number of page matching is 77
+Number of page matching is 76
 289b2205fabb7f8f52f6f3e696047604  offset 151
 Match Win-7
 Only match is Win-7
-Number of page matching is 78
+Number of page matching is 77
 4f6f12b1ece9fb7b09ff8d2e1ead2a8d  offset 152
 Match Win-7
 Only match is Win-7
-Number of page matching is 79
+Number of page matching is 78
 d03be3df71e6876f8bf20b7d032e212d  offset 154
 Match Win-7
 Only match is Win-7
-Number of page matching is 80
+Number of page matching is 79
 cca92b69b18fb65fc31fc5babe1b1719  offset 156
 Match Win-7
 Only match is Win-7
-Number of page matching is 81
+Number of page matching is 80
 e1d1ee5df764a8383389cc6cd3098bbb  offset 157
 Match Win-7
 Only match is Win-7
-Number of page matching is 82
+Number of page matching is 81
 261041819455e28d408c6889ca818d9e  offset 158
 Match Win-7
 Only match is Win-7
-Number of page matching is 83
+Number of page matching is 82
 5879fa54f723f37168504396a1d7184e  offset 159
 Match Win-7
 Only match is Win-7
-Number of page matching is 84
+Number of page matching is 83
 75b4514c1a2e58d4d757ee90d62c16e4  offset 163
 Match Win-7
 Only match is Win-7
-Number of page matching is 85
+Number of page matching is 84
 f9b3f25faf9ef4b86190bb610e044233  offset 164
 Match Win-7
 Only match is Win-7
-Number of page matching is 86
+Number of page matching is 85
 673a9ee6c1676b799b50e2f8d2a89896  offset 166
 Match Win-7
 Only match is Win-7
-Number of page matching is 87
+Number of page matching is 86
 545a7dbef345d401ddfc6a7e74f80d3e  offset 167
 Match Win-7
 Only match is Win-7
-Number of page matching is 88
+Number of page matching is 87
 deef51203c2576808767e2ca7f66f16e  offset 168
 Match Win-7
 Only match is Win-7
-Number of page matching is 89
+Number of page matching is 88
 ced1db00474e2b7136bb1d958237c25e  offset 169
 Match Win-7
 Only match is Win-7
-Number of page matching is 90
+Number of page matching is 89
 c285480864bc97f13b5a183034d70631  offset 171
 Match Win-7
 Only match is Win-7
-Number of page matching is 91
+Number of page matching is 90
 41741364deeba157b08b33bf8e6e0bb1  offset 172
 Match Win-7
 Only match is Win-7
-Number of page matching is 92
+Number of page matching is 91
 1fd960209906a1babae8867e7247e298  offset 173
 Match Win-7
 Only match is Win-7
-Number of page matching is 93
+Number of page matching is 92
 e2ea7070ccdc49015096c8886557fc81  offset 174
 Match Win-7
 Only match is Win-7
-Number of page matching is 94
+Number of page matching is 93
 9a25a3dcd213d9ec291fe9bbba2b15b2  offset 175
 Match Win-7
 Only match is Win-7
-Number of page matching is 95
+Number of page matching is 94
 5dad30d78377beeab416957219c87049  offset 177
 Match Win-7
 Only match is Win-7
-Number of page matching is 96
+Number of page matching is 95
 932339f2132550d514ecc10ee2fcecac  offset 178
 Match Win-7
 Only match is Win-7
-Number of page matching is 97
+Number of page matching is 96
 66ed45c5c86a81dd677d205012720a69  offset 179
 Match Win-7
 Only match is Win-7
-Number of page matching is 98
+Number of page matching is 97
 05ad442fd1fef1f8d7f117ab30a6cfbd  offset 181
 Match Win-7
 Only match is Win-7
-Number of page matching is 99
+Number of page matching is 98
 81524d1349fcbaae32139a5b70b65c0f  offset 182
 Match Win-7
 Only match is Win-7
-Number of page matching is 100
+Number of page matching is 99
 dbb1a7ae60549301f10fbfb70bcc2e58  offset 183
 Match Win-7
 Only match is Win-7
-Number of page matching is 101
+Number of page matching is 100
 e62a7af07f97530b96f055b603e2a6e7  offset 184
 Match Win-7
 Only match is Win-7
-Number of page matching is 102
+Number of page matching is 101
 317c75c75cc4b5b94979c6ff6016f04e  offset 188
 Match Win-7
 Only match is Win-7
-Number of page matching is 103
+Number of page matching is 102
 bc12dd6f9bc7be2f83a85aa4dc16941e  offset 189
 Match Win-7
 Only match is Win-7
-Number of page matching is 104
+Number of page matching is 103
 84641ceb62ad2e7eb361f7410d8ee4ce  offset 190
 Match Win-7
 Only match is Win-7
-Number of page matching is 105
+Number of page matching is 104
 4ef59a929244252ae22217406f635aae  offset 191
 Match Win-7
 Only match is Win-7
-Number of page matching is 106
+Number of page matching is 105
 9cf05d958f00f774f4a9a6d7a3a88ac8  offset 192
 Match Win-7
 Only match is Win-7
-Number of page matching is 107
+Number of page matching is 106
 8c5219b5fc4bc8e90638c557b6e4b43b  offset 193
 Match Win-7
 Only match is Win-7
-Number of page matching is 108
+Number of page matching is 107
 e0e9ed5aa8b224f578646c90ad770b12  offset 194
 Match Win-7
 Only match is Win-7
-Number of page matching is 109
+Number of page matching is 108
 ef263ab6898a7c259c9b5c8c4b5f4153  offset 195
 Match Win-7
 Only match is Win-7
-Number of page matching is 110
+Number of page matching is 109
 db9f869ca0099fffb7d181b49402cc3e  offset 197
 Match Win-7
 Only match is Win-7
-Number of page matching is 111
+Number of page matching is 110
 bbbe8d2ac8b77a1baaa3efb61c308f37  offset 198
 Match Win-7
 Only match is Win-7
-Number of page matching is 112
+Number of page matching is 111
 705a4bd653a8bc6b838983e3d7f33c40  offset 199
 Match Win-7
 Only match is Win-7
-Number of page matching is 113
+Number of page matching is 112
 ffa848d4d111095b421876fcfae5f181  offset 200
 Match Win-7
 Only match is Win-7
-Number of page matching is 114
+Number of page matching is 113
 418642d6d7c26c10fdbfd6a69f619a9e  offset 201
 Match Win-7
 Only match is Win-7
-Number of page matching is 115
+Number of page matching is 114
 0e2edd6a23b04e771cfcc8205ae672d7  offset 202
 Match Win-7
 Only match is Win-7
-Number of page matching is 116
+Number of page matching is 115
 e5598640dde003211b93ce6956d598fe  offset 203
 Match Win-7
 Only match is Win-7
-Number of page matching is 117
+Number of page matching is 116
 8ec05892460d45ed62686d4187cb7e55  offset 204
 Match Win-7
 Only match is Win-7
-Number of page matching is 118
+Number of page matching is 117
 bbf3a12cb26d4c729894837e779dcc1f  offset 205
 Match Win-7
 Only match is Win-7
-Number of page matching is 119
+Number of page matching is 118
 b501ca3c27f2fe6a1b69c01ff3692cb9  offset 206
 Match Win-7
 Only match is Win-7
-Number of page matching is 120
+Number of page matching is 119
 43e8293f07018c37775e6571e8f385bf  offset 208
 Match Win-7
 Only match is Win-7
-Number of page matching is 121
+Number of page matching is 120
 436586686e0fa851c34370b561bc478e  offset 209
 Match Win-7
 Only match is Win-7
-Number of page matching is 122
+Number of page matching is 121
 f009d2a01e88773d8734b5a9cf00cfb2  offset 210
 Match Win-7
 Only match is Win-7
-Number of page matching is 123
+Number of page matching is 122
 ceac7be9c80c34889fdce8531a4e2cc3  offset 211
 Match Win-7
 Only match is Win-7
-Number of page matching is 124
+Number of page matching is 123
 37f2343f2dede028196a99ebb10a9d01  offset 212
 Match Win-7
 Only match is Win-7
-Number of page matching is 125
+Number of page matching is 124
 774d72e3bce968a87c116e845089472e  offset 214
 Match Win-7
 Only match is Win-7
-Number of page matching is 126
+Number of page matching is 125
 5c198d27773ea0b43d362fd37219cfd6  offset 215
 Match Win-7
 Only match is Win-7
-Number of page matching is 127
+Number of page matching is 126
 d0e938e9b09bb6c3faaa74c1dc83af46  offset 216
 Match Win-7
 Only match is Win-7
-Number of page matching is 128
+Number of page matching is 127
 edfd98afc0ffbe2535ce542df83c60ba  offset 218
 Match Win-7
 Only match is Win-7
-Number of page matching is 129
+Number of page matching is 128
 3f20575138747837ca53f2f4f4a1b503  offset 219
 Match Win-7
 Only match is Win-7
-Number of page matching is 130
+Number of page matching is 129
 71041423cadca868c9577336a8ada6ea  offset 221
 Match Win-7
 Only match is Win-7
-Number of page matching is 131
+Number of page matching is 130
 e2c0f510d032cabae73b99605bb28e54  offset 222
 Match Win-7
 Only match is Win-7
-Number of page matching is 132
+Number of page matching is 131
 2201746db16e70171449eed48004d5c2  offset 223
 Match Win-7
 Only match is Win-7
-Number of page matching is 133
+Number of page matching is 132
 54df713bfc9489d95629978d218d978f  offset 224
 Match Win-7
 Only match is Win-7
-Number of page matching is 134
+Number of page matching is 133
 77df2a847317d7bd4f1b7c4ef47457dc  offset 225
 Match Win-7
 Only match is Win-7
-Number of page matching is 135
+Number of page matching is 134
 3dd308491f4b1954f6afb3eda7590f46  offset 227
 Match Win-7
 Only match is Win-7
-Number of page matching is 136
+Number of page matching is 135
 5d494d7d218d7fec0da963fe1a7e4ffc  offset 228
 Match Win-7
 Only match is Win-7
-Number of page matching is 137
+Number of page matching is 136
 b6c7ec5336740ac587cc282d72fea757  offset 229
 Match Win-7
 Only match is Win-7
-Number of page matching is 138
+Number of page matching is 137
 11de4a66287c255208242a30a8127d34  offset 230
 Match Win-7
 Only match is Win-7
-Number of page matching is 139
+Number of page matching is 138
 54870d7a35d6231ae736ea426e392f51  offset 232
 Match Win-7
 Only match is Win-7
-Number of page matching is 140
+Number of page matching is 139
 bba0b9f142488bd94ec6e91237433651  offset 233
 Match Win-7
 Only match is Win-7
-Number of page matching is 141
+Number of page matching is 140
 e540696ac7a461dc01d8489bfc0a9dba  offset 234
 Match Win-7
 Only match is Win-7
-Number of page matching is 142
+Number of page matching is 141
 96216977c91f3aee52364d4309c25d48  offset 236
 Match Win-7
 Only match is Win-7
-Number of page matching is 143
+Number of page matching is 142
 a326e007d71cb94271c9e115ebf9e0fe  offset 237
 Match Win-7
 Only match is Win-7
-Number of page matching is 144
+Number of page matching is 143
 ab52e20b873e59d46a6363ac907c6dff  offset 238
 Match Win-7
 Only match is Win-7
-Number of page matching is 145
+Number of page matching is 144
 f954603165c2fb530f0ecb0cb96c4c91  offset 239
 Match Win-7
 Only match is Win-7
-Number of page matching is 146
+Number of page matching is 145
 b7ba81c7967621b5ec462ea6b523a3b5  offset 240
 Match Win-7
 Only match is Win-7
-Number of page matching is 147
+Number of page matching is 146
 eb8ee3630403f8ee3e1c20291d5d2cc7  offset 241
 Match Win-7
 Only match is Win-7
-Number of page matching is 148
+Number of page matching is 147
 c8abc1e35eb36e85068fd07406e054bf  offset 242
 Match Win-7
 Only match is Win-7
-Number of page matching is 149
+Number of page matching is 148
 10e85df5811ffe5932e3ff6183520948  offset 243
 Match Win-7
 Only match is Win-7
-Number of page matching is 150
+Number of page matching is 149
 bd9bef299153dcec29caaa4bab1c8dbf  offset 244
 Match Win-7
 Only match is Win-7
-Number of page matching is 151
+Number of page matching is 150
 5e6b9d949fdf7d819c600589cd0b0be9  offset 245
 Match Win-7
 Only match is Win-7
-Number of page matching is 152
+Number of page matching is 151
 f06621ef19d3d1c47d091f90d27688a4  offset 246
 Match Win-7
 Only match is Win-7
-Number of page matching is 153
+Number of page matching is 152
 94f7238727c42c7ef39d6e39f4d3948f  offset 249
 Match Win-7
 Only match is Win-7
-Number of page matching is 154
+Number of page matching is 153
 8ada18a51e658bb5e34bb48150339bf2  offset 250
 Match Win-7
 Only match is Win-7
-Number of page matching is 155
+Number of page matching is 154
 972e0ec0948dc44bc2be2ed5cb9bbb4f  offset 251
 Match Win-7
 Only match is Win-7
-Number of page matching is 156
+Number of page matching is 155
 b723fd225608a67f8d1031914086a223  offset 252
 Match Win-7
 Only match is Win-7
-Number of page matching is 157
+Number of page matching is 156
 bd85d5a248a395123a3ebb9f50fc46d3  offset 253
 Match Win-7
 Only match is Win-7
-Number of page matching is 158
+Number of page matching is 157
 638d23f09864e32ca24d725d1ff08558  offset 254
 Match Win-7
 Only match is Win-7
-Number of page matching is 159
+Number of page matching is 158
 09c2c3174a2edc4c9de2cca0a2307eb6  offset 255
 Match Win-7
 Only match is Win-7
-Number of page matching is 160
+Number of page matching is 159
 edf127081e60e132170ada7f343218da  offset 256
 Match Win-7
 Only match is Win-7
-Number of page matching is 161
+Number of page matching is 160
 c5214a1d1c3971eb851a9658def9851f  offset 257
 Match Win-7
 Only match is Win-7
-Number of page matching is 162
+Number of page matching is 161
 8e1bdcafd135e97395eee0a0c086bda7  offset 258
 Match Win-7
 Only match is Win-7
-Number of page matching is 163
+Number of page matching is 162
 80a6afdecc631d183bb1407f7e1f8818  offset 259
 Match Win-7
 Only match is Win-7
-Number of page matching is 164
+Number of page matching is 163
 2b2d62d8e070cb74c93cbad86b5d3bdd  offset 261
 Match Win-7
 Only match is Win-7
-Number of page matching is 165
+Number of page matching is 164
 09974620076b4b850967024401a01e65  offset 262
 Match Win-7
 Only match is Win-7
-Number of page matching is 166
+Number of page matching is 165
 cb09f713cc118d05596d5fd166bcb51e  offset 263
-Match Win-7
-Only match is Win-7
-Number of page matching is 167
+Number of page matching is 165
 d530f5cd916a76b9547b394359d0bdc6  offset 264
-Number of page matching is 167
+Number of page matching is 165
 1da14d47fb693d168539a1b1568356f5  offset 265
-Number of page matching is 167
+Number of page matching is 165
 8480417452b79d654efcc94fb62f9f23  offset 267
-Number of page matching is 167
+Number of page matching is 165
 180e3f8852b64c8337a06b8939373568  offset 268
-Number of page matching is 167
+Number of page matching is 165
 9680c6317ba5535c87c3cc0d18733d31  offset 269
-Number of page matching is 167
+Number of page matching is 165
 f384b493b67feb3fa37da160b6e3ca6f  offset 270
-Number of page matching is 167
+Number of page matching is 165
 66e9b040ba0beeee7c8cd8b94383d5cd  offset 271
-Number of page matching is 167
+Number of page matching is 165
 4563369f736d4516f522e72b5d0fec69  offset 272
-Number of page matching is 167
+Number of page matching is 165
 e2f34a36a2412260a27a6719b6c3c31d  offset 273
-Number of page matching is 167
+Number of page matching is 165
 0d25958e4602bcaee29c249407a35077  offset 274
-Number of page matching is 167
+Number of page matching is 165
 901ee0af4d5206d52723a38c1f371f31  offset 276
-Number of page matching is 167
-Os is Win-7, match count is 167
+Number of page matching is 165
+Os is Win-7, match count is 165
 match time cost is 7 milliseconds
-Total time cost is 7997 milliseconds
+Total time cost is 10556 milliseconds

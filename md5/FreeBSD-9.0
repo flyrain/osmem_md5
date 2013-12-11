@@ -1,9 +1,10 @@
 mem '/home/cs3612/qemu/mem/mem-freebsd9' load success! size is 536870912
-Load mem time cost is 5655 milliseconds
+Load mem time cost is 6029 milliseconds
 potential pdg count: 21
-difference is 268 milliseconds
+difference is 263 milliseconds
 Real PGD Number is 21, PGD physical address:0x141e000
 difference is 0 milliseconds
+pgd is 0x141e000
 cr3
 kernel start at c0649000
 cr3
@@ -18,7 +19,7 @@ cr3
 kernel start at c0d40000
 cr3
 kernel start at c0d41000
-step1,all pages: 10134, cluster: 360,kdi time cost is 191 milliseconds
+step1,all pages: 10134, cluster: 360,kdi time cost is 192 milliseconds
 CR3 cluster: 1
 start:c0482000, end:c0d6ae80: len:8e8e81 kernel
 preprocess c0482000 c0d6ae80 8e8e81
@@ -1342,10 +1343,10 @@ ca2b97371f2491f910847ec88a0531c4 c0d61000 2271
 e98e8b889b6e71bf0c50280106bf3bdb c0d67000 2277
 2fa2411ae8424e6146a508066c26efdf c0d68000 2278
 733798f72790ca634dad80fb55b3367e c0d69000 2279
-step2: time cost is 1316 milliseconds
+step2: time cost is 1308 milliseconds
 Success pages: 1318/2281 disassembled bytes rate: 0.086390, page rate: 0.577817
 --------------------sig match begin--------------------------
-Signature load success! Number is 45
+Signature load success! Number is 52
 3563c0f1b3adac48e21c462242849303  offset 10
 Match FreeBSD-9.0
 Only match is FreeBSD-9.0
@@ -6571,31 +6572,29 @@ Match FreeBSD-9.0
 Only match is FreeBSD-9.0
 Number of page matching is 1306
 bc4f28d59fe63d0e1751940d4c60b739  offset 2267
-Match FreeBSD-9.0
-Only match is FreeBSD-9.0
-Number of page matching is 1307
+Number of page matching is 1306
 a5c99a587934862249b64be85effcf9f  offset 2269
-Number of page matching is 1307
+Number of page matching is 1306
 c9d5eb76c4663c5d10bb797b1c0aa631  offset 2270
-Number of page matching is 1307
+Number of page matching is 1306
 ca2b97371f2491f910847ec88a0531c4  offset 2271
-Number of page matching is 1307
+Number of page matching is 1306
 8f453ca24903bf0395a4c58aa8aa0439  offset 2272
-Number of page matching is 1307
+Number of page matching is 1306
 91d9095d6a1011bced6f064525a9fc7c  offset 2273
-Number of page matching is 1307
+Number of page matching is 1306
 7508a43ea3f3664a43e5e6776c12125e  offset 2274
-Number of page matching is 1307
+Number of page matching is 1306
 3bf9b5a66b42e73e63a92ce79b46427c  offset 2275
-Number of page matching is 1307
+Number of page matching is 1306
 72953fd539bce2a7fd7e33665439e84b  offset 2276
-Number of page matching is 1307
+Number of page matching is 1306
 e98e8b889b6e71bf0c50280106bf3bdb  offset 2277
-Number of page matching is 1307
+Number of page matching is 1306
 2fa2411ae8424e6146a508066c26efdf  offset 2278
-Number of page matching is 1307
+Number of page matching is 1306
 733798f72790ca634dad80fb55b3367e  offset 2279
-Number of page matching is 1307
-Os is FreeBSD-9.0, match count is 1307
-match time cost is 54 milliseconds
-Total time cost is 7672 milliseconds
+Number of page matching is 1306
+Os is FreeBSD-9.0, match count is 1306
+match time cost is 56 milliseconds
+Total time cost is 7970 milliseconds

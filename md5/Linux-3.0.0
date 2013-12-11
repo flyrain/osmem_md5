@@ -1,16 +1,17 @@
 mem '/home/cs3612/qemu/mem/mem-3.0.0' load success! size is 536870912
-Load mem time cost is 7271 milliseconds
-potential pdg count: 107
-difference is 32 milliseconds
+Load mem time cost is 7490 milliseconds
+potential pdg count: 111
+difference is 49 milliseconds
 Real PGD Number is 58, PGD physical address:0xa08000
 difference is 0 milliseconds
+pgd is 0xa08000
 cr3
 kernel start at c1001000
 cr3
 kernel start at c1025000
 cr3
 kernel start at c1425000
-step1,all pages: 131354, cluster: 149,kdi time cost is 2317 milliseconds
+step1,all pages: 131354, cluster: 149,kdi time cost is 2345 milliseconds
 CR3 cluster: 2
 start:c1001000, end:c13fffff: len:3fefff kernel
 preprocess c1001000 c13fffff 3fefff
@@ -991,10 +992,10 @@ f8fe683e81bbea50f7adbf6791abfb5f c13f6000 1013
 511b9324d3464f87f84d1ea5d03d19d9 c13fc000 1019
 a91ba0a88e2215124b1cd3cca244442e c13fd000 1020
 1a24e93a1dadac94cdcab9fb6be32a2a c13fe000 1021
-step2: time cost is 1187 milliseconds
+step2: time cost is 1222 milliseconds
 Success pages: 975/1023 disassembled bytes rate: 0.155473, page rate: 0.953079
 --------------------sig match begin--------------------------
-Signature load success! Number is 45
+Signature load success! Number is 52
 1d09bc6ae0a98da437d34f17e5e7c34d  offset 0
 Match Linux-3.0.0
 Only match is Linux-3.0.0
@@ -4884,5 +4885,5 @@ Number of page matching is 969
 1a24e93a1dadac94cdcab9fb6be32a2a  offset 1021
 Number of page matching is 969
 Os is Linux-3.0.0, match count is 969
-match time cost is 40 milliseconds
-Total time cost is 11021 milliseconds
+match time cost is 41 milliseconds
+Total time cost is 11281 milliseconds

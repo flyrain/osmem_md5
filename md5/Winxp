@@ -1,16 +1,17 @@
 mem '/home/cs3612/qemu/mem/mem-winxp' load success! size is 536870912
-Load mem time cost is 5363 milliseconds
-potential pdg count: 15
-difference is 238 milliseconds
+Load mem time cost is 4080 milliseconds
+potential pdg count: 12
+difference is 248 milliseconds
 Real PGD Number is 12, PGD physical address:0x7be4000
 difference is 0 milliseconds
+pgd is 0x7be4000
 cr3
 kernel start at 8062f000
 cr3
 kernel start at 80632000
 cr3
 kernel start at f86c7000
-step1,all pages: 14477, cluster: 883,kdi time cost is 264 milliseconds
+step1,all pages: 14477, cluster: 883,kdi time cost is 281 milliseconds
 CR3 cluster: 2
 start:804d0000, end:8064f2b9: len:17f2ba kernel
 preprocess 804d0000 8064f2b9 17f2ba
@@ -248,10 +249,10 @@ cd70643198d857513bea963f90e9d1e1 8063c000 364
 44635678e0274ccba454136802be0a80 8064c000 380
 710615d600efa2529a34c5b394f333f2 8064d000 381
 ee288cd7852dce40a9df77ef6926f5af 8064e000 382
-step2: time cost is 185 milliseconds
+step2: time cost is 198 milliseconds
 Success pages: 232/384 disassembled bytes rate: 0.119100, page rate: 0.604167
 --------------------sig match begin--------------------------
-Signature load success! Number is 45
+Signature load success! Number is 52
 891ba8b9ea8fa4f2f7c0b0fd25838e93  offset 1
 Match Winxp
 Only match is Winxp
@@ -1051,5 +1052,5 @@ Number of page matching is 167
 ee288cd7852dce40a9df77ef6926f5af  offset 382
 Number of page matching is 167
 Os is Winxp, match count is 167
-match time cost is 9 milliseconds
-Total time cost is 6221 milliseconds
+match time cost is 10 milliseconds
+Total time cost is 4938 milliseconds

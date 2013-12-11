@@ -1,16 +1,17 @@
 mem '/home/cs3612/qemu/mem/mem-2.6.33' load success! size is 536870912
-Load mem time cost is 7063 milliseconds
-potential pdg count: 97
-difference is 60 milliseconds
+Load mem time cost is 7171 milliseconds
+potential pdg count: 101
+difference is 61 milliseconds
 Real PGD Number is 87, PGD physical address:0x837000
 difference is 0 milliseconds
+pgd is 0x837000
 cr3
 kernel start at c0101000
 cr3
 kernel start at c0128000
 cr3
 kernel start at c04a5000
-step1,all pages: 131241, cluster: 28,kdi time cost is 2315 milliseconds
+step1,all pages: 131241, cluster: 28,kdi time cost is 2337 milliseconds
 CR3 cluster: 1
 start:c0101000, end:c0580bf0: len:47fbf1 kernel
 preprocess c0101000 c0580bf0 47fbf1
@@ -1055,13 +1056,14 @@ f29fd387ebe16fc73bf31e5b8fd6ad63 c057b000 1146
 3f32c6378300bc3a85ba21662688f26d c057d000 1148
 daf551432753ef3ed2ef1a91ae794f94 c057e000 1149
 2533a26c02808976815688e959b287c7 c057f000 1150
-step2: time cost is 1075 milliseconds
+step2: time cost is 1080 milliseconds
 Success pages: 1039/1152 disassembled bytes rate: 0.112300, page rate: 0.901910
 --------------------sig match begin--------------------------
-Signature load success! Number is 45
+Signature load success! Number is 52
 36c6d93181042d2b4e26d21c705df44e  offset 0
+Match Linux-2.6.34
+Match Linux-2.6.36
 Match Linux-2.6.33
-Only match is Linux-2.6.33
 Number of page matching is 1
 7e5ac1ef2d8495b3bfe484d9f2944417  offset 1
 Match Linux-2.6.33
@@ -4928,151 +4930,149 @@ Match Linux-2.6.33
 Only match is Linux-2.6.33
 Number of page matching is 967
 0497ff1fe2b03b392a2fab5a6897f1dc  offset 1074
-Match Linux-2.6.33
-Only match is Linux-2.6.33
-Number of page matching is 968
+Number of page matching is 967
 ebbcdb7a91f49cf44993ff40206c05e2  offset 1075
-Number of page matching is 968
+Number of page matching is 967
 51876527314026a336aa0516125b2c4f  offset 1076
-Number of page matching is 968
+Number of page matching is 967
 db806cc7e99b214e9dedef646d27ae32  offset 1077
-Number of page matching is 968
+Number of page matching is 967
 e57be3790b30c1703ae83a64972487b4  offset 1078
-Number of page matching is 968
+Number of page matching is 967
 f97022a1c58b5f5132d87fbdebfa8066  offset 1079
-Number of page matching is 968
+Number of page matching is 967
 10527092b1b0d1316ac74f39397c8290  offset 1080
-Number of page matching is 968
+Number of page matching is 967
 12b7cb7c8139c66abc4395a0e81d027b  offset 1081
-Number of page matching is 968
+Number of page matching is 967
 e423dec90c761740420868974b45f0f6  offset 1082
-Number of page matching is 968
+Number of page matching is 967
 7773560342c10226b882eb63f4482201  offset 1084
-Number of page matching is 968
+Number of page matching is 967
 b9ddb92330a0668ac354f6769413c9dc  offset 1085
-Number of page matching is 968
+Number of page matching is 967
 f5792c925d1457b8aede9b7b853a3ffe  offset 1086
-Number of page matching is 968
+Number of page matching is 967
 936f918fc36a053e901b34d4759ec745  offset 1087
-Number of page matching is 968
+Number of page matching is 967
 bbf9d4cee7c83910b48d51485bc02d09  offset 1088
-Number of page matching is 968
+Number of page matching is 967
 13c77568ab1c3ae65dcd93478190ea6b  offset 1090
-Number of page matching is 968
+Number of page matching is 967
 7e6819ab12840b487e18692c0d2ead2d  offset 1091
-Number of page matching is 968
+Number of page matching is 967
 6cdd1e79d7dabe102fa8d7c9f43c2e4e  offset 1092
-Number of page matching is 968
+Number of page matching is 967
 c2cd66d27e1f1c2ad3facf51480a9936  offset 1093
-Number of page matching is 968
+Number of page matching is 967
 c462ef45a711c09623044e2c6886695b  offset 1094
-Number of page matching is 968
+Number of page matching is 967
 e50dfb667446027aeb2e1570906af9dc  offset 1095
-Number of page matching is 968
+Number of page matching is 967
 b072b06cb5be541fe75a304e7ea8f832  offset 1096
-Number of page matching is 968
+Number of page matching is 967
 a518a34c441a13dbf1cdf4d0b624e275  offset 1097
-Number of page matching is 968
+Number of page matching is 967
 eb3b8b9e979c597a814502496704107b  offset 1098
-Number of page matching is 968
+Number of page matching is 967
 754632b1a70594d99dc1f92c3b19a970  offset 1099
-Number of page matching is 968
+Number of page matching is 967
 d28454038177c3fd966fcdb1c1d768a6  offset 1100
-Number of page matching is 968
+Number of page matching is 967
 abd7386c85f75ae475e026ab929ddeed  offset 1101
-Number of page matching is 968
+Number of page matching is 967
 f265037da93ed186b5d3dcbce7b2d8d5  offset 1102
-Number of page matching is 968
+Number of page matching is 967
 c52302c7f0f919c73a1617c290f9c241  offset 1104
-Number of page matching is 968
+Number of page matching is 967
 3d1ac47d8641e1a08c06eff23cdcaef1  offset 1105
-Number of page matching is 968
+Number of page matching is 967
 7bf1e391ce627a3dafa80ff691fd1c59  offset 1106
-Number of page matching is 968
+Number of page matching is 967
 8bdadfeace7190812e6958451f24fca7  offset 1107
-Number of page matching is 968
+Number of page matching is 967
 88f3efae57efffca50534d1a39fb5aea  offset 1108
-Number of page matching is 968
+Number of page matching is 967
 575e3c932fcc4d2fc43c425b15244224  offset 1109
-Number of page matching is 968
+Number of page matching is 967
 92b4f7325cdba3a0d49dd01a7a9d94aa  offset 1110
-Number of page matching is 968
+Number of page matching is 967
 c9dc0b1478fdc1c585186c806fedb251  offset 1111
-Number of page matching is 968
+Number of page matching is 967
 b6685c156e1f859828423e4d7cfe23fa  offset 1112
-Number of page matching is 968
+Number of page matching is 967
 bdf11f49cc4ec0206bd81dd44abd6b5b  offset 1113
-Number of page matching is 968
+Number of page matching is 967
 0faf7151cd4e65c5ebc83ceca88e3204  offset 1114
-Number of page matching is 968
+Number of page matching is 967
 24637cdc8aa2ab8f28a535778f071b59  offset 1115
-Number of page matching is 968
+Number of page matching is 967
 67a5bede6b3e29a9d7dfcb00919c002f  offset 1116
-Number of page matching is 968
+Number of page matching is 967
 213edd5a64054ece4d5eaa9424259857  offset 1117
-Number of page matching is 968
+Number of page matching is 967
 83e46838dfd4db1840cf4b18bd377d98  offset 1118
-Number of page matching is 968
+Number of page matching is 967
 195e340183ed55578e42bb4c8eb88876  offset 1119
-Number of page matching is 968
+Number of page matching is 967
 1a83318a48f4e98d78307ba3acd56166  offset 1120
-Number of page matching is 968
+Number of page matching is 967
 569cd71e8d170e85fa6c35b0ef3d6540  offset 1121
-Number of page matching is 968
+Number of page matching is 967
 dd11bdc5bbdd55526c7c81d6cebd3afd  offset 1122
-Number of page matching is 968
+Number of page matching is 967
 dc6df530395243150fd57c36d4f2551f  offset 1123
-Number of page matching is 968
+Number of page matching is 967
 cffaa55a39474b7cca353a6f8b299c4f  offset 1124
-Number of page matching is 968
+Number of page matching is 967
 c2d507157af89abc29e2ce7a943074a7  offset 1126
-Number of page matching is 968
+Number of page matching is 967
 3a83b1f29396ed4aaec90a1c49eb7e4b  offset 1127
-Number of page matching is 968
+Number of page matching is 967
 90e7b167fbc4d3e94cba18eb5caa77e6  offset 1128
-Number of page matching is 968
+Number of page matching is 967
 30a306218cb860f06f9cdb52ef09a21c  offset 1129
-Number of page matching is 968
+Number of page matching is 967
 e41ea159a89c1b8eecdb6eb85e23080f  offset 1130
-Number of page matching is 968
+Number of page matching is 967
 810df68afe41887fb996407a0030efe4  offset 1131
-Number of page matching is 968
+Number of page matching is 967
 340b9fce07b3561dbb3ba6be95e3652f  offset 1133
-Number of page matching is 968
+Number of page matching is 967
 1ca0a5547356457c99133e808a9b88d2  offset 1134
-Number of page matching is 968
+Number of page matching is 967
 b4dfe4046051fc514164ad3f9fc89771  offset 1135
-Number of page matching is 968
+Number of page matching is 967
 d5ddf89296cd9c9474b23b7565ca8e7c  offset 1136
-Number of page matching is 968
+Number of page matching is 967
 ecaf8defd6594b167610f4f6b9c4ab14  offset 1137
-Number of page matching is 968
+Number of page matching is 967
 fb295a52eff4d47fb8e602f170e03279  offset 1138
-Number of page matching is 968
+Number of page matching is 967
 f81251d84d386c394f9b7570e98c4019  offset 1139
-Number of page matching is 968
+Number of page matching is 967
 2a7395509384753598e9f9dd6cfb1e74  offset 1140
-Number of page matching is 968
+Number of page matching is 967
 604ceb86e8ffd6d3b8f5d539247bed1b  offset 1141
-Number of page matching is 968
+Number of page matching is 967
 d390433e8d85c73c11525bc399820f07  offset 1142
-Number of page matching is 968
+Number of page matching is 967
 0ef66ef26afb44ffc71cc53bcf51cf2b  offset 1143
-Number of page matching is 968
+Number of page matching is 967
 22accf15c13ec99a0b0eaf0528f658ed  offset 1144
-Number of page matching is 968
+Number of page matching is 967
 c638916cb6b34bdee351fbd5334fb374  offset 1145
-Number of page matching is 968
+Number of page matching is 967
 f29fd387ebe16fc73bf31e5b8fd6ad63  offset 1146
-Number of page matching is 968
+Number of page matching is 967
 0d1af543f8bb0d154c7a7c3a3438a313  offset 1147
-Number of page matching is 968
+Number of page matching is 967
 3f32c6378300bc3a85ba21662688f26d  offset 1148
-Number of page matching is 968
+Number of page matching is 967
 daf551432753ef3ed2ef1a91ae794f94  offset 1149
-Number of page matching is 968
+Number of page matching is 967
 2533a26c02808976815688e959b287c7  offset 1150
-Number of page matching is 968
-Os is Linux-2.6.33, match count is 968
+Number of page matching is 967
+Os is Linux-2.6.33, match count is 967
 match time cost is 43 milliseconds
-Total time cost is 10728 milliseconds
+Total time cost is 10824 milliseconds

@@ -1,9 +1,10 @@
 mem '/home/cs3612/qemu/mem/mem-win2003sp2' load success! size is 536870912
-Load mem time cost is 5766 milliseconds
-potential pdg count: 21
-difference is 242 milliseconds
+Load mem time cost is 7895 milliseconds
+potential pdg count: 20
+difference is 243 milliseconds
 Real PGD Number is 19, PGD physical address:0x39000
 difference is 0 milliseconds
+pgd is 0x39000
 cr3
 kernel start at 80809000
 cr3
@@ -52,7 +53,7 @@ cr3
 kernel start at f85fc000
 cr3
 kernel start at f85fd000
-step1,all pages: 14923, cluster: 1108,kdi time cost is 275 milliseconds
+step1,all pages: 14923, cluster: 1108,kdi time cost is 285 milliseconds
 CR3 cluster: 2
 start:80803000, end:80a35639: len:23263a kernel
 preprocess 80803000 80a35639 23263a
@@ -400,10 +401,10 @@ ef850ca2a01dbe9d95d61829e5f8fe4f 80a27000 548
 d18cb8976335514eac0089ff3d98f01f 80a2a000 551
 3d8b213f2a21edd5f48f02f39d6f846b 80a33000 560
 b4a8bc1fc5bf00793c7b41fa0e478fc3 80a34000 561
-step2: time cost is 354 milliseconds
+step2: time cost is 371 milliseconds
 Success pages: 342/563 disassembled bytes rate: 0.126581, page rate: 0.607460
 --------------------sig match begin--------------------------
-Signature load success! Number is 45
+Signature load success! Number is 52
 5988213b3d297a1cb5f7bd72f0dba514  offset 1
 Match Win2003sp2
 Only match is Win2003sp2
@@ -1753,5 +1754,5 @@ Number of page matching is 332
 b4a8bc1fc5bf00793c7b41fa0e478fc3  offset 561
 Number of page matching is 332
 Os is Win2003sp2, match count is 332
-match time cost is 14 milliseconds
-Total time cost is 6821 milliseconds
+match time cost is 15 milliseconds
+Total time cost is 8926 milliseconds

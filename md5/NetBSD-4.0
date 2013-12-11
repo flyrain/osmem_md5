@@ -1,9 +1,10 @@
 mem '/home/cs3612/qemu/mem/mem-netbsd4.0' load success! size is 536870912
-Load mem time cost is 5406 milliseconds
+Load mem time cost is 5296 milliseconds
 potential pdg count: 16
-difference is 281 milliseconds
+difference is 283 milliseconds
 Real PGD Number is 16, PGD physical address:0xaf2000
 difference is 0 milliseconds
+pgd is 0xaf2000
 cr3
 kernel start at c04da000
 cr3
@@ -12,7 +13,7 @@ cr3
 kernel start at c04dc000
 cr3
 kernel start at c04dd000
-step1,all pages: 7143, cluster: 225,kdi time cost is 134 milliseconds
+step1,all pages: 7143, cluster: 225,kdi time cost is 135 milliseconds
 CR3 cluster: 1
 start:c010b000, end:c08d5fff: len:7cafff kernel
 preprocess c010b000 c08d5fff 7cafff
@@ -1087,245 +1088,245 @@ f3cc7ef0c4f157147bc465a91fbcbdd9 c073e000 1587
 52621bd18c0ffba77688ba995baaa2a9 c0747000 1596
 609982415d4fa590c4b98bc9d9b7161d c0748000 1597
 11191c47eb96f8b50e0f45c47a3db3b8 c0749000 1598
-step2: time cost is 857 milliseconds
+step2: time cost is 876 milliseconds
 Success pages: 1069/1995 disassembled bytes rate: 0.078101, page rate: 0.535840
 --------------------sig match begin--------------------------
-Signature load success! Number is 45
+Signature load success! Number is 52
 7cf59253ba337558270a2b5a79f3c9b3  offset 0
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 1
 b33fd473f05034b39fe8ae090f94047e  offset 1
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 2
 0da26dd3db3edd59208042ad309fe4b9  offset 2
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 3
 5ea7101d9e6bf6e08adb9571f5633947  offset 5
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 4
 d563e4d5354e6c3f68d146b3ecc83376  offset 6
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 5
 a7660355ce7afc3f267b105b10d45f01  offset 8
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 6
 0db6da9aa74a654c4e0c54c6dfbb87aa  offset 10
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 7
 f47bad2e012d393d105b39ddb1674619  offset 11
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 8
 badd86d5c7ecf54c51434abe2dfde091  offset 12
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 9
 19456a2ef2dd808aee4e0c900d11a5c8  offset 13
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 10
 7c82030cee6729786e2abb25ad902a9e  offset 14
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 11
 bf98b4c3a37ac0c17f14e852ab94b3b2  offset 18
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 12
 6922ec5b4b9448568a2e83103c42a0ab  offset 29
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 13
 be4d29910a4a72e772e6d52de09b265e  offset 30
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 14
 95a8e760aba8e10cce09b10c8c227a8a  offset 31
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 15
 e68220ae8f8bc27e0787f46762462fdf  offset 32
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 16
 b2efc2cce9f62346cd3cd5c05c05b8eb  offset 33
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 17
 9a90d04714286ed9fe201bf254d08586  offset 34
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 18
 8d76e0b984bf66387f1bfa4bf40dc1a6  offset 37
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 19
 8170bda26d66cb14b097066c982a6ae7  offset 39
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 20
 a0aaa49d56bf064946d2ed1aad37a9d5  offset 40
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 21
 dcb6ed3673de5a9b66428e1ed81f1875  offset 41
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 22
 3f9ecafb3e99b0f6ea7714b60e733f0a  offset 42
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 23
 b5f46d505067a42abb347b6d5fbc459b  offset 44
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 24
 9ec7944856ad4ebab0ec4088db363c73  offset 45
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 25
 9317ddabe12f2b6e0d772fb5f986623e  offset 46
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 26
 2f2de404d5d073338e00271899f200e7  offset 47
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 27
 28d6fcffc4415046f83e1f78ebdd621a  offset 49
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 28
 8b13cf603555c9ae765d787683436da1  offset 50
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 29
 47879b64d5ddf0086675d86de88d4bb0  offset 52
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 30
 d4ceb23072e369f54e47b68fa67c4d00  offset 53
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 31
 344c64ec445e8bdd0b224efcfd0b46f8  offset 54
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 32
 24ea1c7b514c0400910b5594a783af6d  offset 55
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 33
 e217484a86a2903a2eb4a9099583c9a5  offset 56
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 34
 ff79a0ffca26bf2ff7fee6810bf597a7  offset 58
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 35
 ec86ee430dcb9a730786bfdbc6635120  offset 60
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 36
 f419d28f053c174ef04cdcec478ae805  offset 61
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 37
 3c41294ce7c56085c0b5856445477de8  offset 62
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 38
 2d2007f7a860f787b61a2fe33f05cb3d  offset 64
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 39
 a12f30ac86043cbef4ae53612f1b1ea6  offset 65
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 40
 408d5faf0dfdc19f1827886a2ba7e8cc  offset 67
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 41
 53183900fd213fe5560317cafa4bfb74  offset 71
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 42
 c27f6275d609a154d938beda04bb0c3b  offset 73
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 43
 021970c8ed8162a4bda09200730de82b  offset 78
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 44
 8edb4d5046be76084591a3757130b05e  offset 79
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 45
 be39a2b6bb6d6a6102101187d59a855d  offset 80
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 46
 6ee92ae59c8eb93946a448443518eef8  offset 81
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 47
 707aba886cf64b78bb6b149f964c5290  offset 82
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 48
 8fc2cab6c806d4d31262be49a38c64f1  offset 83
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 49
 bcf6175f44be7c932f024655e068346b  offset 84
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 50
 89f564af785f175fcd2b17d55a9a5405  offset 88
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 51
 27be49f35decd3b7c99af11fa2d44345  offset 89
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 52
 a28cb87b997c8f285f73233ebad61b75  offset 90
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 53
 b33ec9fc6be024b8584c73bf834cd8f8  offset 91
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 54
 7989b363bf7f31090b642e99bcbb1fdd  offset 92
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 55
 ebefe2940baee31ade09dade833cda59  offset 93
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 56
 64b7935f8573597bf7af179febaba24d  offset 94
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 57
 d62ebae3d4f4c6692bd6f55db8450a85  offset 95
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 58
 638ec26e9db3022a43f39f0ed538a1c7  offset 96
+Match NetBSD-4.0.1
 Match NetBSD-4.0
-Only match is NetBSD-4.0
 Number of page matching is 59
 86bf7f44a908751e8fe68eae14bcac3f  offset 100
 Match NetBSD-4.0
@@ -5326,5 +5327,5 @@ Number of page matching is 1048
 11191c47eb96f8b50e0f45c47a3db3b8  offset 1598
 Number of page matching is 1048
 Os is NetBSD-4.0, match count is 1048
-match time cost is 46 milliseconds
-Total time cost is 6913 milliseconds
+match time cost is 45 milliseconds
+Total time cost is 6760 milliseconds

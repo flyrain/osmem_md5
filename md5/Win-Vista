@@ -1,9 +1,10 @@
 mem '/home/cs3612/qemu/mem/mem-winvista' load success! size is 536870912
-Load mem time cost is 6425 milliseconds
-potential pdg count: 32
-difference is 47 milliseconds
+Load mem time cost is 267 milliseconds
+potential pdg count: 34
+difference is 93 milliseconds
 Real PGD Number is 24, PGD physical address:0x122000
 difference is 0 milliseconds
+pgd is 0x122000
 cr3
 kernel start at 81870000
 cr3
@@ -12,7 +13,7 @@ cr3
 kernel start at 81aaf000
 cr3
 kernel start at 81ab6000
-step1,all pages: 21903, cluster: 2310,kdi time cost is 393 milliseconds
+step1,all pages: 21903, cluster: 2310,kdi time cost is 414 milliseconds
 CR3 cluster: 1
 start:81801000, end:81b27dab: len:326dac kernel
 preprocess 81801000 81b27dab 326dac
@@ -471,10 +472,10 @@ de165a9f0622d664e14fa9c9bab192dc 81ad2000 721
 83d44e3fe6f148046dfe5397ce626773 81ad6000 725
 0240426e0ddaec99bef84281ce9b9e3a 81ad7000 726
 aa743dabba60dd1c1f0282061aadbcf0 81ad9000 728
-step2: time cost is 337 milliseconds
+step2: time cost is 351 milliseconds
 Success pages: 453/807 disassembled bytes rate: 0.070862, page rate: 0.561338
 --------------------sig match begin--------------------------
-Signature load success! Number is 45
+Signature load success! Number is 52
 d2dc8d0fc80998e453ad486e931bc8d0  offset 1
 Match Win-Vista
 Only match is Win-Vista
@@ -2249,4 +2250,4 @@ aa743dabba60dd1c1f0282061aadbcf0  offset 728
 Number of page matching is 433
 Os is Win-Vista, match count is 433
 match time cost is 19 milliseconds
-Total time cost is 7387 milliseconds
+Total time cost is 1265 milliseconds

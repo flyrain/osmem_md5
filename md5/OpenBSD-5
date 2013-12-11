@@ -1,9 +1,10 @@
 mem '/home/cs3612/qemu/mem/mem-openbsd5' load success! size is 536870912
-Load mem time cost is 6786 milliseconds
+Load mem time cost is 6830 milliseconds
 potential pdg count: 20
-difference is 280 milliseconds
+difference is 281 milliseconds
 Real PGD Number is 11, PGD physical address:0xb8d000
 difference is 0 milliseconds
+pgd is 0xb8d000
 cr3
 kernel start at d0566000
 cr3
@@ -12,7 +13,7 @@ cr3
 kernel start at d056c000
 cr3
 kernel start at d056e000
-step1,all pages: 10098, cluster: 1106,kdi time cost is 187 milliseconds
+step1,all pages: 10098, cluster: 1106,kdi time cost is 189 milliseconds
 CR3 cluster: 1
 start:d0203000, end:d0833fff: len:630fff kernel
 preprocess d0203000 d0833fff 630fff
@@ -1308,10 +1309,10 @@ b19e2e5e6222ecd0a1a88464d7cd3c2e d082e000 1579
 30c11ad0a51e7ee1c338d34329e28e6b d0830000 1581
 4bfaf4305ea562390dd506c0c7cfb9c0 d0831000 1582
 7fe1c4167aac71de5af0322b09f72814 d0832000 1583
-step2: time cost is 1245 milliseconds
+step2: time cost is 1279 milliseconds
 Success pages: 1290/1585 disassembled bytes rate: 0.113575, page rate: 0.813880
 --------------------sig match begin--------------------------
-Signature load success! Number is 45
+Signature load success! Number is 52
 67d879802f40c61c0c7534bf61215b4d  offset 1
 Match OpenBSD-5
 Only match is OpenBSD-5
@@ -6213,137 +6214,135 @@ Match OpenBSD-5
 Only match is OpenBSD-5
 Number of page matching is 1225
 cf5882c14caed589a10703b1652bf269  offset 1511
-Match OpenBSD-5
-Only match is OpenBSD-5
-Number of page matching is 1226
+Number of page matching is 1225
 26c14904f8ae1c376046232c185498aa  offset 1512
-Number of page matching is 1226
+Number of page matching is 1225
 eee9279606d41d988d993532c473c0d9  offset 1513
-Number of page matching is 1226
+Number of page matching is 1225
 54c21657bb8a4e917b56fe4165a6b35f  offset 1514
-Number of page matching is 1226
+Number of page matching is 1225
 5a2007f148682a4dcad696f2ed413180  offset 1515
-Number of page matching is 1226
+Number of page matching is 1225
 1e593a06232ffbc7d4632be9e7a644e5  offset 1516
-Number of page matching is 1226
+Number of page matching is 1225
 1d586a12f99f5f42b150c68ab1d88b0f  offset 1517
-Number of page matching is 1226
+Number of page matching is 1225
 541ba3480806f8b1e5783cba95d2dc43  offset 1519
-Number of page matching is 1226
+Number of page matching is 1225
 e5d90f241a199abecaaa340f2d38fa56  offset 1520
-Number of page matching is 1226
+Number of page matching is 1225
 d28ef53ca451c4ca0443ceb39e22ba73  offset 1521
-Number of page matching is 1226
+Number of page matching is 1225
 9ca7317acb712216fea26177b316ebc8  offset 1522
-Number of page matching is 1226
+Number of page matching is 1225
 9ebc3f06acae7f91a274bfb20a73902c  offset 1523
-Number of page matching is 1226
+Number of page matching is 1225
 82465696d13ab25a0b826dfae33b2bc9  offset 1524
-Number of page matching is 1226
+Number of page matching is 1225
 b42259379053d8d89c902397a6ec0317  offset 1525
-Number of page matching is 1226
+Number of page matching is 1225
 7fa1fe4cdd5c282c98c42933a06b97e2  offset 1526
-Number of page matching is 1226
+Number of page matching is 1225
 8f4feb08ca8af183201c9c8d36009230  offset 1527
-Number of page matching is 1226
+Number of page matching is 1225
 5995476949aa40992312021b13cc635a  offset 1528
-Number of page matching is 1226
+Number of page matching is 1225
 4e4603c3b84d9557ca155d965a0b0a71  offset 1529
-Number of page matching is 1226
+Number of page matching is 1225
 8603c47d9a7ed71a70f0481ea598e63b  offset 1530
-Number of page matching is 1226
+Number of page matching is 1225
 c9411d9280333a2cb629ce2f730460a5  offset 1531
-Number of page matching is 1226
+Number of page matching is 1225
 730d995cb14f124fbd593d8fc8310a2d  offset 1532
-Number of page matching is 1226
+Number of page matching is 1225
 af429d448b2a676919849a1f50a238bb  offset 1533
-Number of page matching is 1226
+Number of page matching is 1225
 22217d0482342c846d2c5f95f211b7da  offset 1535
-Number of page matching is 1226
+Number of page matching is 1225
 2bbbf1cd1bad788eb13b938c476d5220  offset 1536
-Number of page matching is 1226
+Number of page matching is 1225
 44e80b47d25c5326098f3107225f6a7f  offset 1537
-Number of page matching is 1226
+Number of page matching is 1225
 14bd0082a1d85863f4090c11e8101b09  offset 1538
-Number of page matching is 1226
+Number of page matching is 1225
 fb04be829d372d1374e536d650114b23  offset 1539
-Number of page matching is 1226
+Number of page matching is 1225
 a590a7e63af99c0a3eb628659a1b3fba  offset 1540
-Number of page matching is 1226
+Number of page matching is 1225
 9f2b5dbc7011bd3c2ccacc46285868de  offset 1543
-Number of page matching is 1226
+Number of page matching is 1225
 02a3c2d714ac41151511a2949deb7ddb  offset 1544
-Number of page matching is 1226
+Number of page matching is 1225
 fba6f7999ff8fe0baa14911d750a027a  offset 1545
-Number of page matching is 1226
+Number of page matching is 1225
 0ce8d8673e1e174dbec07e8abb1cf3e7  offset 1548
-Number of page matching is 1226
+Number of page matching is 1225
 1823e1138ce688466da944a6a77c5d45  offset 1549
-Number of page matching is 1226
+Number of page matching is 1225
 93ea11601ade0d416a238752d4ce81b4  offset 1550
-Number of page matching is 1226
+Number of page matching is 1225
 d7aa5faa5d472a4a1a3380affb433425  offset 1551
-Number of page matching is 1226
+Number of page matching is 1225
 6e23869dc8a2bcc9b24170552a7f4ab0  offset 1552
-Number of page matching is 1226
+Number of page matching is 1225
 6d03cc86d2c86e2a67074114644f17cb  offset 1554
-Number of page matching is 1226
+Number of page matching is 1225
 546e459a2d991d06472a24b55549652a  offset 1555
-Number of page matching is 1226
+Number of page matching is 1225
 5fcfeca0b7c214eb5e13d3b9c8a6ba8e  offset 1556
-Number of page matching is 1226
+Number of page matching is 1225
 d9614a298c66b9339cb04d6688fea395  offset 1557
-Number of page matching is 1226
+Number of page matching is 1225
 5dc511bdac614acfa6c1cfce2bbecec4  offset 1558
-Number of page matching is 1226
+Number of page matching is 1225
 018cae76fdd7f9f1e14adf4ab37d40ec  offset 1559
-Number of page matching is 1226
+Number of page matching is 1225
 051b39d7799579d3a267fdd7b8c3bbe7  offset 1560
-Number of page matching is 1226
+Number of page matching is 1225
 c975039bd94d67bb556654667cfe20fc  offset 1561
-Number of page matching is 1226
+Number of page matching is 1225
 bc68ac0993d5072d29a76199f3919a45  offset 1562
-Number of page matching is 1226
+Number of page matching is 1225
 f1851be5a50904b57342aa337ac3834f  offset 1563
-Number of page matching is 1226
+Number of page matching is 1225
 572705abb8481bf2352c86d974e8d854  offset 1564
-Number of page matching is 1226
+Number of page matching is 1225
 18d4c9f10e41084f096cc1c13bb42094  offset 1565
-Number of page matching is 1226
+Number of page matching is 1225
 3cea6d94dda2e1fabbc1c06a49b3748c  offset 1566
-Number of page matching is 1226
+Number of page matching is 1225
 219c4d46d2b76fa1b44286f0df603465  offset 1567
-Number of page matching is 1226
+Number of page matching is 1225
 8255d3ef9cf5d71beb3a376c3fbc48d6  offset 1568
-Number of page matching is 1226
+Number of page matching is 1225
 d562c2e82716711f23a493d3c14f344f  offset 1570
-Number of page matching is 1226
+Number of page matching is 1225
 406bf124c862bc17b827b3bdb3c01036  offset 1571
-Number of page matching is 1226
+Number of page matching is 1225
 8908a9cddf05d5f42b8ab6a4b88f9a6e  offset 1572
-Number of page matching is 1226
+Number of page matching is 1225
 9458ee9c3c0cfafaa10b5a38968be50b  offset 1573
-Number of page matching is 1226
+Number of page matching is 1225
 07f29dfde182a43b991681c89ae28633  offset 1574
-Number of page matching is 1226
+Number of page matching is 1225
 ca095a617b9942ed68b7f4bd68c05733  offset 1575
-Number of page matching is 1226
+Number of page matching is 1225
 69c6dc9a6ec5d83bb7fc53cb69a0a201  offset 1576
-Number of page matching is 1226
+Number of page matching is 1225
 72582e7dfbc7634772ff89ae83a308b6  offset 1577
-Number of page matching is 1226
+Number of page matching is 1225
 28301cb824ac456908469bd3a263a401  offset 1578
-Number of page matching is 1226
+Number of page matching is 1225
 b19e2e5e6222ecd0a1a88464d7cd3c2e  offset 1579
-Number of page matching is 1226
+Number of page matching is 1225
 1bd7eebb86ac54b90dda78b5b31ddb16  offset 1580
-Number of page matching is 1226
+Number of page matching is 1225
 30c11ad0a51e7ee1c338d34329e28e6b  offset 1581
-Number of page matching is 1226
+Number of page matching is 1225
 4bfaf4305ea562390dd506c0c7cfb9c0  offset 1582
-Number of page matching is 1226
+Number of page matching is 1225
 7fe1c4167aac71de5af0322b09f72814  offset 1583
-Number of page matching is 1226
-Os is OpenBSD-5, match count is 1226
+Number of page matching is 1225
+Os is OpenBSD-5, match count is 1225
 match time cost is 53 milliseconds
-Total time cost is 8739 milliseconds
+Total time cost is 8749 milliseconds

@@ -1,9 +1,10 @@
 mem '/home/cs3612/qemu/mem/mem-netbsd4.0.1' load success! size is 536870912
-Load mem time cost is 5285 milliseconds
+Load mem time cost is 5190 milliseconds
 potential pdg count: 11
-difference is 281 milliseconds
+difference is 285 milliseconds
 Real PGD Number is 11, PGD physical address:0xaf2000
 difference is 0 milliseconds
+pgd is 0xaf2000
 cr3
 kernel start at c04da000
 cr3
@@ -12,7 +13,7 @@ cr3
 kernel start at c04dc000
 cr3
 kernel start at c04dd000
-step1,all pages: 7079, cluster: 220,kdi time cost is 132 milliseconds
+step1,all pages: 7079, cluster: 220,kdi time cost is 136 milliseconds
 CR3 cluster: 1
 start:c010b000, end:c08d5fff: len:7cafff kernel
 preprocess c010b000 c08d5fff 7cafff
@@ -1066,10 +1067,10 @@ ac71f60b46f71779b29b2890d3a14acb c0745000 1594
 bb140b47ecc2cf9c6e513f612699123d c0747000 1596
 71b43fcdde2887caf57891776df4ad41 c0748000 1597
 37190636b361ad84add2eb099790d188 c0749000 1598
-step2: time cost is 848 milliseconds
+step2: time cost is 875 milliseconds
 Success pages: 1048/1995 disassembled bytes rate: 0.075817, page rate: 0.525313
 --------------------sig match begin--------------------------
-Signature load success! Number is 45
+Signature load success! Number is 52
 7cf59253ba337558270a2b5a79f3c9b3  offset 0
 Match NetBSD-4.0.1
 Match NetBSD-4.0
@@ -5263,5 +5264,5 @@ Match NetBSD-4.0.1
 Only match is NetBSD-4.0.1
 Number of page matching is 1048
 Os is NetBSD-4.0.1, match count is 1048
-match time cost is 43 milliseconds
-Total time cost is 6772 milliseconds
+match time cost is 44 milliseconds
+Total time cost is 6647 milliseconds

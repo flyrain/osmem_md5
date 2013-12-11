@@ -1,9 +1,10 @@
 mem '/home/cs3612/qemu/mem/mem-win2008' load success! size is 536870912
-Load mem time cost is 5531 milliseconds
+Load mem time cost is 7697 milliseconds
 potential pdg count: 29
-difference is 40 milliseconds
+difference is 49 milliseconds
 Real PGD Number is 20, PGD physical address:0x802000
 difference is 0 milliseconds
+pgd is 0x802000
 cr3
 kernel start at 8185d000
 cr3
@@ -12,7 +13,7 @@ cr3
 kernel start at 81ad9000
 cr3
 kernel start at 81ada000
-step1,all pages: 27447, cluster: 1804,kdi time cost is 492 milliseconds
+step1,all pages: 27447, cluster: 1804,kdi time cost is 507 milliseconds
 CR3 cluster: 1
 start:8181c000, end:81b6cd2e: len:350d2f kernel
 preprocess 8181c000 81b6cd2e 350d2f
@@ -560,10 +561,10 @@ e1cfc320a5cd0d807401fb2f928f202f 81b67000 843
 82cd0d46c72bb0e3462a4fbe3cd2e527 81b69000 845
 29442a948857439902b9a20c7f9ad248 81b6a000 846
 ffbba20d3ec5286548ac55203fd82724 81b6b000 847
-step2: time cost is 387 milliseconds
+step2: time cost is 398 milliseconds
 Success pages: 542/849 disassembled bytes rate: 0.077054, page rate: 0.638398
 --------------------sig match begin--------------------------
-Signature load success! Number is 45
+Signature load success! Number is 52
 24e527bfd381cfee8ee6e0805bc0f556  offset 2
 Match Win2008sp2
 Match Win2008
@@ -2693,5 +2694,5 @@ Number of page matching is 522
 ffbba20d3ec5286548ac55203fd82724  offset 847
 Number of page matching is 522
 Os is Win2008, match count is 522
-match time cost is 22 milliseconds
-Total time cost is 6642 milliseconds
+match time cost is 23 milliseconds
+Total time cost is 8793 milliseconds

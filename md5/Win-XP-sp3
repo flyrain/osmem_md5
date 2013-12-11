@@ -1,16 +1,17 @@
 mem '/home/cs3612/qemu/mem/mem-winxpsp3-a' load success! size is 536870912
-Load mem time cost is 5104 milliseconds
-potential pdg count: 17
-difference is 243 milliseconds
+Load mem time cost is 255 milliseconds
+potential pdg count: 15
+difference is 250 milliseconds
 Real PGD Number is 15, PGD physical address:0x5e77000
 difference is 0 milliseconds
+pgd is 0x5e77000
 cr3
 kernel start at 8065f000
 cr3
 kernel start at 80661000
 cr3
 kernel start at f8668000
-step1,all pages: 15183, cluster: 851,kdi time cost is 276 milliseconds
+step1,all pages: 15183, cluster: 851,kdi time cost is 292 milliseconds
 CR3 cluster: 2
 start:804d9000, end:8067fb03: len:1a6b04 kernel
 preprocess 804d9000 8067fb03 1a6b04
@@ -298,10 +299,10 @@ ba81f7d72d8005f3faafaf1c9e83e84d 8067b000 418
 89155aa8c306d70a6d1eeaa7508f8262 8067c000 419
 287d1c4525ad30498c3786011a0be7bf 8067d000 420
 5cf69317dda0c9baaa107819543b809b 8067e000 421
-step2: time cost is 287 milliseconds
+step2: time cost is 305 milliseconds
 Success pages: 282/423 disassembled bytes rate: 0.147575, page rate: 0.666667
 --------------------sig match begin--------------------------
-Signature load success! Number is 45
+Signature load success! Number is 52
 05d0bee87295e59185ff85398bb7f98d  offset 2
 Match Win-XP-sp3
 Only match is Win-XP-sp3
@@ -1379,5 +1380,5 @@ Number of page matching is 256
 5cf69317dda0c9baaa107819543b809b  offset 421
 Number of page matching is 256
 Os is Win-XP-sp3, match count is 256
-match time cost is 11 milliseconds
-Total time cost is 6087 milliseconds
+match time cost is 12 milliseconds
+Total time cost is 1231 milliseconds
