@@ -10,7 +10,8 @@
 
 #ifndef MEMORY_
 #define MEMORY_
-#define FINGERPRINT_NO 50
+#define FINGERPRINT_NO 100   //100 signatures, each one present one
+                             //specific OS kernel version.
 typedef struct mem{
 	char * mem;
 	int mem_size;

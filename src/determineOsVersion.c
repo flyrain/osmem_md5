@@ -82,7 +82,7 @@ void loadSignature(char *filename, fingerprint * fingerprint)
         fclose(file);
 //              printf("Signature loaded with %s\n", (*fingerprint).osVersion);
     } else {
-        perror(filename);       /* why didn't the file open? */
+        perror(filename); 
         return;
     }
 //      int i ;
@@ -110,10 +110,6 @@ int isMd5ArrayEmpty(unsigned char md5[])
 int initDb()
 {
     int fp_index = 0;
-
-//       char buf[MAXPATHLEN] = { 0 };
-//       walker( "../md5", "2.6.36.1" );
-
     DIR *d;
     struct dirent *dir;
     char *path = "../md5/";
@@ -126,23 +122,13 @@ int initDb()
             char filename[4096];
             strcpy(filename, path);
             strcat(filename, dir->d_name);
-//                      printf("filename is %s\n", filename);
+            //printf("filename is %s\n", filename);
             loadSignature(filename, &fingerprints[fp_index++]);
+            //printf("load success %s\n", filename);
         }
 
         closedir(d);
     }
-//        if( walker( "lame", buf ) == 0 ) {
-//          printf( "Found: %s\n", buf );
-//        } else {
-//          puts( "Not found" );
-//        }
-    //read file
-//      char * filename = "../md5/win7-b"; //signature file name
-//      loadSignature(filename, &fingerprints[fp_index++]);
-//
-//      filename = "../md5/2.6.29"; //signature file name
-//      loadSignature(filename, &fingerprints[fp_index++]);
 
     printf("Signature load success! Number is %d\n", fp_index);
     return fp_index;
