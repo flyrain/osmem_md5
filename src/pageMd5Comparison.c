@@ -310,7 +310,6 @@ int getClusters(unsigned startVirtualAddr, Mem * mem, int pageSize,
     int pre_ps = -1;            //page size
     unsigned cluster_index = 0;
     newstart = 1;
-//              int allPhysicalPages = 0;
 
     unsigned vAddr = startVirtualAddr;
     for (; vAddr > startVirtualAddr - 1; vAddr += 0x1000) {
@@ -323,33 +322,40 @@ int getClusters(unsigned startVirtualAddr, Mem * mem, int pageSize,
                              &us, &g,
                              &ps);
 
-//                      extern FILE *pte_data;
+//        if(vAddr == 0xe084f000)
+//            printf("0xe084f000: pAddr %x, rw %d, pre_rw %d\t us %d, pre_us %d\t g %d, pre_g %d\t ps %d, pre_ps %d\n",
+//                   pAddr, rw, pre_rw, us, pre_us, g, pre_g, ps, pre_ps);
         if (pAddr >= 0 && pAddr < mem->mem_size && us == 0 && g == 256) {
-//                      if (pAddr >= 0 && pAddr < mem->mem_size) {
             (*allPages)++;
-//                              if (pAddrs[pAddr / 4096] == 0)
-//                                      allPhysicalPages++;
-//                              pAddrs[pAddr / 4096] = 1;
-            //                      printf("vaddr:%x,pAddr: %x, allpages is %d\n", vAddr,pAddr,allPages);
-            //                      fprintf(pte_data,"%08x vaddr:%x, kernel code\n",pAddr, vAddr);
         }
+
         //if PHYSICAL ADDRESS is not VALID, then start a new cluster
-        if (pAddr < 0 || pAddr > mem->mem_size || us != 0 || g != 256) {
+//        if (pAddr < 0 || pAddr > mem->mem_size || us != 0 || g != 256) {
+        if (pAddr == 0xffffffff || pAddr > mem->mem_size || us != 0 || g != 256) {
+            
             if (newstart == 0) {
+//                printf("newstart 0 pAddr %x vAddr %x < 0 || pAddr > mem->mem_size %x || us %d != 0 || g %d != 256 \n",
+//                       pAddr, vAddr, mem->mem_size, us, g);
                 clusters[cluster_index].end = vAddr - 1;
-                //printf("err address end is %x %x\n", vAddr, ranges[range_index].end);
                 newstart = 1;
+            }else {
+                //      if(pAddr != 0xffffffff)
+//                    printf("newstart 1 pAddr %x  vAddr %x < 0 || pAddr > mem->mem_size || us %d != 0 || g %d != 256 \n", pAddr, vAddr, us, g);
             }
             continue;
         }
+
         //if any property changes, then start a new cluster
         if (rw != pre_rw || us != pre_us || g != pre_g || ps != pre_ps) {
             if (newstart == 0) {
+//                printf("rw %d, pre_rw %d\t us %d, pre_us %d\t g %d, pre_g %d\t ps %d, pre_ps %d\n",
+//                       rw, pre_rw, us, pre_us, g, pre_g, ps, pre_ps);
                 clusters[cluster_index].end = vAddr - 1;
                 //printf("property change end is %x %x\n", vAddr, ranges[range_index].end);
                 newstart = 1;
             }
         }
+
         //update pre properties
         pre_rw = rw;
         pre_us = us;
@@ -372,6 +378,12 @@ int getClusters(unsigned startVirtualAddr, Mem * mem, int pageSize,
     return cluster_index;
 }
 
+void print_clusters(int cluster_index){
+    int i = 0;
+    for(i =0; i <= cluster_index; i ++)
+        printf("start %x end %x size %x\n", clusters[i].start, clusters[i].end, clusters[i].end - clusters[i].start);
+}
+
 //kernel code identification
 int kdi(unsigned startVirtualAddr, Mem * mem, int pageSize,
         unsigned cr3Pages[], int *kdi_time, int *allPages)
@@ -385,6 +397,8 @@ int kdi(unsigned startVirtualAddr, Mem * mem, int pageSize,
     //generate step 1 clusters
     unsigned cluster_index =
         getClusters(startVirtualAddr, mem, pageSize, allPages);
+    
+    print_clusters(cluster_index);
 
     findKernelCodePageByCr3(startVirtualAddr, mem, pageSize, cr3Pages);
 

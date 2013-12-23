@@ -1,4 +1,4 @@
-# Time-stamp: <2013-08-20 15:15:37 cs3612>
+# Time-stamp: <2013-12-14 21:29:29 cs3612>
 #+TITLE:     osmem_md5
 * OSMEM_MD5
 Memory based OS fingerprinting
@@ -121,6 +121,25 @@ sign_guest
     sysenter cs 0x00000008  eip 0x00000000f0419b00  esp 0x00000000f043bff8
            efer 0x0000000000000000
 
+** linux-3.12.0
+    CPU:     rip 0x00000000c0109c0d  rflags 0x0000000000200246
+            cr0 0x000000008005003b     cr2 0x0000000009ba4008
+            cr3 0x000000001995f000     cr4 0x0000000000000690
+            dr0 0x0000000000000000     dr1 0x0000000000000000
+            dr2 0x0000000000000000     dr3 0x0000000000000000
+            dr6 0x0000000000000000     dr7 0x0000000000000000
+             cs 0x00000060 (0x0000000000000000 + 0xffffffff)
+             ds 0x0000007b (0x0000000000000000 + 0xffffffff)
+             es 0x0000007b (0x0000000000000000 + 0xffffffff)
+             fs 0x000000d8 (0x000000001f248000 + 0xffffffff)
+             gs 0x000000e0 (0x00000000dfbf2340 + 0x00000018)
+             ss 0x00000068 (0x0000000000000000 + 0xffffffff)
+             tr 0x00000080 (0x00000000dfbf01c0 + 0x0000206b)
+           ldtr 0x00000000 (0x0000000000000000 + 0x00000000)
+           itdr            (0x00000000fffba000 + 0x000007ff)
+           gdtr            (0x00000000dfbeb000 + 0x000000ff)
+    sysenter cs 0x00000060  eip 0x00000000c0665c10  esp 0x00000000dfbf2340
+           efer 0x0000000000000000
 * IDT Approach
 ** minix3.2.1
 IDT base = 0xf045c118 and IDT Limit = 7ff
@@ -150,4 +169,13 @@ Signature = abdac064f1c07a73722cf4ada07cb821c8178635f0cbb24b99342b4f15f97a6863b7
 IDT base = 0x00017570 and IDT Limit = 3bf
 Time taken = 0.000000
 Total Valid entries found = 80
-Signature = 1a9da036b568a3edd5e799e10ddfba2cd00b2eb4e1b4c2ab41e9bc1476b3a9d7ac66e7255d4e2b8462e902052cd7f008d60601c9756f4a99c88a225a929b614e
+Signature =
+1a9da036b568a3edd5e799e10ddfba2cd00b2eb4e1b4c2ab41e9bc1476b3a9d7ac66e7255d4e2b8462e902052cd7f008d60601c9756f4a99c88a225a929b614e
+** linux-3.12.0
+IDT base = 0xfffba000 and IDT Limit = 7ff
+INT num: 8, Invalid address: 0x00000000
+
+Time taken = 0.000000
+
+Total Valid entries found = 255
+Signature = abf738e099d4eb2c306778a16bdd562d7510eaeb19b415cf9a3cf382caa39d9d2bbedbde392a2fe42c9b258a7dab497af0a804dac0e2411471d9ecbf65344c3a

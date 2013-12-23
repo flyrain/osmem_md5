@@ -1,66 +1,116 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-               "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 <title>outdata</title>
-<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
-<meta name="title" content="outdata"/>
-<meta name="generator" content="Org-mode"/>
-<meta name="generated" content="2012-05-30 17:12:56 CDT"/>
-<meta name="author" content="cs3612"/>
-<meta name="description" content=""/>
-<meta name="keywords" content=""/>
+<!-- 2013-12-13 Fri 14:51 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="cs3612" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
-  html { font-family: Times, serif; font-size: 12pt; }
   .title  { text-align: center; }
-  .todo   { color: red; }
+  .todo   { font-family: monospace; color: red; }
   .done   { color: green; }
-  .tag    { background-color: #add8e6; font-weight:normal }
-  .target { }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
   .timestamp { color: #bebebe; }
   .timestamp-kwd { color: #5f9ea0; }
-  .right  {margin-left:auto; margin-right:0px;  text-align:right;}
-  .left   {margin-left:0px;  margin-right:auto; text-align:left;}
-  .center {margin-left:auto; margin-right:auto; text-align:center;}
-  p.verse { margin-left: 3% }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
   pre {
-	border: 1pt solid #AEBDCC;
-	background-color: #F3F5F7;
-	padding: 5pt;
-	font-family: courier, monospace;
-        font-size: 90%;
-        overflow:auto;
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
   }
-  table { border-collapse: collapse; }
-  td, th { vertical-align: top;  }
-  th.right  { text-align:center;  }
-  th.left   { text-align:center;   }
-  th.center { text-align:center; }
-  td.right  { text-align:right;  }
-  td.left   { text-align:left;   }
-  td.center { text-align:center; }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
   dt { font-weight: bold; }
-  div.figure { padding: 0.5em; }
-  div.figure p { text-align: center; }
-  div.inlinetask {
-    padding:10px;
-    border:2px solid gray;
-    margin:10px;
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
     background: #ffffcc;
   }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
   textarea { overflow-x: auto; }
-  .linenr { font-size:smaller }
-  .code-highlighted {background-color:#ffff00;}
-  .org-info-js_info-navigation { border-style:none; }
-  #org-info-js_console-label { font-size:10px; font-weight:bold;
-                               white-space:nowrap; }
-  .org-info-js_search-highlight {background-color:#ffff00; color:#000000;
-                                 font-weight:bold; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
   /*]]>*/-->
 </style>
 <script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012  Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
 <!--/*--><![CDATA[/*><!--*/
  function CodeHighlightOn(elem, id)
  {
@@ -82,100 +132,466 @@
  }
 /*]]>*///-->
 </script>
-
 </head>
 <body>
-
-<div id="preamble">
-
-</div>
-
 <div id="content">
 <h1 class="title">outdata</h1>
-
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-<caption></caption>
-<colgroup><col class="left" /><col class="right" /><col class="right" /><col class="right" /><col class="right" /><col class="right" /><col class="right" /><col class="right" /><col class="right" /><col class="right" /><col class="right" /><col class="right" />
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="right" />
+
+<col  class="right" />
+
+<col  class="right" />
+
+<col  class="right" />
+
+<col  class="right" />
+
+<col  class="right" />
+
+<col  class="right" />
+
+<col  class="right" />
+
+<col  class="right" />
+
+<col  class="right" />
+
+<col  class="right" />
 </colgroup>
-<thead>
-<tr><th scope="col" class="left"></th><th scope="col" class="right">#PGD</th><th scope="col" class="right">C<sub>K</sub></th><th scope="col" class="right">C<sub>Kk</sub></th><th scope="col" class="right">#Pages</th><th scope="col" class="right">T</th><th scope="col" class="right">#Pages'</th><th scope="col" class="right">#DisPage</th><th scope="col" class="right">P<sub>r</sub>%</th><th scope="col" class="right">D<sub>r</sub>%</th><th scope="col" class="right">S</th><th scope="col" class="right"></th></tr>
-</thead>
 <tbody>
-<tr><td class="left">Win-XP</td><td class="right">12</td><td class="right">883</td><td class="right">2</td><td class="right">1024</td><td class="right">16</td><td class="right">384</td><td class="right">232</td><td class="right">60.42</td><td class="right">11.91</td><td class="right">232</td><td class="right">0.544</td></tr>
-<tr><td class="left">Win-XP (SP2)</td><td class="right">15</td><td class="right">952</td><td class="right">2</td><td class="right">1024</td><td class="right">13</td><td class="right">421</td><td class="right">277</td><td class="right">65.80</td><td class="right">15.18</td><td class="right">277</td><td class="right">0.6784</td></tr>
-<tr><td class="left">Win-XP (SP3)</td><td class="right">15</td><td class="right">851</td><td class="right">2</td><td class="right">1024</td><td class="right">14</td><td class="right">423</td><td class="right">282</td><td class="right">66.67</td><td class="right">14.76</td><td class="right">282</td><td class="right">0.6606</td></tr>
-<tr><td class="left">Win-Vista</td><td class="right">24</td><td class="right">2310</td><td class="right">1</td><td class="right">1024</td><td class="right">5</td><td class="right">807</td><td class="right">453</td><td class="right">56.13</td><td class="right">7.09</td><td class="right">453</td><td class="right">0.5818</td></tr>
-<tr><td class="left">Win-7</td><td class="right">18</td><td class="right">2011</td><td class="right">2</td><td class="right">280</td><td class="right">1</td><td class="right">280</td><td class="right">178</td><td class="right">63.57</td><td class="right">5.75</td><td class="right">178</td><td class="right">0.522</td></tr>
-<tr><td class="left">Win-2003 Server</td><td class="right">20</td><td class="right">1028</td><td class="right">2</td><td class="right">1024</td><td class="right">9</td><td class="right">659</td><td class="right">374</td><td class="right">56.75</td><td class="right">13.08</td><td class="right">374</td><td class="right">0.7676</td></tr>
-<tr><td class="left">Win-2003 Server (SP2)</td><td class="right">19</td><td class="right">1108</td><td class="right">2</td><td class="right">1024</td><td class="right">6</td><td class="right">563</td><td class="right">342</td><td class="right">60.75</td><td class="right">12.66</td><td class="right">342</td><td class="right">0.7218</td></tr>
-<tr><td class="left">Win-2008 Server</td><td class="right">20</td><td class="right">1804</td><td class="right">1</td><td class="right">1024</td><td class="right">9</td><td class="right">849</td><td class="right">542</td><td class="right">63.84</td><td class="right">7.71</td><td class="right">542</td><td class="right">0.6524</td></tr>
-<tr><td class="left">Win-2008 Server (SP2)</td><td class="right">21</td><td class="right">1969</td><td class="right">1</td><td class="right">1024</td><td class="right">6</td><td class="right">856</td><td class="right">536</td><td class="right">62.62</td><td class="right">7.81</td><td class="right">536</td><td class="right">0.812</td></tr>
-</tbody>
-<tbody>
-</tbody>
-<tbody>
-<tr><td class="left">FreeBSD-7.4</td><td class="right">27</td><td class="right">369</td><td class="right">1</td><td class="right">3072</td><td class="right">5</td><td class="right">1758</td><td class="right">1001</td><td class="right">56.94</td><td class="right">8.87</td><td class="right">1001</td><td class="right">1.3622</td></tr>
-<tr><td class="left">FreeBSD-8.0</td><td class="right">20</td><td class="right">350</td><td class="right">1</td><td class="right">3072</td><td class="right">2</td><td class="right">2959</td><td class="right">1122</td><td class="right">37.92</td><td class="right">8.66</td><td class="right">1122</td><td class="right">1.4926</td></tr>
-<tr><td class="left">FreeBSD-8.2</td><td class="right">27</td><td class="right">360</td><td class="right">1</td><td class="right">3072</td><td class="right">2</td><td class="right">2956</td><td class="right">1143</td><td class="right">38.67</td><td class="right">8.90</td><td class="right">1143</td><td class="right">1.5354</td></tr>
-<tr><td class="left">FreeBSD-8.3</td><td class="right">18</td><td class="right">412</td><td class="right">1</td><td class="right">4096</td><td class="right">2</td><td class="right">3966</td><td class="right">1187</td><td class="right">29.93</td><td class="right">9.15</td><td class="right">1187</td><td class="right">1.6354</td></tr>
-<tr><td class="left">FreeBSD-9.0</td><td class="right">21</td><td class="right">360</td><td class="right">1</td><td class="right">4096</td><td class="right">3</td><td class="right">2281</td><td class="right">1318</td><td class="right">57.78</td><td class="right">8.64</td><td class="right">1318</td><td class="right">1.6838</td></tr>
-<tr><td class="left">OpenBSD-4.7</td><td class="right">20</td><td class="right">187</td><td class="right">1</td><td class="right">1634</td><td class="right">4</td><td class="right">1631</td><td class="right">1163</td><td class="right">71.31</td><td class="right">16.41</td><td class="right">1163</td><td class="right">1.9024</td></tr>
-<tr><td class="left">OpenBSD-4.8</td><td class="right">12</td><td class="right">833</td><td class="right">1</td><td class="right">1936</td><td class="right">3</td><td class="right">1934</td><td class="right">1258</td><td class="right">65.05</td><td class="right">11.22</td><td class="right">1258</td><td class="right">1.6454</td></tr>
-<tr><td class="left">OpenBSD-4.9</td><td class="right">8</td><td class="right">834</td><td class="right">1</td><td class="right">1973</td><td class="right">3</td><td class="right">1971</td><td class="right">1291</td><td class="right">65.50</td><td class="right">11.00</td><td class="right">1291</td><td class="right">1.665</td></tr>
-<tr><td class="left">OpenBSD-5</td><td class="right">11</td><td class="right">1106</td><td class="right">1</td><td class="right">1588</td><td class="right">4</td><td class="right">1585</td><td class="right">1290</td><td class="right">81.39</td><td class="right">11.36</td><td class="right">1290</td><td class="right">1.6764</td></tr>
-<tr><td class="left">OpenBSD-5.1</td><td class="right">7</td><td class="right">1195</td><td class="right">1</td><td class="right">1596</td><td class="right">3</td><td class="right">1593</td><td class="right">1293</td><td class="right">81.17</td><td class="right">11.00</td><td class="right">1293</td><td class="right">1.678</td></tr>
-<tr><td class="left">NetBSD-4.0</td><td class="right">16</td><td class="right">225</td><td class="right">1</td><td class="right">2006</td><td class="right">3</td><td class="right">1995</td><td class="right">1069</td><td class="right">53.58</td><td class="right">7.81</td><td class="right">1069</td><td class="right">1.2532</td></tr>
-<tr><td class="left">NetBSD-4.0.1</td><td class="right">11</td><td class="right">220</td><td class="right">1</td><td class="right">2006</td><td class="right">3</td><td class="right">1995</td><td class="right">1048</td><td class="right">52.53</td><td class="right">7.58</td><td class="right">1048</td><td class="right">1.2438</td></tr>
-<tr><td class="left">NetBSD-5.0</td><td class="right">13</td><td class="right">213</td><td class="right">1</td><td class="right">2048</td><td class="right">11</td><td class="right">1792</td><td class="right">1148</td><td class="right">64.06</td><td class="right">8.43</td><td class="right">1148</td><td class="right">1.385</td></tr>
-<tr><td class="left">NetBSD-5.0.1</td><td class="right">11</td><td class="right">212</td><td class="right">1</td><td class="right">2048</td><td class="right">11</td><td class="right">1792</td><td class="right">1147</td><td class="right">64.01</td><td class="right">8.28</td><td class="right">1147</td><td class="right">1.386</td></tr>
-<tr><td class="left">NetBSD-5.0.2</td><td class="right">13</td><td class="right">211</td><td class="right">1</td><td class="right">2048</td><td class="right">13</td><td class="right">1779</td><td class="right">1138</td><td class="right">63.97</td><td class="right">8.45</td><td class="right">1138</td><td class="right">1.393</td></tr>
-<tr><td class="left">NetBSD-5.1</td><td class="right">11</td><td class="right">210</td><td class="right">1</td><td class="right">2048</td><td class="right">8</td><td class="right">1792</td><td class="right">1182</td><td class="right">65.96</td><td class="right">8.28</td><td class="right">1182</td><td class="right">1.4256</td></tr>
-<tr><td class="left">NetBSD-5.1.2</td><td class="right">13</td><td class="right">210</td><td class="right">1</td><td class="right">2048</td><td class="right">9</td><td class="right">1792</td><td class="right">1183</td><td class="right">66.02</td><td class="right">8.28</td><td class="right">1183</td><td class="right">1.4208</td></tr>
-</tbody>
-<tbody>
-</tbody>
-<tbody>
-<tr><td class="left">Linux-2.6.26</td><td class="right">82</td><td class="right">69</td><td class="right">1</td><td class="right">812</td><td class="right">2</td><td class="right">811</td><td class="right">526</td><td class="right">64.86</td><td class="right">9.48</td><td class="right">526</td><td class="right">1.4514</td></tr>
-<tr><td class="left">Linux-2.6.27</td><td class="right">77</td><td class="right">72</td><td class="right">1</td><td class="right">845</td><td class="right">2</td><td class="right">844</td><td class="right">548</td><td class="right">64.93</td><td class="right">9.57</td><td class="right">548</td><td class="right">1.4664</td></tr>
-<tr><td class="left">Linux-2.6.28</td><td class="right">77</td><td class="right">109</td><td class="right">1</td><td class="right">885</td><td class="right">2</td><td class="right">884</td><td class="right">575</td><td class="right">65.05</td><td class="right">9.78</td><td class="right">575</td><td class="right">1.4884</td></tr>
-<tr><td class="left">Linux-2.6.28.1</td><td class="right">77</td><td class="right">31</td><td class="right">1</td><td class="right">1229</td><td class="right">11</td><td class="right">971</td><td class="right">880</td><td class="right">90.63</td><td class="right">10.79</td><td class="right">880</td><td class="right">1.9248</td></tr>
-<tr><td class="left">Linux-2.6.28.2</td><td class="right">74</td><td class="right">31</td><td class="right">1</td><td class="right">1230</td><td class="right">12</td><td class="right">971</td><td class="right">874</td><td class="right">90.01</td><td class="right">11.07</td><td class="right">874</td><td class="right">1.9502</td></tr>
-<tr><td class="left">Linux-2.6.29</td><td class="right">79</td><td class="right">106</td><td class="right">1</td><td class="right">908</td><td class="right">2</td><td class="right">907</td><td class="right">597</td><td class="right">65.82</td><td class="right">9.76</td><td class="right">597</td><td class="right">1.5156</td></tr>
-<tr><td class="left">Linux-2.6.30</td><td class="right">79</td><td class="right">190</td><td class="right">1</td><td class="right">934</td><td class="right">3</td><td class="right">670</td><td class="right">606</td><td class="right">90.45</td><td class="right">9.98</td><td class="right">606</td><td class="right">1.5734</td></tr>
-<tr><td class="left">Linux-2.6.31</td><td class="right">84</td><td class="right">26</td><td class="right">1</td><td class="right">1545</td><td class="right">3</td><td class="right">1098</td><td class="right">976</td><td class="right">88.89</td><td class="right">10.99</td><td class="right">976</td><td class="right">2.1002</td></tr>
-<tr><td class="left">Linux-2.6.32.27</td><td class="right">85</td><td class="right">26</td><td class="right">1</td><td class="right">1589</td><td class="right">2</td><td class="right">1588</td><td class="right">1005</td><td class="right">63.29</td><td class="right">11.33</td><td class="right">1005</td><td class="right">2.1686</td></tr>
-<tr><td class="left">Linux-2.6.33</td><td class="right">87</td><td class="right">28</td><td class="right">1</td><td class="right">1606</td><td class="right">3</td><td class="right">1152</td><td class="right">1039</td><td class="right">90.19</td><td class="right">11.23</td><td class="right">1039</td><td class="right">2.1188</td></tr>
-<tr><td class="left">Linux-2.6.34</td><td class="right">83</td><td class="right">28</td><td class="right">1</td><td class="right">1617</td><td class="right">2</td><td class="right">1616</td><td class="right">1043</td><td class="right">64.54</td><td class="right">11.19</td><td class="right">1043</td><td class="right">2.1304</td></tr>
-<tr><td class="left">Linux-2.6.35</td><td class="right">96</td><td class="right">28</td><td class="right">1</td><td class="right">1640</td><td class="right">3</td><td class="right">1175</td><td class="right">1056</td><td class="right">89.87</td><td class="right">11.35</td><td class="right">1056</td><td class="right">2.1132</td></tr>
-<tr><td class="left">Linux-2.6.36</td><td class="right">99</td><td class="right">28</td><td class="right">1</td><td class="right">1641</td><td class="right">3</td><td class="right">1183</td><td class="right">1071</td><td class="right">90.53</td><td class="right">11.15</td><td class="right">1071</td><td class="right">2.1128</td></tr>
-<tr><td class="left">Linux-2.6.36.1</td><td class="right">78</td><td class="right">36</td><td class="right">1</td><td class="right">1024</td><td class="right">1</td><td class="right">1023</td><td class="right">926</td><td class="right">90.52</td><td class="right">11.29</td><td class="right">926</td><td class="right">2.0192</td></tr>
-<tr><td class="left">Linux-2.6.36.2</td><td class="right">78</td><td class="right">36</td><td class="right">1</td><td class="right">1024</td><td class="right">1</td><td class="right">1023</td><td class="right">925</td><td class="right">90.42</td><td class="right">11.17</td><td class="right">925</td><td class="right">1.8254</td></tr>
-<tr><td class="left">Linux-2.6.36.3</td><td class="right">76</td><td class="right">36</td><td class="right">1</td><td class="right">1024</td><td class="right">1</td><td class="right">1023</td><td class="right">930</td><td class="right">90.91</td><td class="right">11.15</td><td class="right">930</td><td class="right">1.8152</td></tr>
-<tr><td class="left">Linux-2.6.36.4</td><td class="right">81</td><td class="right">36</td><td class="right">1</td><td class="right">1024</td><td class="right">1</td><td class="right">1023</td><td class="right">929</td><td class="right">90.81</td><td class="right">11.11</td><td class="right">929</td><td class="right">1.8272</td></tr>
-<tr><td class="left">Linux-3.0.0</td><td class="right">58</td><td class="right">149</td><td class="right">2</td><td class="right">1024</td><td class="right">1</td><td class="right">1023</td><td class="right">975</td><td class="right">95.31</td><td class="right">15.55</td><td class="right">975</td><td class="right">2.2086</td></tr>
-<tr><td class="left">Linux-3.0.4</td><td class="right">73</td><td class="right">183</td><td class="right">2</td><td class="right">1024</td><td class="right">1</td><td class="right">1023</td><td class="right">918</td><td class="right">89.74</td><td class="right">12.33</td><td class="right">918</td><td class="right">2.021</td></tr>
-</tbody>
-<tbody>
-</tbody>
-<tbody>
-<tr><td class="left">Solaris-10</td><td class="right">102</td><td class="right">2230</td><td class="right">1</td><td class="right">2048</td><td class="right">44</td><td class="right">498</td><td class="right">393</td><td class="right">78.92</td><td class="right">14.00</td><td class="right">393</td><td class="right">0.9322</td></tr>
-</tbody>
-<tbody>
-</tbody>
-<tbody>
-<tr><td class="left">mean</td><td class="right">44.52</td><td class="right">519.58</td><td class="right">1.17</td><td class="right">1598.52</td><td class="right">5.82</td><td class="right">1333.02</td><td class="right">869.32</td><td class="right">69.95</td><td class="right">10.49</td><td class="right">869.32</td><td class="right">1.48</td></tr>
+<tr>
+<td class="left">Linux-2.6.26</td>
+<td class="right">69</td>
+<td class="right">1</td>
+<td class="right">812</td>
+<td class="right">2</td>
+<td class="right">811</td>
+<td class="right">526</td>
+<td class="right">64.86</td>
+<td class="right">9.48</td>
+<td class="right">526</td>
+<td class="right">1</td>
+<td class="right">1.451</td>
+</tr>
+
+<tr>
+<td class="left">Linux-2.6.27</td>
+<td class="right">72</td>
+<td class="right">1</td>
+<td class="right">845</td>
+<td class="right">2</td>
+<td class="right">844</td>
+<td class="right">548</td>
+<td class="right">64.93</td>
+<td class="right">9.57</td>
+<td class="right">548</td>
+<td class="right">1</td>
+<td class="right">1.466</td>
+</tr>
+
+<tr>
+<td class="left">Linux-2.6.28</td>
+<td class="right">109</td>
+<td class="right">1</td>
+<td class="right">885</td>
+<td class="right">2</td>
+<td class="right">884</td>
+<td class="right">575</td>
+<td class="right">65.05</td>
+<td class="right">9.78</td>
+<td class="right">575</td>
+<td class="right">1</td>
+<td class="right">1.488</td>
+</tr>
+
+<tr>
+<td class="left">Linux-2.6.29</td>
+<td class="right">106</td>
+<td class="right">1</td>
+<td class="right">908</td>
+<td class="right">2</td>
+<td class="right">907</td>
+<td class="right">597</td>
+<td class="right">65.82</td>
+<td class="right">9.76</td>
+<td class="right">597</td>
+<td class="right">1</td>
+<td class="right">1.515</td>
+</tr>
+
+<tr>
+<td class="left">Linux-2.6.30</td>
+<td class="right">190</td>
+<td class="right">1</td>
+<td class="right">934</td>
+<td class="right">3</td>
+<td class="right">670</td>
+<td class="right">606</td>
+<td class="right">90.45</td>
+<td class="right">9.98</td>
+<td class="right">606</td>
+<td class="right">1</td>
+<td class="right">1.573</td>
+</tr>
+
+<tr>
+<td class="left">Linux-2.6.31</td>
+<td class="right">26</td>
+<td class="right">1</td>
+<td class="right">1545</td>
+<td class="right">3</td>
+<td class="right">1098</td>
+<td class="right">976</td>
+<td class="right">88.89</td>
+<td class="right">10.99</td>
+<td class="right">976</td>
+<td class="right">2</td>
+<td class="right">2.1</td>
+</tr>
+
+<tr>
+<td class="left">Linux-2.6.32</td>
+<td class="right">26</td>
+<td class="right">1</td>
+<td class="right">1589</td>
+<td class="right">2</td>
+<td class="right">1588</td>
+<td class="right">1005</td>
+<td class="right">63.29</td>
+<td class="right">11.33</td>
+<td class="right">1005</td>
+<td class="right">2</td>
+<td class="right">2.168</td>
+</tr>
+
+<tr>
+<td class="left">Linux-2.6.33</td>
+<td class="right">28</td>
+<td class="right">1</td>
+<td class="right">1606</td>
+<td class="right">3</td>
+<td class="right">1152</td>
+<td class="right">1039</td>
+<td class="right">90.19</td>
+<td class="right">11.23</td>
+<td class="right">1039</td>
+<td class="right">2</td>
+<td class="right">2.118</td>
+</tr>
+
+<tr>
+<td class="left">Linux-2.6.34</td>
+<td class="right">28</td>
+<td class="right">1</td>
+<td class="right">1617</td>
+<td class="right">2</td>
+<td class="right">1616</td>
+<td class="right">1043</td>
+<td class="right">64.54</td>
+<td class="right">11.19</td>
+<td class="right">1043</td>
+<td class="right">2</td>
+<td class="right">2.13</td>
+</tr>
+
+<tr>
+<td class="left">Linux-2.6.35</td>
+<td class="right">28</td>
+<td class="right">1</td>
+<td class="right">1640</td>
+<td class="right">3</td>
+<td class="right">1175</td>
+<td class="right">1056</td>
+<td class="right">89.87</td>
+<td class="right">11.35</td>
+<td class="right">1056</td>
+<td class="right">1</td>
+<td class="right">2.113</td>
+</tr>
+
+<tr>
+<td class="left">Linux-2.6.36</td>
+<td class="right">28</td>
+<td class="right">1</td>
+<td class="right">1641</td>
+<td class="right">3</td>
+<td class="right">1183</td>
+<td class="right">1071</td>
+<td class="right">90.53</td>
+<td class="right">11.15</td>
+<td class="right">1071</td>
+<td class="right">2</td>
+<td class="right">2.112</td>
+</tr>
+
+<tr>
+<td class="left">Linux-2.6.37</td>
+<td class="right">3</td>
+<td class="right">2</td>
+<td class="right">768</td>
+<td class="right">1</td>
+<td class="right">767</td>
+<td class="right">700</td>
+<td class="right">91.26</td>
+<td class="right">11.49</td>
+<td class="right">700</td>
+<td class="right">2</td>
+<td class="right">3.087</td>
+</tr>
+
+<tr>
+<td class="left">Linux-2.6.38</td>
+<td class="right">3</td>
+<td class="right">2</td>
+<td class="right">768</td>
+<td class="right">1</td>
+<td class="right">767</td>
+<td class="right">697</td>
+<td class="right">90.87</td>
+<td class="right">11.51</td>
+<td class="right">697</td>
+<td class="right">2</td>
+<td class="right">3.205</td>
+</tr>
+
+<tr>
+<td class="left">Linux-2.6.39</td>
+<td class="right">3</td>
+<td class="right">2</td>
+<td class="right">768</td>
+<td class="right">1</td>
+<td class="right">767</td>
+<td class="right">687</td>
+<td class="right">89.57</td>
+<td class="right">11.72</td>
+<td class="right">687</td>
+<td class="right">2</td>
+<td class="right">3.217</td>
+</tr>
+
+<tr>
+<td class="left">Linux-3.0.0</td>
+<td class="right">149</td>
+<td class="right">2</td>
+<td class="right">1024</td>
+<td class="right">1</td>
+<td class="right">1023</td>
+<td class="right">975</td>
+<td class="right">95.31</td>
+<td class="right">15.55</td>
+<td class="right">975</td>
+<td class="right">1</td>
+<td class="right">2.208</td>
+</tr>
+
+<tr>
+<td class="left">Linux-3.1.0</td>
+<td class="right">3</td>
+<td class="right">2</td>
+<td class="right">768</td>
+<td class="right">1</td>
+<td class="right">767</td>
+<td class="right">682</td>
+<td class="right">88.92</td>
+<td class="right">11.73</td>
+<td class="right">682</td>
+<td class="right">2</td>
+<td class="right">3.153</td>
+</tr>
+
+<tr>
+<td class="left">Linux-3.2.0</td>
+<td class="right">3</td>
+<td class="right">2</td>
+<td class="right">768</td>
+<td class="right">1</td>
+<td class="right">767</td>
+<td class="right">680</td>
+<td class="right">88.66</td>
+<td class="right">11.6</td>
+<td class="right">680</td>
+<td class="right">2</td>
+<td class="right">3.165</td>
+</tr>
+
+<tr>
+<td class="left">Linux-3.3.0</td>
+<td class="right">3</td>
+<td class="right">2</td>
+<td class="right">768</td>
+<td class="right">1</td>
+<td class="right">767</td>
+<td class="right">680</td>
+<td class="right">88.66</td>
+<td class="right">11.83</td>
+<td class="right">680</td>
+<td class="right">2</td>
+<td class="right">3.154</td>
+</tr>
+
+<tr>
+<td class="left">Linux-3.4.0</td>
+<td class="right">3</td>
+<td class="right">2</td>
+<td class="right">768</td>
+<td class="right">1</td>
+<td class="right">767</td>
+<td class="right">679</td>
+<td class="right">88.53</td>
+<td class="right">11.74</td>
+<td class="right">679</td>
+<td class="right">2</td>
+<td class="right">3.149</td>
+</tr>
+
+<tr>
+<td class="left">Linux-3.5.0</td>
+<td class="right">5</td>
+<td class="right">2</td>
+<td class="right">768</td>
+<td class="right">1</td>
+<td class="right">767</td>
+<td class="right">676</td>
+<td class="right">88.14</td>
+<td class="right">11.87</td>
+<td class="right">676</td>
+<td class="right">2</td>
+<td class="right">3.19</td>
+</tr>
+
+<tr>
+<td class="left">Linux-3.6.0</td>
+<td class="right">5</td>
+<td class="right">2</td>
+<td class="right">768</td>
+<td class="right">1</td>
+<td class="right">767</td>
+<td class="right">690</td>
+<td class="right">89.96</td>
+<td class="right">11.82</td>
+<td class="right">690</td>
+<td class="right">1</td>
+<td class="right">3.329</td>
+</tr>
+
+<tr>
+<td class="left">Linux-3.7.0</td>
+<td class="right">5</td>
+<td class="right">2</td>
+<td class="right">768</td>
+<td class="right">1</td>
+<td class="right">767</td>
+<td class="right">679</td>
+<td class="right">88.53</td>
+<td class="right">11.74</td>
+<td class="right">679</td>
+<td class="right">1</td>
+<td class="right">3.305</td>
+</tr>
+
+<tr>
+<td class="left">Linux-3.8.0</td>
+<td class="right">5</td>
+<td class="right">2</td>
+<td class="right">768</td>
+<td class="right">1</td>
+<td class="right">767</td>
+<td class="right">674</td>
+<td class="right">87.87</td>
+<td class="right">11.53</td>
+<td class="right">674</td>
+<td class="right">1</td>
+<td class="right">3.191</td>
+</tr>
+
+<tr>
+<td class="left">Linux-3.9.0</td>
+<td class="right">7</td>
+<td class="right">2</td>
+<td class="right">768</td>
+<td class="right">1</td>
+<td class="right">767</td>
+<td class="right">660</td>
+<td class="right">86.05</td>
+<td class="right">11.9</td>
+<td class="right">660</td>
+<td class="right">1</td>
+<td class="right">3.234</td>
+</tr>
+
+<tr>
+<td class="left">Linux-3.10.0</td>
+<td class="right">8</td>
+<td class="right">2</td>
+<td class="right">768</td>
+<td class="right">1</td>
+<td class="right">768</td>
+<td class="right">687</td>
+<td class="right">89.45</td>
+<td class="right">11.72</td>
+<td class="right">687</td>
+<td class="right">1</td>
+<td class="right">3.157</td>
+</tr>
+
+<tr>
+<td class="left">Linux-3.11.0</td>
+<td class="right">8</td>
+<td class="right">2</td>
+<td class="right">768</td>
+<td class="right">1</td>
+<td class="right">768</td>
+<td class="right">688</td>
+<td class="right">89.58</td>
+<td class="right">11.81</td>
+<td class="right">688</td>
+<td class="right">1</td>
+<td class="right">3.219</td>
+</tr>
+
+<tr>
+<td class="left">Linux-3.12.0</td>
+<td class="right">75</td>
+<td class="right">1</td>
+<td class="right">1942</td>
+<td class="right">1</td>
+<td class="right">1942</td>
+<td class="right">1243</td>
+<td class="right">64.01</td>
+<td class="right">11.37</td>
+<td class="right">1243</td>
+<td class="right">1</td>
+<td class="right">3.846</td>
+</tr>
+
+<tr>
+<td class="left">mean</td>
+<td class="right">41.21</td>
+<td class="right">1.5</td>
+<td class="right">1059.84</td>
+<td class="right">1.67</td>
+<td class="right">972.17</td>
+<td class="right">780.63</td>
+<td class="right">82.18</td>
+<td class="right">11.34</td>
+<td class="right">780.63</td>
+<td class="right">1.42</td>
+<td class="right">2.57</td>
+</tr>
 </tbody>
 </table>
-
-
 </div>
-
-<div id="postamble">
-<p class="date">Date: 2012-05-30 17:12:56 CDT</p>
+<div id="postamble" class="status">
 <p class="author">Author: cs3612</p>
-<p class="creator">Org version 7.8.10 with Emacs version 23</p>
-<a href="http://validator.w3.org/check?uri=referer">Validate XHTML 1.0</a>
-
+<p class="date">Created: 2013-12-13 Fri 14:51</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.3.1 (<a href="http://orgmode.org">Org</a> mode 8.2.1)</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
 </html>

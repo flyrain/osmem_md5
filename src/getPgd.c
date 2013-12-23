@@ -89,6 +89,7 @@ void printAllRealPgd(int pgdcount, int countedpages[pgdcount],
                      int maxIndex, int potengtialPdgArray[pgdcount],
                      int pageSize)
 {
+     
       int i;
       //printf all real pgds
       for (i = 0; i < pgdcount; i++) {
@@ -164,13 +165,25 @@ unsigned getPgdReal(int pgdcount, int potential_PDGs[pgdcount],
 
     pgdPhyAddr = potential_PDGs[maxIndex] * pageSize;
 
+    //get the third pgd, because the first may not include the modules
+    int count = 0;
+    for (i = 0; i < pgdcount; i++) {
+        if (countedpages[i] == maxIndex) {
+            count ++;
+            if(count == 3)
+                pgdPhyAddr  = potential_PDGs[i] * pageSize;
+        }
+    }
+
     //printf all real pgds
-    //    printAllRealPgd(pgdcount, countedpages, maxIndex, potential_PDGs,
-    //                    pageSize);
+//    printAllRealPgd(pgdcount, countedpages, maxIndex, potential_PDGs,
+//                        pageSize);
 
     real_pgd = maxMatch + 1;
     printf("Real PGD Number is %d, PGD physical address:0x%x\n",
            maxMatch + 1, pgdPhyAddr);
+
+
     return pgdPhyAddr;
 }
 
